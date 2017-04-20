@@ -1,0 +1,1 @@
+--Main change from 1.b: I added a switching power supply. Also making channel b on ft2232 a serial connection to spartan 6 instead of parallel and adding some leds on transmit/rx line.

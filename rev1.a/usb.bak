@@ -1,0 +1,318 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mimas-cache
+LIBS:Spartan6Dev
+LIBS:Spartan6Dev-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FT230X-USB U?
+U 1 1 58655F29
+P 4360 3990
+F 0 "U?" H 4035 3390 60  0000 C CNN
+F 1 "FT230X-USB" H 4360 4615 60  0000 C CNN
+F 2 "" H 4310 3915 60  0000 C CNN
+F 3 "" H 4310 3915 60  0000 C CNN
+	1    4360 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBMICRO X?
+U 1 1 58655FDB
+P 2110 3690
+F 0 "X?" H 2065 3985 60  0000 C CNN
+F 1 "USBMICRO" H 2120 3385 60  0000 C CNN
+F 2 "" H 2110 3690 60  0000 C CNN
+F 3 "" H 2110 3690 60  0000 C CNN
+	1    2110 3690
+	1    0    0    1   
+$EndComp
+$Comp
+L R_Small FB?
+U 1 1 5865635E
+P 2700 3490
+F 0 "FB?" V 2640 3420 50  0000 L CNN
+F 1 "R_Small" H 2730 3450 50  0001 L CNN
+F 2 "" H 2700 3490 50  0000 C CNN
+F 3 "" H 2700 3490 50  0000 C CNN
+	1    2700 3490
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 3490 2410 3490
+$Comp
+L R R?
+U 1 1 58656509
+P 3460 3615
+F 0 "R?" V 3390 3615 50  0000 C CNN
+F 1 "27" V 3460 3615 50  0000 C CNN
+F 2 "" V 3390 3615 50  0000 C CNN
+F 3 "" H 3460 3615 50  0000 C CNN
+	1    3460 3615
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3610 3615 3785 3615
+$Comp
+L R R?
+U 1 1 586565D8
+P 3460 3740
+F 0 "R?" V 3540 3740 50  0000 C CNN
+F 1 "27" V 3460 3740 50  0000 C CNN
+F 2 "" V 3390 3740 50  0000 C CNN
+F 3 "" H 3460 3740 50  0000 C CNN
+	1    3460 3740
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3610 3740 3785 3740
+Wire Wire Line
+	2410 3590 3310 3590
+Wire Wire Line
+	3310 3590 3310 3615
+Wire Wire Line
+	3310 3740 3280 3740
+Wire Wire Line
+	3280 3740 3280 3690
+Wire Wire Line
+	3280 3690 2410 3690
+NoConn ~ 2410 3790
+Wire Wire Line
+	4435 4740 4435 4900
+Wire Wire Line
+	4435 4900 3685 4900
+Wire Wire Line
+	3685 4780 3685 5050
+$Comp
+L GND #PWR?
+U 1 1 58656B6F
+P 3685 5050
+F 0 "#PWR?" H 3685 4800 50  0001 C CNN
+F 1 "GND" H 3685 4900 50  0000 C CNN
+F 2 "" H 3685 5050 50  0000 C CNN
+F 3 "" H 3685 5050 50  0000 C CNN
+	1    3685 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4310 4740 4310 4900
+Connection ~ 4310 4900
+$Comp
+L C_Small C?
+U 1 1 58656C0A
+P 3685 4680
+F 0 "C?" H 3695 4750 50  0000 L CNN
+F 1 ".1uF" H 3695 4600 50  0000 L CNN
+F 2 "" H 3685 4680 50  0000 C CNN
+F 3 "" H 3685 4680 50  0000 C CNN
+	1    3685 4680
+	1    0    0    -1  
+$EndComp
+Connection ~ 3685 4900
+Wire Wire Line
+	3685 4580 3685 4065
+Wire Wire Line
+	3685 4065 3785 4065
+Wire Wire Line
+	3785 4190 3685 4190
+Connection ~ 3685 4190
+Wire Wire Line
+	3785 4315 3685 4315
+Connection ~ 3685 4315
+Wire Wire Line
+	3785 3490 2800 3490
+Wire Wire Line
+	2965 3490 2965 3230
+Wire Wire Line
+	2965 3230 3300 3230
+Connection ~ 2965 3490
+Text Label 3300 3230 2    60   ~ 0
+VUSB
+Text Notes 1930 2920 0    60   ~ 0
+USB connector limited to 500mA current.
+$Comp
+L LED D?
+U 1 1 586575D6
+P 5265 4315
+F 0 "D?" H 5265 4415 50  0000 C CNN
+F 1 "LED" H 5265 4215 50  0000 C CNN
+F 2 "" H 5265 4315 50  0000 C CNN
+F 3 "" H 5265 4315 50  0000 C CNN
+	1    5265 4315
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5065 4315 4960 4315
+$Comp
+L LED D?
+U 1 1 58657797
+P 5265 4590
+F 0 "D?" H 5265 4690 50  0000 C CNN
+F 1 "LED" H 5265 4490 50  0000 C CNN
+F 2 "" H 5265 4590 50  0000 C CNN
+F 3 "" H 5265 4590 50  0000 C CNN
+	1    5265 4590
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5065 4590 5015 4590
+Wire Wire Line
+	5015 4590 5015 4440
+Wire Wire Line
+	5015 4440 4960 4440
+$Comp
+L R R?
+U 1 1 58657895
+P 5555 4945
+F 0 "R?" V 5635 4945 50  0000 C CNN
+F 1 "270" V 5555 4945 50  0000 C CNN
+F 2 "" V 5485 4945 50  0000 C CNN
+F 3 "" H 5555 4945 50  0000 C CNN
+	1    5555 4945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5555 4795 5555 4315
+Wire Wire Line
+	5555 4315 5465 4315
+Wire Wire Line
+	5465 4590 5555 4590
+Connection ~ 5555 4590
+Wire Wire Line
+	5555 5095 5555 5325
+Wire Wire Line
+	5555 5325 6235 5325
+Text Label 6235 5325 2    60   ~ 0
+VUSB
+NoConn ~ 4960 3740
+NoConn ~ 4960 3865
+NoConn ~ 4960 4065
+NoConn ~ 4960 4190
+$Comp
+L C_Small C?
+U 1 1 58658693
+P 2570 4085
+F 0 "C?" H 2580 4155 50  0000 L CNN
+F 1 ".01uF" H 2580 4005 50  0000 L CNN
+F 2 "" H 2570 4085 50  0000 C CNN
+F 3 "" H 2570 4085 50  0000 C CNN
+	1    2570 4085
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 586586D8
+P 2830 4080
+F 0 "C?" H 2840 4150 50  0000 L CNN
+F 1 "4.7uF" H 2840 4000 50  0000 L CNN
+F 2 "" H 2830 4080 50  0000 C CNN
+F 3 "" H 2830 4080 50  0000 C CNN
+	1    2830 4080
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 58658731
+P 3055 4080
+F 0 "C?" H 3065 4150 50  0000 L CNN
+F 1 "47pF" H 3065 4000 50  0000 L CNN
+F 2 "" H 3055 4080 50  0000 C CNN
+F 3 "" H 3055 4080 50  0000 C CNN
+	1    3055 4080
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5865879D
+P 3270 4080
+F 0 "C?" H 3280 4150 50  0000 L CNN
+F 1 "47pF" H 3280 4000 50  0000 L CNN
+F 2 "" H 3270 4080 50  0000 C CNN
+F 3 "" H 3270 4080 50  0000 C CNN
+	1    3270 4080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2570 3985 2570 3490
+Connection ~ 2570 3490
+Wire Wire Line
+	2410 3890 2450 3890
+Wire Wire Line
+	2450 3890 2450 4255
+Wire Wire Line
+	2325 4255 3270 4255
+Wire Wire Line
+	2570 4255 2570 4185
+Wire Wire Line
+	2830 3980 2830 3490
+Connection ~ 2830 3490
+Wire Wire Line
+	3055 3980 3055 3690
+Connection ~ 3055 3690
+Wire Wire Line
+	3270 3980 3270 3590
+Connection ~ 3270 3590
+Wire Wire Line
+	3270 4255 3270 4180
+Connection ~ 2570 4255
+Wire Wire Line
+	3055 4180 3055 4255
+Connection ~ 3055 4255
+Wire Wire Line
+	2830 4180 2830 4255
+Connection ~ 2830 4255
+Wire Wire Line
+	2325 4255 2325 4330
+Connection ~ 2450 4255
+$Comp
+L GND #PWR?
+U 1 1 5865904A
+P 2325 4330
+F 0 "#PWR?" H 2325 4080 50  0001 C CNN
+F 1 "GND" H 2325 4180 50  0000 C CNN
+F 2 "" H 2325 4330 50  0000 C CNN
+F 3 "" H 2325 4330 50  0000 C CNN
+	1    2325 4330
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

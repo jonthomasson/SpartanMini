@@ -1,0 +1,1 @@
+--Main change from 1.a was I took out the FT230X and added an FT2232H IC capable of jtag, and dual uart.

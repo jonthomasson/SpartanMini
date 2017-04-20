@@ -1,0 +1,226 @@
+EESchema Schematic File Version 2
+LIBS:Spartan6Dev-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mimas-cache
+LIBS:Spartan6Dev
+LIBS:Saturn
+LIBS:Spartan6Dev-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 5100 2545 1950 3050
+U 5863C766
+F0 "fpga" 60
+F1 "fpga.sch" 60
+F2 "LED[0..7]" B L 5100 3590 60 
+F3 "BTN[0..1]" B L 5100 3465 60 
+F4 "PMA[0..7]" B L 5100 3350 60 
+F5 "PMB[0..7]" B L 5100 3240 60 
+F6 "PMC[0..7]" B L 5100 3130 60 
+F7 "PMD[0..7]" B L 5100 3000 60 
+F8 "PME[0..7]" B L 5100 2885 60 
+F9 "VCC3V3" I R 7050 2615 60 
+F10 "VCCINT" I R 7050 2705 60 
+F11 "TXD" I R 7050 2920 60 
+F12 "RXD" O R 7050 3010 60 
+F13 "TCK" B R 7050 3250 60 
+F14 "TDI" B R 7050 3340 60 
+F15 "TDO" B R 7050 3435 60 
+F16 "TMS" B R 7050 3520 60 
+F17 "A[0..18]" B R 7050 4540 60 
+F18 "D[0..15]" B R 7050 4640 60 
+F19 "WE" O R 7050 4735 60 
+F20 "OE" O R 7050 4830 60 
+F21 "CS" O R 7050 4920 60 
+F22 "LB" O R 7050 5010 60 
+F23 "UB" O R 7050 5105 60 
+F24 "SCS" B R 7050 5260 60 
+F25 "SDI" B R 7050 5350 60 
+F26 "SCK" B R 7050 5440 60 
+F27 "SDO" B R 7050 5530 60 
+F28 "SW0" I L 5100 2785 60 
+$EndSheet
+$Sheet
+S 7750 2555 1950 1185
+U 5863C780
+F0 "usb" 60
+F1 "usb.sch" 60
+F2 "VCC3V3" I L 7750 2750 60 
+F3 "VUSB" O L 7750 2640 60 
+F4 "TXD" O L 7750 2920 60 
+F5 "RXD" I L 7750 3010 60 
+F6 "TCK" B L 7750 3250 60 
+F7 "TDI" B L 7750 3340 60 
+F8 "TDO" B L 7750 3435 60 
+F9 "TMS" B L 7750 3520 60 
+$EndSheet
+$Sheet
+S 5100 915  1980 1190
+U 5863C797
+F0 "power" 60
+F1 "power.sch" 60
+F2 "VUSB" I R 7080 1860 60 
+F3 "VCCINT" O R 7080 1970 60 
+F4 "VCC3V3" O L 5100 1470 60 
+$EndSheet
+$Sheet
+S 7705 4385 2010 1210
+U 5863C875
+F0 "memory" 60
+F1 "memory.sch" 60
+F2 "VCC3V3" I R 9715 4450 60 
+F3 "A[0..18]" B L 7705 4540 60 
+F4 "D[0..15]" B L 7705 4640 60 
+F5 "UB" I L 7705 5105 60 
+F6 "LB" I L 7705 5010 60 
+F7 "OE" I L 7705 4830 60 
+F8 "WE" I L 7705 4735 60 
+F9 "CS" I L 7705 4920 60 
+F10 "SCS" B L 7705 5260 60 
+F11 "SDI" B L 7705 5350 60 
+F12 "SCK" B L 7705 5440 60 
+F13 "SDO" B L 7705 5530 60 
+$EndSheet
+$Sheet
+S 2510 2555 1970 1145
+U 5863C8D0
+F0 "gpio" 60
+F1 "gpio.sch" 60
+F2 "LED[0..7]" B R 4480 3590 60 
+F3 "BTN[0..1]" B R 4480 3465 60 
+F4 "PMA[0..7]" B R 4480 3350 60 
+F5 "PMB[0..7]" B R 4480 3240 60 
+F6 "PMC[0..7]" B R 4480 3130 60 
+F7 "PMD[0..7]" B R 4480 3000 60 
+F8 "PME[0..7]" B R 4480 2885 60 
+F9 "VCC3V3" I R 4480 2670 60 
+F10 "SW0" O R 4480 2785 60 
+$EndSheet
+Wire Wire Line
+	4480 2670 4800 2670
+Wire Wire Line
+	4800 2670 4800 1470
+Wire Wire Line
+	4800 1470 5100 1470
+Wire Wire Line
+	7750 3250 7050 3250
+Wire Wire Line
+	7050 3340 7750 3340
+Wire Wire Line
+	7750 3435 7050 3435
+Wire Wire Line
+	7050 3520 7750 3520
+Wire Wire Line
+	7750 3010 7050 3010
+Wire Wire Line
+	7050 2920 7750 2920
+Wire Wire Line
+	7080 1970 7175 1970
+Wire Wire Line
+	7175 1970 7175 2705
+Wire Wire Line
+	7175 2705 7050 2705
+Wire Wire Line
+	7050 2615 7115 2615
+Wire Wire Line
+	7115 2615 7115 2310
+Wire Wire Line
+	4800 2310 7310 2310
+Connection ~ 4800 2310
+Wire Wire Line
+	7750 2640 7445 2640
+Wire Wire Line
+	7445 2640 7445 1860
+Wire Wire Line
+	7445 1860 7080 1860
+Wire Wire Line
+	7750 2750 7310 2750
+Wire Wire Line
+	7310 2310 7310 3995
+Connection ~ 7115 2310
+Wire Wire Line
+	7050 5530 7705 5530
+Wire Wire Line
+	7050 5440 7705 5440
+Wire Wire Line
+	7705 5350 7050 5350
+Wire Wire Line
+	7050 5260 7705 5260
+Wire Wire Line
+	7705 5105 7050 5105
+Wire Wire Line
+	7050 5010 7705 5010
+Wire Wire Line
+	7705 4920 7050 4920
+Wire Wire Line
+	7705 4735 7050 4735
+Wire Wire Line
+	9715 4450 9820 4450
+Wire Wire Line
+	9820 4450 9820 3995
+Wire Wire Line
+	9820 3995 7310 3995
+Connection ~ 7310 2750
+Wire Bus Line
+	5100 2885 4480 2885
+Wire Bus Line
+	4480 3000 5100 3000
+Wire Bus Line
+	5100 3130 4480 3130
+Wire Bus Line
+	4480 3240 5100 3240
+Wire Bus Line
+	4480 3350 5100 3350
+Wire Bus Line
+	5100 3465 4480 3465
+Wire Bus Line
+	4480 3590 5100 3590
+Wire Wire Line
+	7050 4830 7705 4830
+Wire Bus Line
+	7705 4640 7050 4640
+Wire Bus Line
+	7050 4540 7705 4540
+Wire Wire Line
+	5100 2785 4480 2785
+$EndSCHEMATC

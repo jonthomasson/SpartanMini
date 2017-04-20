@@ -1,0 +1,25 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_02X03
+D Connector 02x03
+$ENDCMP
+#
+$CMP CONN_02X03b
+D Connector 02x03
+$ENDCMP
+#
+$CMP CONN_02X07
+D Connector 02x07
+$ENDCMP
+#
+$CMP CONN_02X07B
+D Connector 02x07
+$ENDCMP
+#
+$CMP TLV1117LV
+D Linear Regulator (adjustable)
+K POWER REGUL
+F regulator/lm117.pdf
+$ENDCMP
+#
+#End Doc Library
