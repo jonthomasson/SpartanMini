@@ -1,4 +1,4 @@
-update=4/23/2017 2:44:53 PM
+update=4/23/2017 7:15:43 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -68,3 +66,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+[general]
+version=1

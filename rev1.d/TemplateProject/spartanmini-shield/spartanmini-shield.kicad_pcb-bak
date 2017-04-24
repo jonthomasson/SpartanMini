@@ -446,11 +446,11 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58FE09EE) (tstamp 58ACA247)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58B7E3EB) (tstamp 58ACA247)
     (at 119.5 137)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
-    (fp_text reference REF** (at 0.1 4.3) (layer F.Fab) hide
+    (fp_text reference REF** (at 0.1 4.3) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.7mm_M2.5 (at 0 3.7) (layer F.Fab)
@@ -461,11 +461,11 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58FE09E6) (tstamp 58ADA9A7)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58B7E3D4) (tstamp 58ADA9A7)
     (at 119.5 80)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
-    (fp_text reference REF** (at 0 -3.7) (layer F.Fab) hide
+    (fp_text reference REF** (at 0 -3.7) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.7mm_M2.5 (at 0 3.7) (layer F.Fab)
@@ -476,11 +476,11 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58FE09DE) (tstamp 58B5A648)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58B7E3DB) (tstamp 58B5A648)
     (at 34.5 80)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
-    (fp_text reference REF** (at 0 -3.7) (layer F.Fab) hide
+    (fp_text reference REF** (at 0 -3.7) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.7mm_M2.5 (at 0 3.7) (layer F.Fab)
@@ -491,11 +491,11 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58FE09F5) (tstamp 58B7EB21)
+  (module Mounting_Holes:MountingHole_2.7mm_M2.5 locked (layer F.Cu) (tedit 58B7E456) (tstamp 58B7EB21)
     (at 34.5 137)
     (descr "Mounting Hole 2.7mm, no annular, M2.5")
     (tags "mounting hole 2.7mm no annular m2.5")
-    (fp_text reference REF** (at 0.1 3.8) (layer F.Fab) hide
+    (fp_text reference REF** (at 0.1 3.8) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.7mm_M2.5 (at 0 3.7) (layer F.Fab)
