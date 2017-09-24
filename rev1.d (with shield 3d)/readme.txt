@@ -1,0 +1,1 @@
+--Main change from 1.c: I added right angle switches to provide access for eventual daughter boards. I also put sw2 on the board edge to provide additional access if a daughter board was connected. Also added a VIN/GND pin for external power to be fed in via daughter board, etc.
