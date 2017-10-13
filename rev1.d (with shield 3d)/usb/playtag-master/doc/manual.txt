@@ -1,0 +1,443 @@
+.. restructured text file
+
+================================================
+Playtag Debugging Utilities
+================================================
+
+.. footer::
+
+    ###Page###
+
+Version 0.2 -- 29 OCT 2011
+
+Copyright (c) 2011 Patrick Maupin
+
+.. contents::
+
+Introduction
+=================
+
+These scripts are designed to allow easy playing with JTAG and with the LEON3 core
+through JTAG.  The initial version is quite limited:
+
+  - Supports digilent USB JTAG cable (DCabUsb) and FTDI MPSSE cables.
+  - Allows chain discovery and acts as a GDB server for a Leon SPARC clone:
+
+      - Basic single-threaded debugging supported
+      - Leon must be only device on chain
+      - RAM dumps shadowed by registers (stack) will not see register contents
+      - AHB Plug&Play not supported -- user must describe configuration
+
+.. space:: 20
+
+Future plans call for several enhancements:
+
+  - Multiple devices on JTAG chain
+  - Multiple Leon cores on chain, each connected to different GDB instance
+  - Maybe more cables
+
+Installation
+=================
+
+There is currently no automated installer.
+
+playtag requires the following components:
+
+  - A Digilent JTAG-USB cable (DCabUsb) or FTDI w/MPSSE based cable.
+  - The Digilent Adept system or FTDI D2XX drivers installed
+  - Python 2.6 or 2.7 installed
+  - The playtag code from subversion::
+
+        svn co http://playtag.googlecode.com/svn/trunk playtag
+
+Chain discovery
+===============
+
+A simple test to see if everything is working is to discover the JTAG chain::
+
+    $ cd playtag/tools/jtag
+    $ ./discover.py
+
+will show the available cable types.  Then, e.g.::
+
+    $ ./discover.py ftdi
+
+will show available FTDI cables, and::
+
+    $ ./discover.py ftdi 1
+
+will show the chain based on that particular cable index.  You can also select
+a cable by serial number or description.
+
+You can also enter options on the command line.  For example, if you are using
+an FTDI-based cable, you can set the frequency, which currently defaults to
+15 MHz, and you want to slow it down to 500KHz, you can use::
+
+    $ ./discover.py ftdi 1 FTDI_JTAG_FREQ=500000
+
+
+GDB debugging
+===============
+
+
+leonserver.py is a server that understands the GDB remote protocol.  Use it in
+conjunction with a version of GDB that has been compiled with SPARC support, such
+as the version that comes with Gaisler's BCC:
+
+  - cd to the playtag/tools/leon3 directory
+  - Create a jtagid.txt file based on example_id.txt with your information
+  - Copy examplegdb.cfg to leongdb.cfg and edit it for your configuration
+  - Connect the JTAG cable to the target
+  - Run leonserver.py in its own separate window.  It should find the target.
+  - Run GDB and then source the connect script from the leon3 directory::
+
+       $ gdb <my exe file>
+       (gdb) source playtag/tools/leon3/connect
+
+
+
+Components
+===========
+
+
+  - `playtag/lib/bus32.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/lib/bus32.py
+
+        A generic bus driver.  Converts arbitrary accesses into
+        multiple accesses that follow the rules of the underlying
+        bus.
+
+  - `playtag/lib/testbus32.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/lib/testbus32.py
+
+        Testcases for test bus32.py.
+
+
+  - `playtag/lib/userconfig.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/lib/userconfig.py
+
+        A silly configuration utility for getting information
+        from a file and/or the command line.  Can do better once
+        we figure out what the standard should look like.
+
+
+  - `playtag/lib/abstractreg.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/lib/abstractreg.py
+
+
+        Classes for hardware register descriptions.
+
+
+  - `playtag/iotemplate/__init__.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/iotemplate/__init__.py
+
+        A class to create cable and protocol independent IO templates.
+        An IO template allows the structure of a JTAG (or SPI later, perhaps)
+        transaction to be computed once and then reused.
+
+
+  - `playtag/iotemplate/stringconvert.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/iotemplate/stringconvert.py
+
+
+        Classes to help map generic IO templates to drivers that we use
+        binary strings for.  Used by both FTDI and Digilent for now.
+
+
+  - `playtag/jtag/states.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/jtag/states.py
+
+
+        A Python implementation of a JTAG state machine.
+
+
+
+  - `playtag/jtag/template.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/jtag/template.py
+
+        Builds JTAG command templates using state machine knowledge
+        from jtagstates, and uses the templates to pass data to/from
+        a cable driver.
+
+
+  - `playtag/jtag/discover.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/jtag/discover.py
+
+        Code to discover the devices attached to a JTAG cable.
+
+
+  - `playtag/gdb/transport.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/gdb/transport.py
+
+
+        Understands transport layer of GDB remote debugging stub packet
+        protocol.  Connects through TCP/IP
+
+
+  - `playtag/gdb/parser.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/gdb/parser.py
+
+
+        Understands GDB remote debugging stub packet contents.
+        Subclassed by leon3/gdbproc.py.
+
+
+
+
+  - `playtag/bsdl/parser.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/bsdl/parser.py
+
+        A parser for BSDL data.  Currently understands the outer file
+        wrapper but not all the strings.  Not used at run-time right now;
+        scripts in the tools/bsdl directory use this to create the
+        data directory for cable discovery.
+
+
+  - `playtag/bsdl/lookup.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/bsdl/lookup.py
+
+        Looks up part information in the data directory.  Also,
+        allows higher-level scripts to add part infomation before
+        cable discovery.
+
+  - `playtag/bsdl/data/manufacturers.txt`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/bsdl/data/manufacturers.txt
+
+        Manufacturer index based on JEDEC JEP-106 standard.
+
+
+  - `playtag/bsdl/data/partindex.txt`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/bsdl/data/partindex.txt
+
+
+        Part index based on data from bsdl.info, generated by scripts in
+        the tools/bsdl directory.
+
+
+
+  - `playtag/leon3/jtag_ahb.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/leon3/jtag_ahb.py
+
+        Knows how to access the LEON3 AHB via Gaisler Research's JTAG core.
+        Uses lib/bus32 and lower-level JTAG code to do this.
+
+  - `playtag/leon3/traptypes.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/leon3/traptypes.py
+
+        Trap codes from LEON3 manual.
+
+
+  - `playtag/leon3/gdbproc.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/leon3/gdbproc.py
+
+        Subclasses the GDB parser to provide LEON3-specific functionality.
+
+
+  - `playtag/leon3/cpustate.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/leon3/cpustate.py
+
+        Detects and controls CPU using dsuregs.py and jtag_ahb.py
+
+
+
+  - `playtag/leon3/dsuregs.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/leon3/dsuregs.py
+
+        Defines layout of DSU register map using abstractreg.py
+
+
+
+  - `playtag/cables/digilent/driver.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/digilent/driver.py
+
+
+        A digilent-specific JTAG cable driver.
+
+
+  - `playtag/cables/ftdi/d2xx_wrapper.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/d2xx_wrapper.py
+
+        Low-level FTDI D2xx code simply wraps FTDI's D2XX DLL using ctypes.
+
+
+  - `playtag/cables/ftdi/mpsse_commands.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/mpsse_commands.py
+
+        Defines commands used in an FTDI MPSSE data stream.
+
+
+  - `playtag/cables/ftdi/d2xx.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/d2xx.py
+
+        Builds on d2xx_wrapper and mpsse_commands to provide basic D2XX functionality
+
+
+  - `playtag/cables/ftdi/mpsse_jtag_commands.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/mpsse_jtag_commands.py
+
+        Builds on device-independent iotemplate code and mpsse_commands to create
+        FTDI MPSSE-specific templates.
+
+
+  - `playtag/cables/ftdi/mpsse_template.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/mpsse_template.py
+
+        Small object wrapper around code in mpsse_jtag_commands.
+
+
+  - `playtag/cables/ftdi/d2xx_data.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/playtag/cables/ftdi/d2xx_data.py
+
+        Combines code from d2xx.py and mpsse_template.py into a single object
+        to create FTDI driver.
+
+
+  - `tools/jtag/discover.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/jtag/discover.py
+
+
+        Simple cable discovery utility.
+
+
+
+
+
+  - `tools/leon3/leonserver.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/leon3/leonserver.py
+
+        Uses components from playtag library to build a gdb server 
+
+
+  - `tools/leon3/examplegdb.cfg`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/leon3/examplegdb.cfg
+
+    Sample configuration file for leonserver.py.  Copy to leongdb.cfg
+    and edit for your configuration.
+
+
+  - `tools/leon3/example_id.txt`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/leon3/example_id.txt
+
+
+        Gaisler-research compatible device description file.  Edit and
+        copy to jtagid.txt (or whatever your config file says).
+
+
+
+  - `tools/leon3/connect`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/leon3/connect
+
+
+        A script designed to be used from within GDB to connect
+        to leonserver.py and load the firmware (via the "source connect"
+        command).
+
+
+  - `tools/bsdl/scrape_bsdl.info.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/scrape_bsdl.info.py
+
+        Utility to download all files (huge) from bsdl.info.
+
+
+  - `tools/bsdl/check_scrape.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/check_scrape.py
+
+        Utility to check for missing files in download.
+
+
+  - `tools/bsdl/parseall.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/parseall.py
+
+        Utility to parse downloaded files.
+
+
+  - `tools/bsdl/makeindex.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/makeindex.py
+
+
+        Utility to convert output from parse into index in
+        playtag/bsdl/data for use by chain discovery.
+
+
+  - `tools/bsdl/compare_urjtag.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/compare_urjtag.py
+
+        Utility to compare parsed bsdl file results against data available
+        in urJtag package.
+
+
+  - `tools/bsdl/updatemfg.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/tools/bsdl/updatemfg.py
+
+        Utility to create manufacturing data file from text file copied
+        from JEP-106 PDF.
+
+
+  - `doc/make.py`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/doc/make.py
+
+        Utility to make the manual from manual.txt.  Relies
+        on wikir and rst2pdf packages.
+
+
+  - `doc/manual.txt`__
+
+__ http://code.google.com/p/playtag/source/browse/trunk/doc/manual.txt
+
+        Source for this manual.
+
+
+Other resources
+=================
+
+`http://www.freelabs.com/~whitis/electronics/jtag/`__
+
+`www.amontec.com/pub/amt_ann004.pdf`__
+
+`http://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html`__
+
+`http://www.idhw.com/textual/chip/jedec_spd_man.html`__
+
+__ http://www.freelabs.com/~whitis/electronics/jtag/
+__ www.amontec.com/pub/amt_ann004.pdf
+__ http://www.embecosm.com/appnotes/ean4/embecosm-howto-rsp-server-ean4-issue-2.html
+__ http://www.idhw.com/textual/chip/jedec_spd_man.html

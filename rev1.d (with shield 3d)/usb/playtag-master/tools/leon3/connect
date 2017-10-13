@@ -1,0 +1,24 @@
+# This file connects GDB to the leonserver GDB server.
+
+# Make the accesses faster.  The numbers 8211 and 8196
+# were carefully chosen to transfer an even number of kB
+# per packet.
+
+set download-write-size 16384
+set remote memory-write-packet-size 8211
+set remote memory-write-packet-size fixed
+set remote memory-write-packet-size 8196
+
+
+# Reset the target.  Unfortunately, GDB doesn't seem to know
+# when we've done that.  Fortunately, we can make it forget and
+# reacquire the target.
+
+target remote :2222
+monitor reset -q
+disc
+
+# Load the executable onto the target
+
+target remote :2222
+load

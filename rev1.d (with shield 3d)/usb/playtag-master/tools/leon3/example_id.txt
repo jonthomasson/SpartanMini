@@ -1,0 +1,8 @@
+# This is the example JTAG configuration file from the GRMON user's manual.
+# playtag supports the same format.  The file to use is specified in
+# the leongdb.cfg file.
+
+# Device Name   Device ID       Device ID Mask      Instr. Reg. Length   Dbg. Interface   Instr. 1    Instr. 2
+xc2v3000        0x01040093      0x0fffffff                  6               1               0x2         0x3
+xc18v04         0x05036093      0x0ffeffff                  8               0
+ETH             0x103cb0fd      0x0fffffff                 16               0
