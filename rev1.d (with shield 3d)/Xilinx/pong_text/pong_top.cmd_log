@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/learning/chapter14/pong_text/pong_top.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/learning/chapter14/pong_text/pong_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_master.ucf -p xc6slx16-csg324-3 "pong_top.ngc" pong_top.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pong_top_map.ncd pong_top.ngd pong_top.pcf 
+par -w -intstyle ise -ol high -mt off pong_top_map.ncd pong_top.ncd pong_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pong_top.twx pong_top.ncd -o pong_top.twr pong_top.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f pong_top.ut pong_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/pong_text/pong_top.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/pong_text/pong_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_master.ucf -p xc6slx9-tqg144-3 pong_top.ngc pong_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pong_top_map.ncd pong_top.ngd pong_top.pcf 
+par -w -intstyle ise -ol high -mt off pong_top_map.ncd pong_top.ncd pong_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pong_top.twx pong_top.ncd -o pong_top.twr pong_top.pcf -ucf Nexys3_master.ucf 
+bitgen -intstyle ise -f pong_top.ut pong_top.ncd 

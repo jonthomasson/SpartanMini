@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="NES_Nexys4" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/FirFilter C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|dsp.v</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|NES|nexys3_ver4|fpganes3|src|NES_Nexys4.v/hq2x - Hq2x</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/hq2x - Hq2x</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/nes - NES/apu - APU</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/nes - NES/cpu - CPU</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/nes - NES/multi_mapper - MultiMapper</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/nes - NES/ppu - PPU</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx Projects|fpganes3|src|NES_Nexys4.v/uart_demux - UartDemux</ClosedNode>
+         <ClosedNode>/NES_Nexys4 C:|Users|Stache|Documents|Xilinx_Projects|NES|nexys3_ver4|handyvgs2|src|NES_Nexys4.v/nes - NES</ClosedNode>
+         <ClosedNode>/display C:|Users|Stache|Documents|Xilinx Projects|NES|nexys3_ver4|fpganes3|xilinx|display.v/hq2x - Hq2x</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\Nexys4_Master.ucf (C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >110</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000037c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000037c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\Nexys4_Master.ucf (C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Configure Target Device</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Configure Target Device</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000251000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007800000001000000000000009d0000000100000000000000660000000100000000000000d60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\apu.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000018f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000018f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+</Project>

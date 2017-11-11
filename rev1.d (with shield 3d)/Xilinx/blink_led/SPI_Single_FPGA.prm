@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led\//SPI_Single_FPGA -s 4096 -u 0000 C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.bit -spi 
+
+PROM C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led\SPI_Single_FPGA.prm map: Tue Oct 10 20:43:08 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          4096K
+PROM start    0000:0000
+PROM end      003f:ffff
+PROM checksum 3a9711de
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0005:327b     Oct 10 14:45:11 2017 C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.bit

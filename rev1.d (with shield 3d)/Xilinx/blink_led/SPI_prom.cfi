@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            10/10/2017 - 21:05
+SOURCE          C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led\SPI_prom.mcs
+DEVICE          4096K
+DATA_WIDTH      4
+FILL_DATA       0xFF
+SIGNATURE       0x3A96EBA1
+START_ADDRESS   0x00000000 END_ADDRESS 0x000532BF DIRECTION_UP   "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.bit" 6slx9tqg144

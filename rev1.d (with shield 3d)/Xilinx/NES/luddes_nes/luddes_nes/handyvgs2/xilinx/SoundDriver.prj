@@ -1,0 +1,2 @@
+verilog work "sigma_delta_dac.v"
+verilog work "../src/hw_sound.v"

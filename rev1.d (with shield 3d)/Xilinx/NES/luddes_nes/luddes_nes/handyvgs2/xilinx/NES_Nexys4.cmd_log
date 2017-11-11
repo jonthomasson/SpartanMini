@@ -1,0 +1,518 @@
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" -p xc7a100t-csg324-1 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt 4 NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ ver2/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver3/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/Stache/Documents/Xilinx Projects/NES/nexys3_ver4/fpganes3/src/Nexys4_Master.ucf" -p xc6slx16-csg324-3 "NES_Nexys4.ngc" NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/NES/nexys3_ver4/handyvgs2/src/Nexys4_Master.ucf -p xc6slx16-csg324-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 
+xst -intstyle ise -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/NES_Nexys4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o NES_Nexys4_map.ncd NES_Nexys4.ngd NES_Nexys4.pcf 
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd NES_Nexys4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o NES_Nexys4.twr NES_Nexys4.pcf 
+bitgen -intstyle ise -f NES_Nexys4.ut NES_Nexys4.ncd 

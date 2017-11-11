@@ -1,0 +1,56 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+C:\Users\Stache\Documents\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc
+C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs
+2/src/Nexys4_Master.ucf -p xc6slx9-tqg144-3 NES_Nexys4.ngc NES_Nexys4.ngd
+
+Reading NGO file
+"C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvg
+s2/xilinx/NES_Nexys4.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvg
+s2/src/Nexys4_Master.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC TS_sys_clocks_clkout1 = PERIOD "sys_clocks_clkout1"
+   TS_sys_clk_pin * 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_pin', used in period specification
+   'TS_sys_clk_pin', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC TS_sys_clocks_clkout2 = PERIOD "sys_clocks_clkout2"
+   TS_sys_clk_pin * 0.25 HIGH 50%>
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 202832 kilobytes
+
+Writing NGD file "NES_Nexys4.ngd" ...
+Total REAL time to NGDBUILD completion:  9 sec
+Total CPU time to NGDBUILD completion:   9 sec
+
+Writing NGDBUILD log file "NES_Nexys4.bld"...

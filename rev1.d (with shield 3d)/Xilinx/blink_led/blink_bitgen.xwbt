@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led\blink.ncd
+OUTFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led\blink.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led
+LICENSE=WebPack
+USER_INFO=211027110_0_0_178

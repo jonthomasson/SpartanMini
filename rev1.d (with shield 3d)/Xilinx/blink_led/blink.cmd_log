@@ -1,0 +1,53 @@
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 
+xst -intstyle ise -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -ifn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.xst" -ofn "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/blink.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc spartan6_tqg144.ucf -p xc6slx9-tqg144-2 blink.ngc blink.ngd  
+map -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o blink_map.ncd blink.ngd blink.pcf 
+par -filter "C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off blink_map.ncd blink.ncd blink.pcf 
+trce -filter C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/blink_led/iseconfig/filter.filter -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml blink.twx blink.ncd -o blink.twr blink.pcf -ucf spartan6_tqg144.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f blink.ut blink.ncd 

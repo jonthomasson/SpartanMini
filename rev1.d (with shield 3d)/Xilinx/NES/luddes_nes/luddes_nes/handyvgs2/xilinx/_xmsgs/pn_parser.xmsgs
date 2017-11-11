@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/NES_Nexys4.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/async.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/compat.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/dsp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/hq2x.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/hw_led.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/hw_sound.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/hw_uart.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v</arg>&quot; Line <arg fmt="%d" index="2">4</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/cpu.v&apos; in file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v&quot; line 4
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/cpu.v</arg>&quot; Line <arg fmt="%d" index="2">4</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/MicroCode.v&apos; in file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/cpu.v&quot; line 4
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v</arg>&quot; Line <arg fmt="%d" index="2">5</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/apu.v&apos; in file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v&quot; line 5
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v</arg>&quot; Line <arg fmt="%d" index="2">6</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/ppu.v&apos; in file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v&quot; line 6
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v</arg>&quot; Line <arg fmt="%d" index="2">7</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/mmu.v&apos; in file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/nes.v&quot; line 7
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/src/vga.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/TftDriver.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/clk_wiz_v3_6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/debounce.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/display.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/dual_port_ram_sync.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/font_rom.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/joypad_buttons.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/packet_demux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/sigma_delta_dac.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/text_menu_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/Stache/Documents/Xilinx_Projects/spartan_mini/nes/nexys3_ver4b/handyvgs2/xilinx/video_sync.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

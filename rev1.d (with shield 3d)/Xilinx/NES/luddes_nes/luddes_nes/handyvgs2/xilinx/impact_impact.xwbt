@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Stache\Documents\Xilinx Projects\fpganes3\xilinx\impact.xsl
+OUTFILE=C:\Users\Stache\Documents\Xilinx Projects\fpganes3\xilinx\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Stache\Documents\Xilinx Projects\fpganes3\xilinx
+LICENSE=iMPACT
+USER_INFO=iMPACT

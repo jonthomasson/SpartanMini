@@ -1,0 +1,1439 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Users\Stache\Documents\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+-intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml NES_Nexys4.twx NES_Nexys4.ncd -o
+NES_Nexys4.twr NES_Nexys4.pcf
+
+Design file:              NES_Nexys4.ncd
+Physical constraint file: NES_Nexys4.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.334ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 6.666ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 1.667ns (Tdcmpw_CLKIN_100_150)
+  Physical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Logical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: sys_clocks/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+Slack: 6.666ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 1.667ns (Tdcmpw_CLKIN_100_150)
+  Physical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Logical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: sys_clocks/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+Slack: 8.148ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.852ns (539.957MHz) (Tpllper_CLKIN(Finmax))
+  Physical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Logical resource: sys_clocks/pll_base_inst/PLL_ADV/CLKIN1
+  Location pin: PLL_ADV_X0Y0.CLKIN1
+  Clock network: sys_clocks/pll_base_inst/PLL_ADV_ML_NEW_DIVCLK
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clocks_clkout1 = PERIOD TIMEGRP "sys_clocks_clkout1" 
+TS_sys_clk_pin *         0.5 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 2239 paths analyzed, 114 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.635ns.
+--------------------------------------------------------------------------------
+
+Paths for end point display/rgb_reg_1 (SLICE_X21Y51.A5), 1670 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     10.365ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/text_gen_unit/font_unit/addr_reg_sliced_1 (FF)
+  Destination:          display/rgb_reg_1 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      8.890ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.499ns (1.141 - 1.640)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path at Slow Process Corner: display/text_gen_unit/font_unit/addr_reg_sliced_1 to display/rgb_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y54.BQ      Tcko                  0.391   display/text_gen_unit/font_unit/addr_reg_sliced_3
+                                                       display/text_gen_unit/font_unit/addr_reg_sliced_1
+    SLICE_X8Y35.D1       net (fanout=225)      3.591   display/text_gen_unit/font_unit/addr_reg_sliced_1
+    SLICE_X8Y35.BMUX     Topdb                 0.393   display/text_gen_unit/font_unit_Mram_data35_f8
+                                                       display/text_gen_unit/font_unit_Mram_data353
+                                                       display/text_gen_unit/font_unit_Mram_data35_f7_0
+                                                       display/text_gen_unit/font_unit_Mram_data35_f8
+    SLICE_X6Y39.D6       net (fanout=1)        0.601   display/text_gen_unit/font_unit_Mram_data35_f8
+    SLICE_X6Y39.CMUX     Topdc                 0.338   nes/multi_mapper/map41/_n0058_inv
+                                                       display/text_gen_unit/font_unit_Mram_data431
+                                                       display/text_gen_unit/font_unit_Mram_data43_f7
+    SLICE_X8Y52.C6       net (fanout=1)        1.237   display/text_gen_unit/font_word<3>
+    SLICE_X8Y52.CMUX     Tilo                  0.361   nes/multi_mapper/mmc3/mirroring
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7_G
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7
+    SLICE_X21Y51.B6      net (fanout=1)        1.210   display/text_gen_unit/font_bit
+    SLICE_X21Y51.B       Tilo                  0.259   display/rgb_reg<1>
+                                                       display/text_gen_unit/Mmux_text_rgb14
+    SLICE_X21Y51.A5      net (fanout=1)        0.187   display/rgb_next<1>
+    SLICE_X21Y51.CLK     Tas                   0.322   display/rgb_reg<1>
+                                                       display/rgb_reg_1_rstpot
+                                                       display/rgb_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.890ns (2.064ns logic, 6.826ns route)
+                                                       (23.2% logic, 76.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     10.367ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/text_gen_unit/font_unit/addr_reg_5 (FF)
+  Destination:          display/rgb_reg_1 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      8.890ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.497ns (1.141 - 1.638)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path at Slow Process Corner: display/text_gen_unit/font_unit/addr_reg_5 to display/rgb_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y55.BQ      Tcko                  0.391   display/text_gen_unit/font_unit/addr_reg<7>
+                                                       display/text_gen_unit/font_unit/addr_reg_5
+    SLICE_X6Y32.D1       net (fanout=235)      3.498   display/text_gen_unit/font_unit/addr_reg<5>
+    SLICE_X6Y32.BMUX     Topdb                 0.366   display/text_gen_unit/font_unit_Mram_data37_f8
+                                                       display/text_gen_unit/font_unit_Mram_data373
+                                                       display/text_gen_unit/font_unit_Mram_data37_f7_0
+                                                       display/text_gen_unit/font_unit_Mram_data37_f8
+    SLICE_X6Y39.C6       net (fanout=1)        0.716   display/text_gen_unit/font_unit_Mram_data37_f8
+    SLICE_X6Y39.CMUX     Tilo                  0.343   nes/multi_mapper/map41/_n0058_inv
+                                                       display/text_gen_unit/font_unit_Mram_data43
+                                                       display/text_gen_unit/font_unit_Mram_data43_f7
+    SLICE_X8Y52.C6       net (fanout=1)        1.237   display/text_gen_unit/font_word<3>
+    SLICE_X8Y52.CMUX     Tilo                  0.361   nes/multi_mapper/mmc3/mirroring
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7_G
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7
+    SLICE_X21Y51.B6      net (fanout=1)        1.210   display/text_gen_unit/font_bit
+    SLICE_X21Y51.B       Tilo                  0.259   display/rgb_reg<1>
+                                                       display/text_gen_unit/Mmux_text_rgb14
+    SLICE_X21Y51.A5      net (fanout=1)        0.187   display/rgb_next<1>
+    SLICE_X21Y51.CLK     Tas                   0.322   display/rgb_reg<1>
+                                                       display/rgb_reg_1_rstpot
+                                                       display/rgb_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.890ns (2.042ns logic, 6.848ns route)
+                                                       (23.0% logic, 77.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     10.396ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/text_gen_unit/font_unit/addr_reg_sliced_1 (FF)
+  Destination:          display/rgb_reg_1 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      8.859ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.499ns (1.141 - 1.640)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Maximum Data Path at Slow Process Corner: display/text_gen_unit/font_unit/addr_reg_sliced_1 to display/rgb_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X13Y54.BQ      Tcko                  0.391   display/text_gen_unit/font_unit/addr_reg_sliced_3
+                                                       display/text_gen_unit/font_unit/addr_reg_sliced_1
+    SLICE_X8Y35.A1       net (fanout=225)      3.583   display/text_gen_unit/font_unit/addr_reg_sliced_1
+    SLICE_X8Y35.BMUX     Topab                 0.370   display/text_gen_unit/font_unit_Mram_data35_f8
+                                                       display/text_gen_unit/font_unit_Mram_data35_f71
+                                                       display/text_gen_unit/font_unit_Mram_data35_f7
+                                                       display/text_gen_unit/font_unit_Mram_data35_f8
+    SLICE_X6Y39.D6       net (fanout=1)        0.601   display/text_gen_unit/font_unit_Mram_data35_f8
+    SLICE_X6Y39.CMUX     Topdc                 0.338   nes/multi_mapper/map41/_n0058_inv
+                                                       display/text_gen_unit/font_unit_Mram_data431
+                                                       display/text_gen_unit/font_unit_Mram_data43_f7
+    SLICE_X8Y52.C6       net (fanout=1)        1.237   display/text_gen_unit/font_word<3>
+    SLICE_X8Y52.CMUX     Tilo                  0.361   nes/multi_mapper/mmc3/mirroring
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7_G
+                                                       display/text_gen_unit/Mmux_font_bit_2_f7
+    SLICE_X21Y51.B6      net (fanout=1)        1.210   display/text_gen_unit/font_bit
+    SLICE_X21Y51.B       Tilo                  0.259   display/rgb_reg<1>
+                                                       display/text_gen_unit/Mmux_text_rgb14
+    SLICE_X21Y51.A5      net (fanout=1)        0.187   display/rgb_next<1>
+    SLICE_X21Y51.CLK     Tas                   0.322   display/rgb_reg<1>
+                                                       display/rgb_reg_1_rstpot
+                                                       display/rgb_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.859ns (2.041ns logic, 6.818ns route)
+                                                       (23.0% logic, 77.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/vsync_unit/v_count_reg_9 (SLICE_X18Y55.SR), 21 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     15.210ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/h_count_reg_7 (FF)
+  Destination:          display/vsync_unit/v_count_reg_9 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.665ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.014ns (0.232 - 0.246)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/h_count_reg_7 to display/vsync_unit/v_count_reg_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y55.DQ      Tcko                  0.447   display/vsync_unit/h_count_reg<7>
+                                                       display/vsync_unit/h_count_reg_7
+    SLICE_X17Y55.D1      net (fanout=5)        0.647   display/vsync_unit/h_count_reg<7>
+    SLICE_X17Y55.D       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581_SW0
+    SLICE_X17Y55.C6      net (fanout=1)        0.118   N201
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.455   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_9
+    -------------------------------------------------  ---------------------------
+    Total                                      4.665ns (1.826ns logic, 2.839ns route)
+                                                       (39.1% logic, 60.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.242ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/mod2_reg (FF)
+  Destination:          display/vsync_unit/v_count_reg_9 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.625ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.022ns (0.232 - 0.254)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/mod2_reg to display/vsync_unit/v_count_reg_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y51.AQ      Tcko                  0.447   display/vsync_unit/mod2_reg
+                                                       display/vsync_unit/mod2_reg
+    SLICE_X17Y55.C3      net (fanout=6)        0.984   display/vsync_unit/mod2_reg
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.455   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_9
+    -------------------------------------------------  ---------------------------
+    Total                                      4.625ns (1.567ns logic, 3.058ns route)
+                                                       (33.9% logic, 66.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/h_count_reg_1 (FF)
+  Destination:          display/vsync_unit/v_count_reg_9 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.622ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.016ns (0.232 - 0.248)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/h_count_reg_1 to display/vsync_unit/v_count_reg_9
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y54.BQ      Tcko                  0.447   display/vsync_unit/h_count_reg<3>
+                                                       display/vsync_unit/h_count_reg_1
+    SLICE_X17Y55.D2      net (fanout=3)        0.604   display/vsync_unit/h_count_reg<1>
+    SLICE_X17Y55.D       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581_SW0
+    SLICE_X17Y55.C6      net (fanout=1)        0.118   N201
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.455   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_9
+    -------------------------------------------------  ---------------------------
+    Total                                      4.622ns (1.826ns logic, 2.796ns route)
+                                                       (39.5% logic, 60.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/vsync_unit/v_count_reg_8 (SLICE_X18Y55.SR), 21 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     15.221ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/h_count_reg_7 (FF)
+  Destination:          display/vsync_unit/v_count_reg_8 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.654ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.014ns (0.232 - 0.246)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/h_count_reg_7 to display/vsync_unit/v_count_reg_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y55.DQ      Tcko                  0.447   display/vsync_unit/h_count_reg<7>
+                                                       display/vsync_unit/h_count_reg_7
+    SLICE_X17Y55.D1      net (fanout=5)        0.647   display/vsync_unit/h_count_reg<7>
+    SLICE_X17Y55.D       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581_SW0
+    SLICE_X17Y55.C6      net (fanout=1)        0.118   N201
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.444   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_8
+    -------------------------------------------------  ---------------------------
+    Total                                      4.654ns (1.815ns logic, 2.839ns route)
+                                                       (39.0% logic, 61.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.253ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/mod2_reg (FF)
+  Destination:          display/vsync_unit/v_count_reg_8 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.614ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.022ns (0.232 - 0.254)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/mod2_reg to display/vsync_unit/v_count_reg_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y51.AQ      Tcko                  0.447   display/vsync_unit/mod2_reg
+                                                       display/vsync_unit/mod2_reg
+    SLICE_X17Y55.C3      net (fanout=6)        0.984   display/vsync_unit/mod2_reg
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.444   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_8
+    -------------------------------------------------  ---------------------------
+    Total                                      4.614ns (1.556ns logic, 3.058ns route)
+                                                       (33.7% logic, 66.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.262ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               display/vsync_unit/h_count_reg_1 (FF)
+  Destination:          display/vsync_unit/v_count_reg_8 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      4.611ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.016ns (0.232 - 0.248)
+  Source Clock:         clk_50 rising at 0.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.111ns
+
+  Clock Uncertainty:          0.111ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.211ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: display/vsync_unit/h_count_reg_1 to display/vsync_unit/v_count_reg_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y54.BQ      Tcko                  0.447   display/vsync_unit/h_count_reg<3>
+                                                       display/vsync_unit/h_count_reg_1
+    SLICE_X17Y55.D2      net (fanout=3)        0.604   display/vsync_unit/h_count_reg<1>
+    SLICE_X17Y55.D       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581_SW0
+    SLICE_X17Y55.C6      net (fanout=1)        0.118   N201
+    SLICE_X17Y55.C       Tilo                  0.259   memory/RamUB
+                                                       display/vsync_unit/_n00581
+    SLICE_X12Y56.B4      net (fanout=7)        0.750   display/vsync_unit/_n00581
+    SLICE_X12Y56.B       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058_SW0
+    SLICE_X12Y56.A5      net (fanout=1)        0.222   N203
+    SLICE_X12Y56.A       Tilo                  0.203   buttons/deb_unit6/q_reg<20>
+                                                       display/vsync_unit/_n0058
+    SLICE_X18Y55.SR      net (fanout=3)        1.102   display/vsync_unit/_n0058
+    SLICE_X18Y55.CLK     Tsrck                 0.444   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_8
+    -------------------------------------------------  ---------------------------
+    Total                                      4.611ns (1.815ns logic, 2.796ns route)
+                                                       (39.4% logic, 60.6% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clocks_clkout1 = PERIOD TIMEGRP "sys_clocks_clkout1" TS_sys_clk_pin *
+        0.5 HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point display/rgb_reg_1 (SLICE_X21Y51.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.438ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/rgb_reg_1 (FF)
+  Destination:          display/rgb_reg_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.438ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_50 rising at 20.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: display/rgb_reg_1 to display/rgb_reg_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y51.AQ      Tcko                  0.198   display/rgb_reg<1>
+                                                       display/rgb_reg_1
+    SLICE_X21Y51.A6      net (fanout=2)        0.025   display/rgb_reg<1>
+    SLICE_X21Y51.CLK     Tah         (-Th)    -0.215   display/rgb_reg<1>
+                                                       display/rgb_reg_1_rstpot
+                                                       display/rgb_reg_1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.438ns (0.413ns logic, 0.025ns route)
+                                                       (94.3% logic, 5.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/vsync_unit/mod2_reg (SLICE_X16Y51.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.457ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/vsync_unit/mod2_reg (FF)
+  Destination:          display/vsync_unit/mod2_reg (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.457ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_50 rising at 20.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: display/vsync_unit/mod2_reg to display/vsync_unit/mod2_reg
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y51.AQ      Tcko                  0.234   display/vsync_unit/mod2_reg
+                                                       display/vsync_unit/mod2_reg
+    SLICE_X16Y51.A6      net (fanout=6)        0.026   display/vsync_unit/mod2_reg
+    SLICE_X16Y51.CLK     Tah         (-Th)    -0.197   display/vsync_unit/mod2_reg
+                                                       display/vsync_unit/mod2_reg_rstpot1_INV_0
+                                                       display/vsync_unit/mod2_reg
+    -------------------------------------------------  ---------------------------
+    Total                                      0.457ns (0.431ns logic, 0.026ns route)
+                                                       (94.3% logic, 5.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/vsync_unit/h_count_reg_3 (SLICE_X16Y54.CE), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.463ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/vsync_unit/mod2_reg (FF)
+  Destination:          display/vsync_unit/h_count_reg_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.459ns (Levels of Logic = 0)
+  Clock Path Skew:      -0.004ns (0.034 - 0.038)
+  Source Clock:         clk_50 rising at 20.000ns
+  Destination Clock:    clk_50 rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: display/vsync_unit/mod2_reg to display/vsync_unit/h_count_reg_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y51.AQ      Tcko                  0.234   display/vsync_unit/mod2_reg
+                                                       display/vsync_unit/mod2_reg
+    SLICE_X16Y54.CE      net (fanout=6)        0.333   display/vsync_unit/mod2_reg
+    SLICE_X16Y54.CLK     Tckce       (-Th)     0.108   display/vsync_unit/h_count_reg<3>
+                                                       display/vsync_unit/h_count_reg_3
+    -------------------------------------------------  ---------------------------
+    Total                                      0.459ns (0.126ns logic, 0.333ns route)
+                                                       (27.5% logic, 72.5% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clocks_clkout1 = PERIOD TIMEGRP "sys_clocks_clkout1" TS_sys_clk_pin *
+        0.5 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 18.270ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 1.730ns (578.035MHz) (Tbcper_I)
+  Physical resource: sys_clocks/clkout2_buf/I0
+  Logical resource: sys_clocks/clkout2_buf/I0
+  Location pin: BUFGMUX_X2Y2.I0
+  Clock network: sys_clocks/clkout1
+--------------------------------------------------------------------------------
+Slack: 19.570ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: display/vsync_unit/v_count_reg<3>/CLK
+  Logical resource: display/vsync_unit/v_count_reg_0/CK
+  Location pin: SLICE_X18Y53.CLK
+  Clock network: clk_50
+--------------------------------------------------------------------------------
+Slack: 19.570ns (period - min period limit)
+  Period: 20.000ns
+  Min period limit: 0.430ns (2325.581MHz) (Tcp)
+  Physical resource: display/vsync_unit/v_count_reg<3>/CLK
+  Logical resource: display/vsync_unit/v_count_reg_1/CK
+  Location pin: SLICE_X18Y53.CLK
+  Clock network: clk_50
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clocks_clkout2 = PERIOD TIMEGRP "sys_clocks_clkout2" 
+TS_sys_clk_pin *         0.25 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1641410920 paths analyzed, 13270 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  24.958ns.
+--------------------------------------------------------------------------------
+
+Paths for end point nes/multi_mapper/mmc5/chr_bank_9_6 (SLICE_X8Y61.CX), 917454 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     15.042ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_9_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.902ns (Levels of Logic = 14)
+  Clock Path Skew:      0.070ns (0.696 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_9_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X21Y24.C4      net (fanout=8)        1.340   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X21Y24.C       Tilo                  0.259   nes/ppu/sprite_gen/sprite4/upper_color<1>
+                                                       nes/ppu/pixel_muxer/is_obj8
+    SLICE_X17Y24.B1      net (fanout=6)        1.062   nes/ppu/pixel_muxer/is_obj7
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X8Y61.CX       net (fanout=75)       5.883   nes/dbus<6>
+    SLICE_X8Y61.CLK      Tdick                 0.086   nes/multi_mapper/mmc5/chr_bank_9<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_9_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.902ns (4.106ns logic, 20.796ns route)
+                                                       (16.5% logic, 83.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.085ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_9_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.859ns (Levels of Logic = 15)
+  Clock Path Skew:      0.070ns (0.696 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_9_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X18Y25.CX      net (fanout=8)        1.158   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X18Y25.CMUX    Tcxc                  0.163   nes/ppu/sprite_gen/sprite5/upper_color<1>
+                                                       nes/ppu/sprite_gen/Mmux_bits126_SW2
+    SLICE_X17Y24.A6      net (fanout=1)        0.356   N1165
+    SLICE_X17Y24.A       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345_SW2
+    SLICE_X17Y24.B3      net (fanout=1)        0.682   N1025
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X8Y61.CX       net (fanout=75)       5.883   nes/dbus<6>
+    SLICE_X8Y61.CLK      Tdick                 0.086   nes/multi_mapper/mmc5/chr_bank_9<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_9_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.859ns (4.269ns logic, 20.590ns route)
+                                                       (17.2% logic, 82.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.358ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_9_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.586ns (Levels of Logic = 14)
+  Clock Path Skew:      0.070ns (0.696 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_9_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X18Y17.C3      net (fanout=5)        0.517   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X18Y17.CMUX    Tilo                  0.343   display/hq2x/writestep
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0_G
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0
+    SLICE_X17Y19.A3      net (fanout=1)        0.733   N728
+    SLICE_X17Y19.A       Tilo                  0.259   N729
+                                                       nes/ppu/sprite_gen/Mmux_bits33
+    SLICE_X20Y24.A2      net (fanout=7)        1.586   nes/ppu/obj_pixel_noblank<0>
+    SLICE_X20Y24.A       Tilo                  0.203   nes/ppu/sprite_gen/sprite6/aprio
+                                                       nes/ppu/Mmux_GND_60_o_pixel_is_obj_mux_21_OUT1
+    SLICE_X16Y20.D1      net (fanout=3)        1.176   nes/ppu/GND_60_o_pixel_is_obj_mux_21_OUT<0>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X8Y61.CX       net (fanout=75)       5.883   nes/dbus<6>
+    SLICE_X8Y61.CLK      Tdick                 0.086   nes/multi_mapper/mmc5/chr_bank_9<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_9_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.586ns (4.134ns logic, 20.452ns route)
+                                                       (16.8% logic, 83.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point nes/apu/Noi/Period_1 (SLICE_X23Y3.BX), 114292 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     15.307ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/apu/Noi/Period_1 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.616ns (Levels of Logic = 14)
+  Clock Path Skew:      0.049ns (0.582 - 0.533)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/apu/Noi/Period_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X21Y24.C4      net (fanout=8)        1.340   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X21Y24.C       Tilo                  0.259   nes/ppu/sprite_gen/sprite4/upper_color<1>
+                                                       nes/ppu/pixel_muxer/is_obj8
+    SLICE_X17Y24.B1      net (fanout=6)        1.062   nes/ppu/pixel_muxer/is_obj7
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X0Y27.B4       net (fanout=4)        0.869   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X0Y27.B        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/new_alu/Mmux_Result21
+    SLICE_X0Y27.A5       net (fanout=4)        0.235   nes/cpu/AluR<1>
+    SLICE_X0Y27.A        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/mux11
+    SLICE_X1Y55.B1       net (fanout=22)       2.485   nes/cpu_dout<1>
+    SLICE_X1Y55.B        Tilo                  0.259   nes/multi_mapper/mmc5/chr_bank_2<3>
+                                                       nes/Mmux_addr181
+    SLICE_X23Y3.BX       net (fanout=85)       5.905   nes/dbus<1>
+    SLICE_X23Y3.CLK      Tdick                 0.063   nes/apu/Noi/Period<3>
+                                                       nes/apu/Noi/Period_1
+    -------------------------------------------------  ---------------------------
+    Total                                     24.616ns (3.971ns logic, 20.645ns route)
+                                                       (16.1% logic, 83.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.350ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/apu/Noi/Period_1 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.573ns (Levels of Logic = 15)
+  Clock Path Skew:      0.049ns (0.582 - 0.533)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/apu/Noi/Period_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X18Y25.CX      net (fanout=8)        1.158   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X18Y25.CMUX    Tcxc                  0.163   nes/ppu/sprite_gen/sprite5/upper_color<1>
+                                                       nes/ppu/sprite_gen/Mmux_bits126_SW2
+    SLICE_X17Y24.A6      net (fanout=1)        0.356   N1165
+    SLICE_X17Y24.A       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345_SW2
+    SLICE_X17Y24.B3      net (fanout=1)        0.682   N1025
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X0Y27.B4       net (fanout=4)        0.869   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X0Y27.B        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/new_alu/Mmux_Result21
+    SLICE_X0Y27.A5       net (fanout=4)        0.235   nes/cpu/AluR<1>
+    SLICE_X0Y27.A        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/mux11
+    SLICE_X1Y55.B1       net (fanout=22)       2.485   nes/cpu_dout<1>
+    SLICE_X1Y55.B        Tilo                  0.259   nes/multi_mapper/mmc5/chr_bank_2<3>
+                                                       nes/Mmux_addr181
+    SLICE_X23Y3.BX       net (fanout=85)       5.905   nes/dbus<1>
+    SLICE_X23Y3.CLK      Tdick                 0.063   nes/apu/Noi/Period<3>
+                                                       nes/apu/Noi/Period_1
+    -------------------------------------------------  ---------------------------
+    Total                                     24.573ns (4.134ns logic, 20.439ns route)
+                                                       (16.8% logic, 83.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.623ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/apu/Noi/Period_1 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.300ns (Levels of Logic = 14)
+  Clock Path Skew:      0.049ns (0.582 - 0.533)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/apu/Noi/Period_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X18Y17.C3      net (fanout=5)        0.517   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X18Y17.CMUX    Tilo                  0.343   display/hq2x/writestep
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0_G
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0
+    SLICE_X17Y19.A3      net (fanout=1)        0.733   N728
+    SLICE_X17Y19.A       Tilo                  0.259   N729
+                                                       nes/ppu/sprite_gen/Mmux_bits33
+    SLICE_X20Y24.A2      net (fanout=7)        1.586   nes/ppu/obj_pixel_noblank<0>
+    SLICE_X20Y24.A       Tilo                  0.203   nes/ppu/sprite_gen/sprite6/aprio
+                                                       nes/ppu/Mmux_GND_60_o_pixel_is_obj_mux_21_OUT1
+    SLICE_X16Y20.D1      net (fanout=3)        1.176   nes/ppu/GND_60_o_pixel_is_obj_mux_21_OUT<0>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X0Y27.B4       net (fanout=4)        0.869   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X0Y27.B        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/new_alu/Mmux_Result21
+    SLICE_X0Y27.A5       net (fanout=4)        0.235   nes/cpu/AluR<1>
+    SLICE_X0Y27.A        Tilo                  0.203   nes/cpu/A<2>
+                                                       nes/cpu/mux11
+    SLICE_X1Y55.B1       net (fanout=22)       2.485   nes/cpu_dout<1>
+    SLICE_X1Y55.B        Tilo                  0.259   nes/multi_mapper/mmc5/chr_bank_2<3>
+                                                       nes/Mmux_addr181
+    SLICE_X23Y3.BX       net (fanout=85)       5.905   nes/dbus<1>
+    SLICE_X23Y3.CLK      Tdick                 0.063   nes/apu/Noi/Period<3>
+                                                       nes/apu/Noi/Period_1
+    -------------------------------------------------  ---------------------------
+    Total                                     24.300ns (3.999ns logic, 20.301ns route)
+                                                       (16.5% logic, 83.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point nes/multi_mapper/mmc5/chr_bank_a_6 (SLICE_X7Y61.CX), 917454 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     15.344ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_a_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.608ns (Levels of Logic = 14)
+  Clock Path Skew:      0.078ns (0.704 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_a_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X21Y24.C4      net (fanout=8)        1.340   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X21Y24.C       Tilo                  0.259   nes/ppu/sprite_gen/sprite4/upper_color<1>
+                                                       nes/ppu/pixel_muxer/is_obj8
+    SLICE_X17Y24.B1      net (fanout=6)        1.062   nes/ppu/pixel_muxer/is_obj7
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X7Y61.CX       net (fanout=75)       5.612   nes/dbus<6>
+    SLICE_X7Y61.CLK      Tdick                 0.063   nes/multi_mapper/mmc5/chr_bank_a<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_a_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.608ns (4.083ns logic, 20.525ns route)
+                                                       (16.6% logic, 83.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.387ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_a_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.565ns (Levels of Logic = 15)
+  Clock Path Skew:      0.078ns (0.704 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_a_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X19Y14.B4      net (fanout=5)        0.604   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X19Y14.B       Tilo                  0.259   display/hq2x/blend_result<9>
+                                                       nes/ppu/sprite_gen/Mmux_bits1241
+    SLICE_X18Y25.CX      net (fanout=8)        1.158   nes/ppu/sprite_gen/Mmux_bits124
+    SLICE_X18Y25.CMUX    Tcxc                  0.163   nes/ppu/sprite_gen/sprite5/upper_color<1>
+                                                       nes/ppu/sprite_gen/Mmux_bits126_SW2
+    SLICE_X17Y24.A6      net (fanout=1)        0.356   N1165
+    SLICE_X17Y24.A       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345_SW2
+    SLICE_X17Y24.B3      net (fanout=1)        0.682   N1025
+    SLICE_X17Y24.B       Tilo                  0.259   nes/ppu/palette_ram/n0013<4>
+                                                       nes/ppu/palette_ram/Mmux_n001345
+    SLICE_X16Y20.D4      net (fanout=3)        1.350   nes/ppu/palette_ram/n0013<3>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X7Y61.CX       net (fanout=75)       5.612   nes/dbus<6>
+    SLICE_X7Y61.CLK      Tdick                 0.063   nes/multi_mapper/mmc5/chr_bank_a<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_a_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.565ns (4.246ns logic, 20.319ns route)
+                                                       (17.3% logic, 82.7% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     15.660ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               nes/ppu/sprite_gen/sprite1/pix2_0 (FF)
+  Destination:          nes/multi_mapper/mmc5/chr_bank_a_6 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      24.292ns (Levels of Logic = 14)
+  Clock Path Skew:      0.078ns (0.704 - 0.626)
+  Source Clock:         clk rising at 0.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.126ns
+
+  Clock Uncertainty:          0.126ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: nes/ppu/sprite_gen/sprite1/pix2_0 to nes/multi_mapper/mmc5/chr_bank_a_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X23Y22.AQ      Tcko                  0.391   nes/ppu/sprite_gen/sprite1/pix2<3>
+                                                       nes/ppu/sprite_gen/sprite1/pix2_0
+    SLICE_X21Y13.B4      net (fanout=5)        1.303   nes/ppu/sprite_gen/sprite1/pix2<0>
+    SLICE_X21Y13.B       Tilo                  0.259   N1074
+                                                       nes/ppu/sprite_gen/sprite1/active<7>_SW1
+    SLICE_X18Y15.A1      net (fanout=1)        1.039   N1074
+    SLICE_X18Y15.A       Tilo                  0.205   N972
+                                                       nes/ppu/sprite_gen/sprite1/bits<1>1
+    SLICE_X18Y17.C3      net (fanout=5)        0.517   nes/ppu/sprite_gen/bits1<1>
+    SLICE_X18Y17.CMUX    Tilo                  0.343   display/hq2x/writestep
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0_G
+                                                       nes/ppu/sprite_gen/Mmux_bits32_SW0
+    SLICE_X17Y19.A3      net (fanout=1)        0.733   N728
+    SLICE_X17Y19.A       Tilo                  0.259   N729
+                                                       nes/ppu/sprite_gen/Mmux_bits33
+    SLICE_X20Y24.A2      net (fanout=7)        1.586   nes/ppu/obj_pixel_noblank<0>
+    SLICE_X20Y24.A       Tilo                  0.203   nes/ppu/sprite_gen/sprite6/aprio
+                                                       nes/ppu/Mmux_GND_60_o_pixel_is_obj_mux_21_OUT1
+    SLICE_X16Y20.D1      net (fanout=3)        1.176   nes/ppu/GND_60_o_pixel_is_obj_mux_21_OUT<0>
+    SLICE_X16Y20.DMUX    Tilo                  0.261   color<4>
+                                                       nes/ppu/palette_ram/Mram_palette1
+    SLICE_X13Y32.C4      net (fanout=2)        1.212   nes/ppu/color2<0>
+    SLICE_X13Y32.C       Tilo                  0.259   nes/ppu/address_gen/temp_tile<3>
+                                                       nes/ppu/latched_dout<0>3
+    SLICE_X8Y34.D6       net (fanout=1)        0.800   nes/ppu_dout<0>
+    SLICE_X8Y34.CMUX     Topdc                 0.368   nes/dma/sprite_dma_lastval<0>
+                                                       nes/Mmux_from_data_bus_4
+                                                       nes/Mmux_from_data_bus_2_f7
+    SLICE_X6Y27.B3       net (fanout=14)       1.594   nes/from_data_bus<0>
+    SLICE_X6Y27.B        Tilo                  0.205   nes/cpu/new_alu/R<6>
+                                                       nes/cpu/new_alu/Mmux_R11
+    SLICE_X5Y27.B5       net (fanout=4)        0.383   nes/cpu/new_alu/R<0>
+    SLICE_X5Y27.B        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/Mmux_PWR_42_o_CR_MUX_389_o11
+    SLICE_X5Y27.A3       net (fanout=2)        0.464   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+    SLICE_X5Y27.A        Tilo                  0.259   nes/cpu/new_alu/PWR_42_o_CR_MUX_389_o
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>11
+    SLICE_X5Y20.A1       net (fanout=4)        1.676   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>1
+    SLICE_X5Y20.A        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21_1
+    SLICE_X5Y20.B5       net (fanout=3)        1.447   nes/cpu/new_alu/addsub/XORCY3/Mxor_O_xo<0>21
+    SLICE_X5Y20.B        Tilo                  0.259   N1063
+                                                       nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>21
+    SLICE_X7Y20.A2       net (fanout=8)        0.639   nes/cpu/new_alu/addsub/XORCY6/Mxor_O_xo<0>2
+    SLICE_X7Y20.A        Tilo                  0.259   nes/apu/Sq1/Period<7>
+                                                       nes/Mmux_addr1131
+    SLICE_X7Y61.CX       net (fanout=75)       5.612   nes/dbus<6>
+    SLICE_X7Y61.CLK      Tdick                 0.063   nes/multi_mapper/mmc5/chr_bank_a<7>
+                                                       nes/multi_mapper/mmc5/chr_bank_a_6
+    -------------------------------------------------  ---------------------------
+    Total                                     24.292ns (4.111ns logic, 20.181ns route)
+                                                       (16.9% logic, 83.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clocks_clkout2 = PERIOD TIMEGRP "sys_clocks_clkout2" TS_sys_clk_pin *
+        0.25 HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point display/text_gen_unit/video_ram/Mram_ram1 (RAMB16_X1Y28.ADDRB13), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.002ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/vsync_unit/v_count_reg_8 (FF)
+  Destination:          display/text_gen_unit/video_ram/Mram_ram1 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.571ns (Levels of Logic = 0)
+  Clock Path Skew:      0.323ns (0.989 - 0.666)
+  Source Clock:         clk_50 rising at 40.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Minimum Data Path at Fast Process Corner: display/vsync_unit/v_count_reg_8 to display/text_gen_unit/video_ram/Mram_ram1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X18Y55.AQ      Tcko                  0.200   display/vsync_unit/v_count_reg<9>
+                                                       display/vsync_unit/v_count_reg_8
+    RAMB16_X1Y28.ADDRB13 net (fanout=7)        0.437   display/vsync_unit/v_count_reg<8>
+    RAMB16_X1Y28.CLKB    Trckc_ADDRB (-Th)     0.066   display/text_gen_unit/video_ram/Mram_ram1
+                                                       display/text_gen_unit/video_ram/Mram_ram1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.571ns (0.134ns logic, 0.437ns route)
+                                                       (23.5% logic, 76.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/text_gen_unit/video_ram/Mram_ram2 (RAMB16_X1Y30.ADDRB3), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.003ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/vsync_unit/h_count_reg_4 (FF)
+  Destination:          display/text_gen_unit/video_ram/Mram_ram2 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.580ns (Levels of Logic = 0)
+  Clock Path Skew:      0.331ns (0.997 - 0.666)
+  Source Clock:         clk_50 rising at 40.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Minimum Data Path at Fast Process Corner: display/vsync_unit/h_count_reg_4 to display/text_gen_unit/video_ram/Mram_ram2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y55.AQ      Tcko                  0.234   display/vsync_unit/h_count_reg<7>
+                                                       display/vsync_unit/h_count_reg_4
+    RAMB16_X1Y30.ADDRB3  net (fanout=5)        0.412   display/vsync_unit/h_count_reg<4>
+    RAMB16_X1Y30.CLKB    Trckc_ADDRB (-Th)     0.066   display/text_gen_unit/video_ram/Mram_ram2
+                                                       display/text_gen_unit/video_ram/Mram_ram2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.580ns (0.168ns logic, 0.412ns route)
+                                                       (29.0% logic, 71.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point display/text_gen_unit/video_ram/Mram_ram2 (RAMB16_X1Y30.ADDRB8), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.009ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               display/vsync_unit/h_count_reg_9 (FF)
+  Destination:          display/text_gen_unit/video_ram/Mram_ram2 (RAM)
+  Requirement:          0.000ns
+  Data Path Delay:      0.587ns (Levels of Logic = 0)
+  Clock Path Skew:      0.332ns (0.997 - 0.665)
+  Source Clock:         clk_50 rising at 40.000ns
+  Destination Clock:    clk rising at 40.000ns
+  Clock Uncertainty:    0.246ns
+
+  Clock Uncertainty:          0.246ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Discrete Jitter (DJ):       0.241ns
+    Phase Error (PE):           0.120ns
+
+  Minimum Data Path at Fast Process Corner: display/vsync_unit/h_count_reg_9 to display/text_gen_unit/video_ram/Mram_ram2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y56.BQ      Tcko                  0.234   display/vsync_unit/h_count_reg<9>
+                                                       display/vsync_unit/h_count_reg_9
+    RAMB16_X1Y30.ADDRB8  net (fanout=6)        0.419   display/vsync_unit/h_count_reg<9>
+    RAMB16_X1Y30.CLKB    Trckc_ADDRB (-Th)     0.066   display/text_gen_unit/video_ram/Mram_ram2
+                                                       display/text_gen_unit/video_ram/Mram_ram2
+    -------------------------------------------------  ---------------------------
+    Total                                      0.587ns (0.168ns logic, 0.419ns route)
+                                                       (28.6% logic, 71.4% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clocks_clkout2 = PERIOD TIMEGRP "sys_clocks_clkout2" TS_sys_clk_pin *
+        0.25 HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 36.876ns (period - min period limit)
+  Period: 40.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKA(Fmax))
+  Physical resource: display/hq2x/Mram_outbuf1/CLKA
+  Logical resource: display/hq2x/Mram_outbuf1/CLKA
+  Location pin: RAMB16_X1Y14.CLKA
+  Clock network: clk
+--------------------------------------------------------------------------------
+Slack: 36.876ns (period - min period limit)
+  Period: 40.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKB(Fmax))
+  Physical resource: display/hq2x/Mram_outbuf1/CLKB
+  Logical resource: display/hq2x/Mram_outbuf1/CLKB
+  Location pin: RAMB16_X1Y14.CLKB
+  Clock network: clk
+--------------------------------------------------------------------------------
+Slack: 36.876ns (period - min period limit)
+  Period: 40.000ns
+  Min period limit: 3.124ns (320.102MHz) (Trper_CLKA(Fmax))
+  Physical resource: display/hq2x/Mram_outbuf2/CLKA
+  Logical resource: display/hq2x/Mram_outbuf2/CLKA
+  Location pin: RAMB16_X1Y12.CLKA
+  Clock network: clk
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      3.334ns|      6.240ns|            0|            0|            0|   1641413159|
+| TS_sys_clocks_clkout1         |     20.000ns|      9.635ns|          N/A|            0|            0|         2239|            0|
+| TS_sys_clocks_clkout2         |     40.000ns|     24.958ns|          N/A|            0|            0|   1641410920|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK100MHZ
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK100MHZ      |   24.958|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1641413159 paths, 0 nets, and 26732 connections
+
+Design statistics:
+   Minimum period:  24.958ns{1}   (Maximum frequency:  40.067MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Sat Oct 21 20:41:20 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 321 MB
+
+
+

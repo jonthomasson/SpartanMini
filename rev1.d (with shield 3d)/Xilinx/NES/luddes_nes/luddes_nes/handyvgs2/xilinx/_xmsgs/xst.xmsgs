@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 240: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\clk_wiz_v3_6.v" Line 126: Assignment to <arg fmt="%s" index="1">clkout3_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\clk_wiz_v3_6.v" Line 127: Assignment to <arg fmt="%s" index="1">clkout4_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\clk_wiz_v3_6.v" Line 128: Assignment to <arg fmt="%s" index="1">clkout5_unused</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 205: Assignment to <arg fmt="%s" index="1">clock_locked</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 207: Assignment to <arg fmt="%s" index="1">sw</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 99: Port <arg fmt="%s" index="1">RxD_idle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 103: Assignment to <arg fmt="%s" index="1">txdfx_busy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\packet_demux.v" Line 156: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 106: Assignment to <arg fmt="%s" index="1">demux_state</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 107: Assignment to <arg fmt="%s" index="1">demux_count</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 183: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v" Line 127: Assignment to <arg fmt="%s" index="1">done_tick</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 228: Assignment to <arg fmt="%s" index="1">loader_conf</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\debounce.v" Line 65: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">21</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\debounce.v" Line 92: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">21</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 41: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 45: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 49: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 53: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 57: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 61: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 65: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\joypad_buttons.v" Line 69: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 133: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 137: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 142: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">22</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 143: Result of <arg fmt="%d" index="1">23</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">22</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 303: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\nes.v" Line 160: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/cpu.v" Line 214: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 134: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 136: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 141: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 151: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 167: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 169: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 678: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sq2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 679: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">sq2</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 255: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">11</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 260: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 268: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 279: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 374: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 378: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 389: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 393: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 399: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 515: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 526: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 536: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 537: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 715: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/apu.v" Line 718: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 129: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 142: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 37: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 43: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 49: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 90: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 307: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 203: Assignment to <arg fmt="%s" index="1">load_out0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v" Line 634: Assignment to <arg fmt="%s" index="1">color_intensity</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 71: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 217: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 218: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 499: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 542: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 770: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 808: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/mmu.v" Line 1418: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">30</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\nes.v" Line 267: Assignment to <arg fmt="%s" index="1">vram_a10</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 315: Assignment to <arg fmt="%s" index="1">dbgadr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 316: Assignment to <arg fmt="%s" index="1">dbgctr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 77: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 329: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">MemAdr</arg>&gt;. Formal port size is <arg fmt="%d" index="2">23</arg>-bit while actual signal size is <arg fmt="%d" index="1">19</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\debounce.v" Line 65: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">21</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\debounce.v" Line 92: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">21</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 116: Port <arg fmt="%s" index="1">RxD_idle</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 80: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 82: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 83: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 120: Assignment to <arg fmt="%s" index="1">txd_busy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\video_sync.v" Line 78: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\video_sync.v" Line 88: Result of <arg fmt="%d" index="1">11</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\text_menu_gen.v" Line 79: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\text_menu_gen.v" Line 84: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 186: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 187: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 188: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 194: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 195: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 196: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v" Line 124: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 388: Assignment to <arg fmt="%s" index="1">led_enable</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 240: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v" Line 343: Input port <arg fmt="%s" index="1">reset</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">buttons</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_toggle_menu</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW&lt;7:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">UART_RXD</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">MemWait</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">205</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_OUT1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sys_clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">205</arg>: Output port &lt;<arg fmt="%s" index="3">LOCKED</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sys_clocks</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">305</arg>: Output port &lt;<arg fmt="%s" index="3">dbgadr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">nes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">305</arg>: Output port &lt;<arg fmt="%s" index="3">dbgctr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">nes</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">343</arg>: Output port &lt;<arg fmt="%s" index="3">db_level</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">deb_toggle_menu</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_r</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_g</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_b</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_h</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_pclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_de</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\NES_Nexys4.v</arg>&quot; line <arg fmt="%s" index="2">363</arg>: Output port &lt;<arg fmt="%s" index="3">tft_on</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">display</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">pallut</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">NES_Nexys4</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">loader_btn&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v</arg>&quot; line <arg fmt="%s" index="2">99</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_receiverfx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v</arg>&quot; line <arg fmt="%s" index="2">99</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_endofpacket</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_receiverfx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v</arg>&quot; line <arg fmt="%s" index="2">102</arg>: Output port &lt;<arg fmt="%s" index="3">TxD_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_transmitterfx</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">current_state</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">packet_demux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\hw_uart.v</arg>&quot; line <arg fmt="%s" index="2">106</arg>: Output port &lt;<arg fmt="%s" index="3">current_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">packet_demux</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">0011</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1000</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1001</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1010</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1011</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1100</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1101</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1110</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">1111</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">0010</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">TxD_state</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_out&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;7&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;6&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;5&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;4&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;3&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">addr_out&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit1</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit2</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit3</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit4</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit5</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit6</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit7</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">deb_unit8</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\nes.v</arg>&quot; line <arg fmt="%s" index="2">265</arg>: Output port &lt;<arg fmt="%s" index="3">vram_a10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">multi_mapper</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dbgadr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">dbgctr</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">A</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">MicroCodeTable</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">B</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">MicroCodeTable</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">L</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">MicroCodeTableInner</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DIN&lt;6:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">NewPeriod</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">DmcChan</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">lookup</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ApuLookupTable</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">loopy&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">loopy&lt;5:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">loopy&lt;14:7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cycle&lt;7:7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\src\/ppu.v</arg>&quot; line <arg fmt="%s" index="2">203</arg>: Output port &lt;<arg fmt="%s" index="3">load_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sprite0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;6:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;6:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;10:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;3:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;13:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_din&lt;7:2&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;14:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">flags&lt;31:16&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">prg_read</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">chr_ain&lt;13:13&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">reset</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">vsync_unit</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">joypad&lt;3:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_receiver</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">RxD_endofpacket</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_receiver</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\display.v</arg>&quot; line <arg fmt="%s" index="2">119</arg>: Output port &lt;<arg fmt="%s" index="3">TxD_busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uart_transmitter</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_r</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_g</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_b</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_h</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_v</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_pclk</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_de</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">tft_on</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">hqTable</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">Hq2x</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">btn_select</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\text_menu_gen.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">dout_a</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">video_ram</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">show_cursor</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outpixel_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hq2x</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outpixel_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hq2x</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outpixel_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">hq2x</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_gen_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">g_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">g_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">b_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">b_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">prg_bank_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mmc1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outer_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">map28</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outer_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">map28</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">MemAdr_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MemAdr_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MemAdr_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">MemAdr_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">memory</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0070</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">Freq</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_NewPeriod</arg>&gt; for implementation as read-only block RAM.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_outbuf</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_hqTable</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_inbuf</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Y</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_expansion_ram</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_B</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_A</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_L</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">nes/apu/lookup/Mram_lookup</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_pallut</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">Period</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_NoisePeriod</arg>&gt; for implementation as read-only block RAM.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_palette</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3212" delta="old" >HDL ADVISOR - Asynchronous or synchronous initialization of the register &lt;<arg fmt="%s" index="1">oam_ptr</arg>&gt; prevents it from being combined with the RAM &lt;<arg fmt="%s" index="2">Mram_oam</arg>&gt; for implementation as read-only block RAM.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sprtemp</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_oam</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_db_level</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_data</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3227" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;, combined with &lt;<arg fmt="%s" index="2">Mram_ram1</arg>&gt;, will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">g_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">g_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">r_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">b_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">b_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Display</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_x1_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pix_y1_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">text_menu_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">prg_bank_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">MMC1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outer_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Mapper28</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">outer_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Mapper28</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_64</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_65</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_66</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_67</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ines_15_73</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">GameLoader</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_transmitterfx/tickgen/Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">UartDemux</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_receiver_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tickgen/Acc_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">async_transmitter_1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">sys_clocks/pll_base_inst</arg> in unit <arg fmt="%s" index="2">sys_clocks/pll_base_inst</arg> of type <arg fmt="%s" index="3">PLL_BASE</arg> has been replaced by <arg fmt="%s" index="4">PLL_ADV</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memory/MemAdr_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memory/MemAdr_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memory/MemAdr_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">memory/MemAdr_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="3002" delta="old" >This design contains one or more registers/latches that are directly
+incompatible with the <arg fmt="%s" index="1">Spartan6</arg> architecture. The two primary causes of this is
+either a register or latch described with both an asynchronous set and
+asynchronous reset, or a register or latch described with an asynchronous
+set or reset which however has an initialization value of the opposite 
+polarity (i.e. asynchronous reset with an initialization value of 1).
+ While this circuit can be built, it creates a sub-optimal implementation
+in terms of area, power and performance. For a more optimal implementation
+Xilinx highly recommends one of the following:
+
+       1) Remove either the set or reset from all registers and latches
+          if not needed for required functionality
+       2) Modify the code in order to produce a synchronous set
+          and/or reset (both is preferred)
+       3) Ensure all registers have the same initialization value as the
+          described asynchronous set or reset polarity
+       4) Use the -async_to_sync option to transform the asynchronous
+          set/reset to synchronous operation
+          (timing simulation highly recommended when using this option)
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">display/rgb_reg_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">NES_Nexys4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">display/rgb_reg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">NES_Nexys4</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/GapCnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/RxD_endofpacket</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/GapCnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">display/uart_receiver/RxD_endofpacket</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">loader/mem_addr_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">loader/mem_addr_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/chr_a12_invert</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/chr_a12_invert&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/bank_select_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/bank_select_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/prg_rom_bank_mode</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/prg_rom_bank_mode&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/bank_select_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/bank_select_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/bank_select_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/bank_select_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/map13/chr_bank_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/map15/prg_rom_bank_0&gt; &lt;nes/multi_mapper/map228/chr_bank_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/map13/chr_bank_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/map15/prg_rom_bank_1&gt; &lt;nes/multi_mapper/map228/chr_bank_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/map15/prg_rom_bank_mode_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/map228/chr_bank_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/map15/prg_rom_bank_mode_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/map228/chr_bank_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/mirroring</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/mirroring&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_enable</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_enable&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">uart_demux/uart_receiverfx/tickgen/Acc_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;display/uart_receiver/tickgen/Acc_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">nes/multi_mapper/mmc3/irq_latch_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;nes/multi_mapper/rambo1/irq_latch_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">memory/RamCS</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">NES_Nexys4</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;memory/busy&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="old" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">NES_Nexys4</arg>&gt;, final ratio is <arg fmt="%i" index="2">112</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

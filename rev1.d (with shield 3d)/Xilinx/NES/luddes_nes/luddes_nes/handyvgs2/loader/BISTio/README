@@ -1,0 +1,5 @@
+BISTio Library
+=======================
+
+This library wraps the digilent ADEPT driver.  The goal is to have a a c++ dll that provides
+a simple interface to boundary scan and a simple SPI.

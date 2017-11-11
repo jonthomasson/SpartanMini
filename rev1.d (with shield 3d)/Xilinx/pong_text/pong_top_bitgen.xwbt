@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\pong_text\pong_top.ncd
+OUTFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\pong_text\pong_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\pong_text
+LICENSE=WebPack
+USER_INFO=211027110_0_0_178

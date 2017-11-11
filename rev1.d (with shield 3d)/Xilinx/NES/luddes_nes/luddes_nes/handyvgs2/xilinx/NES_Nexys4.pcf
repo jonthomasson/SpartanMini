@@ -1,0 +1,1978 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Oct 21 20:39:25 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "PROP_Rx" LOCATE = SITE "P30" LEVEL 1;
+COMP "PROP_Tx" LOCATE = SITE "P32" LEVEL 1;
+COMP "UART_RXD" LOCATE = SITE "P74" LEVEL 1;
+COMP "UART_TXD" LOCATE = SITE "P75" LEVEL 1;
+COMP "MemWait" LOCATE = SITE "P56" LEVEL 1;
+COMP "btnreset_nes" LOCATE = SITE "P92" LEVEL 1;
+COMP "PROP_File_Rx" LOCATE = SITE "P40" LEVEL 1;
+COMP "PROP_File_Tx" LOCATE = SITE "P34" LEVEL 1;
+COMP "MemDB<0>" LOCATE = SITE "P124" LEVEL 1;
+COMP "MemDB<1>" LOCATE = SITE "P126" LEVEL 1;
+COMP "MemDB<2>" LOCATE = SITE "P127" LEVEL 1;
+COMP "MemDB<3>" LOCATE = SITE "P131" LEVEL 1;
+COMP "MemDB<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "MemDB<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "MemDB<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "MemDB<7>" LOCATE = SITE "P17" LEVEL 1;
+COMP "MemDB<8>" LOCATE = SITE "P6" LEVEL 1;
+COMP "MemDB<9>" LOCATE = SITE "P5" LEVEL 1;
+COMP "SW<0>" LOCATE = SITE "P50" LEVEL 1;
+COMP "SW<1>" LOCATE = SITE "P47" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "P45" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "P44" LEVEL 1;
+COMP "SW<4>" LOCATE = SITE "P51" LEVEL 1;
+COMP "SW<5>" LOCATE = SITE "P48" LEVEL 1;
+COMP "SW<6>" LOCATE = SITE "P46" LEVEL 1;
+COMP "SW<7>" LOCATE = SITE "P43" LEVEL 1;
+COMP "MemOE" LOCATE = SITE "P137" LEVEL 1;
+COMP "MemWR" LOCATE = SITE "P21" LEVEL 1;
+COMP "RamCS" LOCATE = SITE "P123" LEVEL 1;
+COMP "RamLB" LOCATE = SITE "P139" LEVEL 1;
+COMP "RamUB" LOCATE = SITE "P138" LEVEL 1;
+COMP "vga_h" LOCATE = SITE "P114" LEVEL 1;
+COMP "vga_v" LOCATE = SITE "P116" LEVEL 1;
+COMP "MemDB<10>" LOCATE = SITE "P2" LEVEL 1;
+COMP "MemDB<11>" LOCATE = SITE "P1" LEVEL 1;
+COMP "MemDB<12>" LOCATE = SITE "P143" LEVEL 1;
+COMP "MemDB<13>" LOCATE = SITE "P142" LEVEL 1;
+COMP "MemDB<14>" LOCATE = SITE "P141" LEVEL 1;
+COMP "MemDB<15>" LOCATE = SITE "P140" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P79" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P80" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P81" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P82" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "P83" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "P84" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P85" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P87" LEVEL 1;
+COMP "MemAdr<0>" LOCATE = SITE "P121" LEVEL 1;
+COMP "MemAdr<1>" LOCATE = SITE "P120" LEVEL 1;
+COMP "MemAdr<2>" LOCATE = SITE "P119" LEVEL 1;
+COMP "MemAdr<3>" LOCATE = SITE "P118" LEVEL 1;
+COMP "MemAdr<4>" LOCATE = SITE "P117" LEVEL 1;
+COMP "MemAdr<5>" LOCATE = SITE "P132" LEVEL 1;
+COMP "MemAdr<6>" LOCATE = SITE "P133" LEVEL 1;
+COMP "MemAdr<7>" LOCATE = SITE "P134" LEVEL 1;
+COMP "MemAdr<8>" LOCATE = SITE "P8" LEVEL 1;
+COMP "MemAdr<9>" LOCATE = SITE "P9" LEVEL 1;
+COMP "CLK100MHZ" LOCATE = SITE "P55" LEVEL 1;
+COMP "joypad<0>" LOCATE = SITE "P101" LEVEL 1;
+COMP "joypad<1>" LOCATE = SITE "P99" LEVEL 1;
+COMP "joypad<2>" LOCATE = SITE "P97" LEVEL 1;
+COMP "joypad<3>" LOCATE = SITE "P94" LEVEL 1;
+COMP "joypad<4>" LOCATE = SITE "P100" LEVEL 1;
+COMP "joypad<5>" LOCATE = SITE "P98" LEVEL 1;
+COMP "joypad<6>" LOCATE = SITE "P95" LEVEL 1;
+COMP "joypad<7>" LOCATE = SITE "P93" LEVEL 1;
+COMP "MemAdv" LOCATE = SITE "P62" LEVEL 1;
+COMP "MemClk" LOCATE = SITE "P59" LEVEL 1;
+COMP "RamCRE" LOCATE = SITE "P33" LEVEL 1;
+COMP "btn_menu" LOCATE = SITE "P66" LEVEL 1;
+COMP "vga_b<0>" LOCATE = SITE "P111" LEVEL 1;
+COMP "vga_b<1>" LOCATE = SITE "P104" LEVEL 1;
+COMP "vga_g<0>" LOCATE = SITE "P115" LEVEL 1;
+COMP "vga_g<1>" LOCATE = SITE "P112" LEVEL 1;
+COMP "vga_r<0>" LOCATE = SITE "P105" LEVEL 1;
+COMP "vga_r<1>" LOCATE = SITE "P102" LEVEL 1;
+COMP "CPU_RESET" LOCATE = SITE "P88" LEVEL 1;
+COMP "AUDIO_L" LOCATE = SITE "P35" LEVEL 1;
+COMP "AUDIO_R" LOCATE = SITE "P41" LEVEL 1;
+COMP "MemAdr<10>" LOCATE = SITE "P10" LEVEL 1;
+COMP "MemAdr<11>" LOCATE = SITE "P11" LEVEL 1;
+COMP "MemAdr<12>" LOCATE = SITE "P27" LEVEL 1;
+COMP "MemAdr<13>" LOCATE = SITE "P26" LEVEL 1;
+COMP "MemAdr<14>" LOCATE = SITE "P24" LEVEL 1;
+COMP "MemAdr<15>" LOCATE = SITE "P23" LEVEL 1;
+COMP "MemAdr<16>" LOCATE = SITE "P22" LEVEL 1;
+COMP "MemAdr<17>" LOCATE = SITE "P12" LEVEL 1;
+COMP "MemAdr<18>" LOCATE = SITE "P7" LEVEL 1;
+PIN nes/multi_mapper/mmc5/Mmult_multiply_result_pins<92> = BEL
+        "nes/multi_mapper/mmc5/Mmult_multiply_result" PINNAME CLK;
+PIN display/hq2x/Mram_outbuf1_pins<22> = BEL "display/hq2x/Mram_outbuf1"
+        PINNAME CLKA;
+PIN display/hq2x/Mram_outbuf1_pins<23> = BEL "display/hq2x/Mram_outbuf1"
+        PINNAME CLKB;
+PIN display/hq2x/Mram_outbuf2_pins<22> = BEL "display/hq2x/Mram_outbuf2"
+        PINNAME CLKA;
+PIN display/hq2x/Mram_outbuf2_pins<23> = BEL "display/hq2x/Mram_outbuf2"
+        PINNAME CLKB;
+PIN display/hq2x/Mram_inbuf_pins<18> = BEL "display/hq2x/Mram_inbuf" PINNAME
+        CLKAWRCLK;
+PIN display/hq2x/Mram_inbuf_pins<19> = BEL "display/hq2x/Mram_inbuf" PINNAME
+        CLKBRDCLK;
+PIN display/text_gen_unit/video_ram/Mram_ram2_pins<24> = BEL
+        "display/text_gen_unit/video_ram/Mram_ram2" PINNAME CLKA;
+PIN display/text_gen_unit/video_ram/Mram_ram2_pins<25> = BEL
+        "display/text_gen_unit/video_ram/Mram_ram2" PINNAME CLKB;
+PIN display/text_gen_unit/video_ram/Mram_ram1_pins<24> = BEL
+        "display/text_gen_unit/video_ram/Mram_ram1" PINNAME CLKA;
+PIN display/text_gen_unit/video_ram/Mram_ram1_pins<25> = BEL
+        "display/text_gen_unit/video_ram/Mram_ram1" PINNAME CLKB;
+PIN nes/multi_mapper/mmc5/Mram_expansion_ram_pins<20> = BEL
+        "nes/multi_mapper/mmc5/Mram_expansion_ram" PINNAME CLKAWRCLK;
+PIN nes/multi_mapper/mmc5/Mram_expansion_ram_pins<21> = BEL
+        "nes/multi_mapper/mmc5/Mram_expansion_ram" PINNAME CLKBRDCLK;
+PIN nes/apu/lookup/Mram_lookup_pins<18> = BEL "nes/apu/lookup/Mram_lookup"
+        PINNAME CLKAWRCLK;
+PIN nes/apu/lookup/Mram_lookup_pins<19> = BEL "nes/apu/lookup/Mram_lookup"
+        PINNAME CLKBRDCLK;
+PIN display/hq2x_Mram_hqTable_pins<10> = BEL "display/hq2x_Mram_hqTable"
+        PINNAME CLKAWRCLK;
+PIN nes/cpu_micro2/inner/Mram_L_pins<11> = BEL "nes/cpu_micro2/inner/Mram_L"
+        PINNAME CLKA;
+PIN nes/cpu_micro2/Mram_B_pins<9> = BEL "nes/cpu_micro2/Mram_B" PINNAME CLKA;
+TIMEGRP sys_clocks_clkout2 = BEL "last_joypad_clock_0" BEL
+        "last_joypad_clock_1" BEL "nes/cpu_cycle_counter_0" BEL
+        "nes/cpu_cycle_counter_1" BEL "nes/apu_irq_delayed" BEL
+        "nes/nmi_active" BEL "nes/apu/InternalClock" BEL
+        "nes/apu/FrameSeqMode" BEL "nes/apu/Enabled_0" BEL "nes/apu/Enabled_1"
+        BEL "nes/apu/Enabled_2" BEL "nes/apu/Enabled_3" BEL "ramfail" BEL
+        "loader_btn_2_0" BEL "loader_btn_2_1" BEL "loader_btn_2_2" BEL
+        "loader_btn_2_3" BEL "loader_btn_2_4" BEL "loader_btn_2_5" BEL
+        "loader_btn_2_6" BEL "loader_btn_2_7" BEL "joypad_bits2_0" BEL
+        "joypad_bits2_1" BEL "joypad_bits2_2" BEL "joypad_bits2_3" BEL
+        "joypad_bits2_4" BEL "joypad_bits2_5" BEL "joypad_bits2_6" BEL
+        "joypad_bits2_7" BEL "joypad_bits_0" BEL "joypad_bits_1" BEL
+        "joypad_bits_2" BEL "joypad_bits_3" BEL "joypad_bits_4" BEL
+        "joypad_bits_5" BEL "joypad_bits_6" BEL "joypad_bits_7" BEL
+        "nes/apu/Cycles_0" BEL "nes/apu/Cycles_1" BEL "nes/apu/Cycles_3" BEL
+        "nes/apu/Cycles_4" BEL "nes/apu/Cycles_5" BEL "nes/apu/Cycles_6" BEL
+        "nes/apu/Cycles_7" BEL "nes/apu/Cycles_8" BEL "nes/apu/Cycles_9" BEL
+        "nes/apu/Cycles_10" BEL "nes/apu/Cycles_11" BEL "nes/apu/Cycles_12"
+        BEL "nes/apu/Cycles_13" BEL "nes/apu/Cycles_14" BEL
+        "nes/apu/Cycles_15" BEL "nes/mapper_irq_delayed" BEL
+        "nes/apu/DisableFrameInterrupt" BEL "sigma_delta_dac/DACout" BEL
+        "nes/apu/Sq2/Period_10" BEL "nes/apu/Sq2/Period_9" BEL
+        "nes/apu/Sq2/Period_8" BEL "nes/apu/Sq2/Period_7" BEL
+        "nes/apu/Sq2/Period_6" BEL "nes/apu/Sq2/Period_5" BEL
+        "nes/apu/Sq2/Period_4" BEL "nes/apu/Sq2/Period_3" BEL
+        "nes/apu/Sq2/Period_2" BEL "nes/apu/Sq2/Period_1" BEL
+        "nes/apu/Sq2/Period_0" BEL "nes/apu/Sq2/SweepDivider_2" BEL
+        "nes/apu/Sq2/SweepDivider_1" BEL "nes/apu/Sq2/SweepDivider_0" BEL
+        "nes/apu/Sq2/EnvDivider_3" BEL "nes/apu/Sq2/EnvDivider_2" BEL
+        "nes/apu/Sq2/EnvDivider_1" BEL "nes/apu/Sq2/EnvDivider_0" BEL
+        "nes/apu/Sq2/SweepShift_2" BEL "nes/apu/Sq2/SweepShift_1" BEL
+        "nes/apu/Sq2/SweepShift_0" BEL "nes/apu/Sq2/SweepNegate" BEL
+        "nes/apu/Sq2/SweepEnable" BEL "nes/apu/Sq2/SweepPeriod_2" BEL
+        "nes/apu/Sq2/SweepPeriod_1" BEL "nes/apu/Sq2/SweepPeriod_0" BEL
+        "nes/apu/Sq2/Volume_3" BEL "nes/apu/Sq2/Volume_2" BEL
+        "nes/apu/Sq2/Volume_1" BEL "nes/apu/Sq2/Volume_0" BEL
+        "nes/apu/Sq2/EnvLoop" BEL "nes/apu/Sq2/Duty_1" BEL
+        "nes/apu/Sq2/Duty_0" BEL "nes/apu/Sq2/EnvDisable" BEL
+        "nes/apu/Sq1/Period_10" BEL "nes/apu/Sq1/Period_9" BEL
+        "nes/apu/Sq1/Period_8" BEL "nes/apu/Sq1/Period_7" BEL
+        "nes/apu/Sq1/Period_6" BEL "nes/apu/Sq1/Period_5" BEL
+        "nes/apu/Sq1/Period_4" BEL "nes/apu/Sq1/Period_3" BEL
+        "nes/apu/Sq1/Period_2" BEL "nes/apu/Sq1/Period_1" BEL
+        "nes/apu/Sq1/Period_0" BEL "nes/apu/Sq1/SweepDivider_2" BEL
+        "nes/apu/Sq1/SweepDivider_1" BEL "nes/apu/Sq1/SweepDivider_0" BEL
+        "nes/apu/Sq1/EnvDivider_3" BEL "nes/apu/Sq1/EnvDivider_2" BEL
+        "nes/apu/Sq1/EnvDivider_1" BEL "nes/apu/Sq1/EnvDivider_0" BEL
+        "nes/apu/Sq1/SweepShift_2" BEL "nes/apu/Sq1/SweepShift_1" BEL
+        "nes/apu/Sq1/SweepShift_0" BEL "nes/apu/Sq1/SweepNegate" BEL
+        "nes/apu/Sq1/SweepEnable" BEL "nes/apu/Sq1/SweepPeriod_2" BEL
+        "nes/apu/Sq1/SweepPeriod_1" BEL "nes/apu/Sq1/SweepPeriod_0" BEL
+        "nes/apu/Sq1/Volume_3" BEL "nes/apu/Sq1/Volume_2" BEL
+        "nes/apu/Sq1/Volume_1" BEL "nes/apu/Sq1/Volume_0" BEL
+        "nes/apu/Sq1/EnvLoop" BEL "nes/apu/Sq1/Duty_1" BEL
+        "nes/apu/Sq1/Duty_0" BEL "nes/apu/Sq1/EnvDisable" BEL
+        "nes/apu/IrqCtr_FSM_FFd2" BEL "nes_ce_0" BEL "nes_ce_1" BEL
+        "nes/apu/IrqCtr_FSM_FFd1" BEL "sigma_delta_dac/SigmaLatch_2" BEL
+        "sigma_delta_dac/SigmaLatch_0" BEL "sigma_delta_dac/SigmaLatch_1" BEL
+        "sigma_delta_dac/SigmaLatch_5" BEL "sigma_delta_dac/SigmaLatch_3" BEL
+        "sigma_delta_dac/SigmaLatch_4" BEL "sigma_delta_dac/SigmaLatch_8" BEL
+        "sigma_delta_dac/SigmaLatch_6" BEL "sigma_delta_dac/SigmaLatch_7" BEL
+        "nes/apu/Sq2/SeqPos_0" BEL "nes/apu/Sq2/SeqPos_1" BEL
+        "nes/apu/Sq2/SeqPos_2" BEL "nes/apu/Sq2/LenCtr_0" BEL
+        "nes/apu/Sq2/TimerCtr_1" BEL "nes/apu/Sq2/TimerCtr_2" BEL
+        "nes/apu/Sq2/TimerCtr_3" BEL "nes/apu/Sq2/TimerCtr_4" BEL
+        "nes/apu/Sq2/TimerCtr_5" BEL "nes/apu/Sq2/TimerCtr_6" BEL
+        "nes/apu/Sq2/TimerCtr_7" BEL "nes/apu/Sq2/TimerCtr_8" BEL
+        "nes/apu/Sq2/TimerCtr_9" BEL "nes/apu/Sq2/TimerCtr_10" BEL
+        "nes/apu/Sq2/TimerCtr_11" BEL "nes/apu/Sq2/LenCtr_1" BEL
+        "nes/apu/Sq2/LenCtr_2" BEL "nes/apu/Sq2/LenCtr_5" BEL
+        "nes/apu/Sq2/LenCtr_3" BEL "nes/apu/Sq2/LenCtr_4" BEL
+        "nes/apu/Sq2/LenCtr_6" BEL "nes/apu/Sq2/LenCtr_7" BEL
+        "nes/apu/Sq1/SeqPos_0" BEL "nes/apu/Sq1/SeqPos_1" BEL
+        "nes/apu/Sq1/SeqPos_2" BEL "nes/apu/Sq1/LenCtr_0" BEL
+        "nes/apu/Sq1/TimerCtr_1" BEL "nes/apu/Sq1/TimerCtr_2" BEL
+        "nes/apu/Sq1/TimerCtr_3" BEL "nes/apu/Sq1/TimerCtr_4" BEL
+        "nes/apu/Sq1/TimerCtr_5" BEL "nes/apu/Sq1/TimerCtr_6" BEL
+        "nes/apu/Sq1/TimerCtr_7" BEL "nes/apu/Sq1/TimerCtr_8" BEL
+        "nes/apu/Sq1/TimerCtr_9" BEL "nes/apu/Sq1/TimerCtr_10" BEL
+        "nes/apu/Sq1/TimerCtr_11" BEL "nes/apu/Sq1/LenCtr_1" BEL
+        "nes/apu/Sq1/LenCtr_2" BEL "nes/apu/Sq1/LenCtr_5" BEL
+        "nes/apu/Sq1/LenCtr_3" BEL "nes/apu/Sq1/LenCtr_4" BEL
+        "nes/apu/Sq1/LenCtr_6" BEL "nes/apu/Sq1/LenCtr_7" BEL
+        "sigma_delta_dac/SigmaLatch_9" BEL "sys_clocks/clkout3_buf" BEL
+        "memory/dout_b_7" BEL "memory/dout_b_6" BEL "memory/dout_b_5" BEL
+        "memory/dout_b_4" BEL "memory/dout_b_3" BEL "memory/dout_b_2" BEL
+        "memory/dout_b_1" BEL "memory/dout_b_0" BEL "memory/dout_a_7" BEL
+        "memory/dout_a_6" BEL "memory/dout_a_5" BEL "memory/dout_a_4" BEL
+        "memory/dout_a_3" BEL "memory/dout_a_2" BEL "memory/dout_a_1" BEL
+        "memory/dout_a_0" BEL "memory/MemOE" BEL "memory/MemWR" BEL
+        "memory/RamLB" BEL "memory/RamUB" BEL "memory/cycles_1" BEL
+        "memory/cycles_0" BEL "memory/MemAdr_18" BEL "memory/MemAdr_17" BEL
+        "memory/MemAdr_16" BEL "memory/MemAdr_15" BEL "memory/MemAdr_14" BEL
+        "memory/MemAdr_13" BEL "memory/MemAdr_12" BEL "memory/MemAdr_11" BEL
+        "memory/MemAdr_10" BEL "memory/MemAdr_9" BEL "memory/MemAdr_8" BEL
+        "memory/MemAdr_7" BEL "memory/MemAdr_6" BEL "memory/MemAdr_5" BEL
+        "memory/MemAdr_4" BEL "memory/MemAdr_3" BEL "memory/MemAdr_2" BEL
+        "memory/MemAdr_1" BEL "memory/MemAdr_0" BEL "memory/r_read_a" BEL
+        "memory/data_to_write_7" BEL "memory/data_to_write_6" BEL
+        "memory/data_to_write_5" BEL "memory/data_to_write_4" BEL
+        "memory/data_to_write_3" BEL "memory/data_to_write_2" BEL
+        "memory/data_to_write_1" BEL "memory/data_to_write_0" BEL
+        "buttons/joypad_reg_7" BEL "buttons/joypad_reg_6" BEL
+        "buttons/joypad_reg_5" BEL "buttons/joypad_reg_4" BEL
+        "buttons/joypad_reg_3" BEL "buttons/joypad_reg_2" BEL
+        "buttons/joypad_reg_1" BEL "buttons/joypad_reg_0" BEL
+        "uart_demux/state_reg_FSM_FFd2" BEL "uart_demux/state_reg_FSM_FFd3"
+        BEL "uart_demux/state_reg_FSM_FFd1" BEL
+        "uart_demux/state_reg_FSM_FFd4" BEL "uart_demux/num_packets_reg_15"
+        BEL "uart_demux/num_packets_reg_14" BEL
+        "uart_demux/num_packets_reg_13" BEL "uart_demux/num_packets_reg_12"
+        BEL "uart_demux/num_packets_reg_11" BEL
+        "uart_demux/num_packets_reg_10" BEL "uart_demux/num_packets_reg_9" BEL
+        "uart_demux/num_packets_reg_8" BEL "uart_demux/num_packets_reg_7" BEL
+        "uart_demux/num_packets_reg_6" BEL "uart_demux/num_packets_reg_5" BEL
+        "uart_demux/num_packets_reg_4" BEL "uart_demux/num_packets_reg_3" BEL
+        "uart_demux/num_packets_reg_2" BEL "uart_demux/num_packets_reg_1" BEL
+        "uart_demux/num_packets_reg_0" BEL
+        "uart_demux/uart_receiverfx/OversamplingCnt_2" BEL
+        "uart_demux/uart_receiverfx/OversamplingCnt_1" BEL
+        "uart_demux/uart_receiverfx/OversamplingCnt_0" BEL
+        "uart_demux/uart_receiverfx/RxD_state_FSM_FFd1" BEL
+        "uart_demux/uart_receiverfx/RxD_state_FSM_FFd2" BEL
+        "uart_demux/uart_receiverfx/RxD_state_FSM_FFd4" BEL
+        "uart_demux/uart_receiverfx/Filter_cnt_1" BEL
+        "uart_demux/uart_receiverfx/Filter_cnt_0" BEL
+        "uart_demux/uart_receiverfx/RxD_state_FSM_FFd3" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_4" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_5" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_6" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_7" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_8" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_9" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_10" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_11" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_12" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_13" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_14" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_15" BEL
+        "uart_demux/uart_receiverfx/tickgen/Acc_16" BEL
+        "uart_demux/uart_receiverfx/RxD_data_7" BEL
+        "uart_demux/uart_receiverfx/RxD_data_6" BEL
+        "uart_demux/uart_receiverfx/RxD_data_5" BEL
+        "uart_demux/uart_receiverfx/RxD_data_4" BEL
+        "uart_demux/uart_receiverfx/RxD_data_3" BEL
+        "uart_demux/uart_receiverfx/RxD_data_2" BEL
+        "uart_demux/uart_receiverfx/RxD_data_1" BEL
+        "uart_demux/uart_receiverfx/RxD_data_0" BEL
+        "uart_demux/uart_receiverfx/RxD_data_ready" BEL
+        "uart_demux/packet_demux/count_reg_7" BEL
+        "uart_demux/packet_demux/count_reg_6" BEL
+        "uart_demux/packet_demux/count_reg_5" BEL
+        "uart_demux/packet_demux/count_reg_4" BEL
+        "uart_demux/packet_demux/count_reg_3" BEL
+        "uart_demux/packet_demux/count_reg_2" BEL
+        "uart_demux/packet_demux/count_reg_1" BEL
+        "uart_demux/packet_demux/count_reg_0" BEL
+        "uart_demux/packet_demux/state_reg_FSM_FFd1" BEL
+        "uart_demux/packet_demux/state_reg_FSM_FFd2" BEL
+        "uart_demux/packet_demux/state_reg_FSM_FFd3" BEL
+        "uart_demux/packet_demux/state_reg_FSM_FFd4" BEL
+        "uart_demux/packet_demux/checksum_reg_7" BEL
+        "uart_demux/packet_demux/checksum_reg_6" BEL
+        "uart_demux/packet_demux/checksum_reg_5" BEL
+        "uart_demux/packet_demux/checksum_reg_4" BEL
+        "uart_demux/packet_demux/checksum_reg_3" BEL
+        "uart_demux/packet_demux/checksum_reg_2" BEL
+        "uart_demux/packet_demux/checksum_reg_1" BEL
+        "uart_demux/packet_demux/checksum_reg_0" BEL "display/b_reg_1" BEL
+        "display/b_reg_0" BEL "display/r_reg_1" BEL "display/r_reg_0" BEL
+        "display/g_reg_1" BEL "display/g_reg_0" BEL "display/v_9" BEL
+        "display/v_8" BEL "display/v_7" BEL "display/v_6" BEL "display/v_5"
+        BEL "display/v_4" BEL "display/v_3" BEL "display/v_2" BEL
+        "display/v_1" BEL "display/v_0" BEL "display/h_9" BEL "display/h_8"
+        BEL "display/h_7" BEL "display/h_6" BEL "display/h_5" BEL
+        "display/h_4" BEL "display/h_3" BEL "display/h_2" BEL "display/h_1"
+        BEL "display/h_0" BEL "display/hq2x/yshort_1" BEL
+        "display/hq2x/yshort_0" BEL "display/hq2x/i_1" BEL "display/hq2x/i_0"
+        BEL "display/hq2x/offs_8" BEL "display/hq2x/offs_7" BEL
+        "display/hq2x/offs_6" BEL "display/hq2x/offs_5" BEL
+        "display/hq2x/offs_4" BEL "display/hq2x/offs_3" BEL
+        "display/hq2x/offs_2" BEL "display/hq2x/offs_1" BEL
+        "display/hq2x/offs_0" BEL "display/hq2x/D_14" BEL "display/hq2x/D_13"
+        BEL "display/hq2x/D_12" BEL "display/hq2x/D_11" BEL
+        "display/hq2x/D_10" BEL "display/hq2x/D_9" BEL "display/hq2x/D_8" BEL
+        "display/hq2x/D_7" BEL "display/hq2x/D_6" BEL "display/hq2x/D_5" BEL
+        "display/hq2x/D_4" BEL "display/hq2x/D_3" BEL "display/hq2x/D_2" BEL
+        "display/hq2x/D_1" BEL "display/hq2x/D_0" BEL
+        "display/hq2x/nextpatt_7" BEL "display/hq2x/nextpatt_6" BEL
+        "display/hq2x/nextpatt_5" BEL "display/hq2x/nextpatt_4" BEL
+        "display/hq2x/nextpatt_3" BEL "display/hq2x/nextpatt_2" BEL
+        "display/hq2x/nextpatt_1" BEL "display/hq2x/nextpatt_0" BEL
+        "display/hq2x/B_14" BEL "display/hq2x/B_13" BEL "display/hq2x/B_12"
+        BEL "display/hq2x/B_11" BEL "display/hq2x/B_10" BEL "display/hq2x/B_9"
+        BEL "display/hq2x/B_8" BEL "display/hq2x/B_7" BEL "display/hq2x/B_6"
+        BEL "display/hq2x/B_5" BEL "display/hq2x/B_4" BEL "display/hq2x/B_3"
+        BEL "display/hq2x/B_2" BEL "display/hq2x/B_1" BEL "display/hq2x/B_0"
+        BEL "display/hq2x/pattern_7" BEL "display/hq2x/pattern_6" BEL
+        "display/hq2x/pattern_5" BEL "display/hq2x/pattern_4" BEL
+        "display/hq2x/pattern_3" BEL "display/hq2x/pattern_2" BEL
+        "display/hq2x/F_14" BEL "display/hq2x/F_13" BEL "display/hq2x/F_12"
+        BEL "display/hq2x/F_11" BEL "display/hq2x/F_10" BEL "display/hq2x/F_9"
+        BEL "display/hq2x/F_8" BEL "display/hq2x/F_7" BEL "display/hq2x/F_6"
+        BEL "display/hq2x/F_5" BEL "display/hq2x/F_4" BEL "display/hq2x/F_3"
+        BEL "display/hq2x/F_2" BEL "display/hq2x/F_1" BEL "display/hq2x/F_0"
+        BEL "display/hq2x/G_14" BEL "display/hq2x/G_13" BEL
+        "display/hq2x/G_12" BEL "display/hq2x/G_11" BEL "display/hq2x/G_10"
+        BEL "display/hq2x/G_9" BEL "display/hq2x/G_8" BEL "display/hq2x/G_7"
+        BEL "display/hq2x/G_6" BEL "display/hq2x/G_5" BEL "display/hq2x/G_4"
+        BEL "display/hq2x/G_3" BEL "display/hq2x/G_2" BEL "display/hq2x/G_1"
+        BEL "display/hq2x/G_0" BEL "display/hq2x/Next0_14" BEL
+        "display/hq2x/Next0_13" BEL "display/hq2x/Next0_12" BEL
+        "display/hq2x/Next0_11" BEL "display/hq2x/Next0_10" BEL
+        "display/hq2x/Next0_9" BEL "display/hq2x/Next0_8" BEL
+        "display/hq2x/Next0_7" BEL "display/hq2x/Next0_6" BEL
+        "display/hq2x/Next0_5" BEL "display/hq2x/Next0_4" BEL
+        "display/hq2x/Next0_3" BEL "display/hq2x/Next0_2" BEL
+        "display/hq2x/Next0_1" BEL "display/hq2x/Next0_0" BEL
+        "display/hq2x/A_14" BEL "display/hq2x/A_13" BEL "display/hq2x/A_12"
+        BEL "display/hq2x/A_11" BEL "display/hq2x/A_10" BEL "display/hq2x/A_9"
+        BEL "display/hq2x/A_8" BEL "display/hq2x/A_7" BEL "display/hq2x/A_6"
+        BEL "display/hq2x/A_5" BEL "display/hq2x/A_4" BEL "display/hq2x/A_3"
+        BEL "display/hq2x/A_2" BEL "display/hq2x/A_1" BEL "display/hq2x/A_0"
+        BEL "display/hq2x/H_14" BEL "display/hq2x/H_13" BEL
+        "display/hq2x/H_12" BEL "display/hq2x/H_11" BEL "display/hq2x/H_10"
+        BEL "display/hq2x/H_9" BEL "display/hq2x/H_8" BEL "display/hq2x/H_7"
+        BEL "display/hq2x/H_6" BEL "display/hq2x/H_5" BEL "display/hq2x/H_4"
+        BEL "display/hq2x/H_3" BEL "display/hq2x/H_2" BEL "display/hq2x/H_1"
+        BEL "display/hq2x/H_0" BEL "display/hq2x/Prev0_14" BEL
+        "display/hq2x/Prev0_13" BEL "display/hq2x/Prev0_12" BEL
+        "display/hq2x/Prev0_11" BEL "display/hq2x/Prev0_10" BEL
+        "display/hq2x/Prev0_9" BEL "display/hq2x/Prev0_8" BEL
+        "display/hq2x/Prev0_7" BEL "display/hq2x/Prev0_6" BEL
+        "display/hq2x/Prev0_5" BEL "display/hq2x/Prev0_4" BEL
+        "display/hq2x/Prev0_3" BEL "display/hq2x/Prev0_2" BEL
+        "display/hq2x/Prev0_1" BEL "display/hq2x/Prev0_0" BEL
+        "display/hq2x/Curr0_14" BEL "display/hq2x/Curr0_13" BEL
+        "display/hq2x/Curr0_12" BEL "display/hq2x/Curr0_11" BEL
+        "display/hq2x/Curr0_10" BEL "display/hq2x/Curr0_9" BEL
+        "display/hq2x/Curr0_8" BEL "display/hq2x/Curr0_7" BEL
+        "display/hq2x/Curr0_6" BEL "display/hq2x/Curr0_5" BEL
+        "display/hq2x/Curr0_4" BEL "display/hq2x/Curr0_3" BEL
+        "display/hq2x/Curr0_2" BEL "display/hq2x/Curr0_1" BEL
+        "display/hq2x/Curr0_0" BEL "display/hq2x/Next1_14" BEL
+        "display/hq2x/Next1_13" BEL "display/hq2x/Next1_12" BEL
+        "display/hq2x/Next1_11" BEL "display/hq2x/Next1_10" BEL
+        "display/hq2x/Next1_9" BEL "display/hq2x/Next1_8" BEL
+        "display/hq2x/Next1_7" BEL "display/hq2x/Next1_6" BEL
+        "display/hq2x/Next1_5" BEL "display/hq2x/Next1_4" BEL
+        "display/hq2x/Next1_3" BEL "display/hq2x/Next1_2" BEL
+        "display/hq2x/Next1_1" BEL "display/hq2x/Next1_0" BEL
+        "display/hq2x/Prev1_14" BEL "display/hq2x/Prev1_13" BEL
+        "display/hq2x/Prev1_12" BEL "display/hq2x/Prev1_11" BEL
+        "display/hq2x/Prev1_10" BEL "display/hq2x/Prev1_9" BEL
+        "display/hq2x/Prev1_8" BEL "display/hq2x/Prev1_7" BEL
+        "display/hq2x/Prev1_6" BEL "display/hq2x/Prev1_5" BEL
+        "display/hq2x/Prev1_4" BEL "display/hq2x/Prev1_3" BEL
+        "display/hq2x/Prev1_2" BEL "display/hq2x/Prev1_1" BEL
+        "display/hq2x/Prev1_0" BEL "display/hq2x/Next2_14" BEL
+        "display/hq2x/Next2_13" BEL "display/hq2x/Next2_12" BEL
+        "display/hq2x/Next2_11" BEL "display/hq2x/Next2_10" BEL
+        "display/hq2x/Next2_9" BEL "display/hq2x/Next2_8" BEL
+        "display/hq2x/Next2_7" BEL "display/hq2x/Next2_6" BEL
+        "display/hq2x/Next2_5" BEL "display/hq2x/Next2_4" BEL
+        "display/hq2x/Next2_3" BEL "display/hq2x/Next2_2" BEL
+        "display/hq2x/Next2_1" BEL "display/hq2x/Next2_0" BEL
+        "display/hq2x/Curr1_14" BEL "display/hq2x/Curr1_13" BEL
+        "display/hq2x/Curr1_12" BEL "display/hq2x/Curr1_11" BEL
+        "display/hq2x/Curr1_10" BEL "display/hq2x/Curr1_9" BEL
+        "display/hq2x/Curr1_8" BEL "display/hq2x/Curr1_7" BEL
+        "display/hq2x/Curr1_6" BEL "display/hq2x/Curr1_5" BEL
+        "display/hq2x/Curr1_4" BEL "display/hq2x/Curr1_3" BEL
+        "display/hq2x/Curr1_2" BEL "display/hq2x/Curr1_1" BEL
+        "display/hq2x/Curr1_0" BEL "display/hq2x/Prev2_14" BEL
+        "display/hq2x/Prev2_13" BEL "display/hq2x/Prev2_12" BEL
+        "display/hq2x/Prev2_11" BEL "display/hq2x/Prev2_10" BEL
+        "display/hq2x/Prev2_9" BEL "display/hq2x/Prev2_8" BEL
+        "display/hq2x/Prev2_7" BEL "display/hq2x/Prev2_6" BEL
+        "display/hq2x/Prev2_5" BEL "display/hq2x/Prev2_4" BEL
+        "display/hq2x/Prev2_3" BEL "display/hq2x/Prev2_2" BEL
+        "display/hq2x/Prev2_1" BEL "display/hq2x/Prev2_0" BEL
+        "display/hq2x/last_line" BEL "display/hq2x/y_7" BEL "display/hq2x/y_6"
+        BEL "display/hq2x/y_5" BEL "display/hq2x/y_4" BEL "display/hq2x/y_3"
+        BEL "display/hq2x/y_2" BEL "display/hq2x/y_1" BEL "display/hq2x/y_0"
+        BEL "display/hq2x/last_reset_line" BEL
+        "display/uart_receiver/OversamplingCnt_2" BEL
+        "display/uart_receiver/OversamplingCnt_1" BEL
+        "display/uart_receiver/OversamplingCnt_0" BEL
+        "display/uart_receiver/RxD_state_FSM_FFd1" BEL
+        "display/uart_receiver/RxD_state_FSM_FFd2" BEL
+        "display/uart_receiver/RxD_state_FSM_FFd4" BEL
+        "display/uart_receiver/Filter_cnt_1" BEL
+        "display/uart_receiver/Filter_cnt_0" BEL
+        "display/uart_receiver/RxD_state_FSM_FFd3" BEL
+        "display/uart_receiver/RxD_data_7" BEL
+        "display/uart_receiver/RxD_data_6" BEL
+        "display/uart_receiver/RxD_data_5" BEL
+        "display/uart_receiver/RxD_data_4" BEL
+        "display/uart_receiver/RxD_data_3" BEL
+        "display/uart_receiver/RxD_data_2" BEL
+        "display/uart_receiver/RxD_data_1" BEL
+        "display/uart_receiver/RxD_data_0" BEL
+        "display/uart_receiver/RxD_data_ready" BEL
+        "display/uart_transmitter/TxD_state_FSM_FFd2" BEL
+        "display/uart_transmitter/TxD_state_FSM_FFd3" BEL
+        "display/uart_transmitter/TxD_state_FSM_FFd1" BEL
+        "display/uart_transmitter/TxD_state_FSM_FFd4" BEL
+        "display/uart_transmitter/tickgen/Acc_1" BEL
+        "display/uart_transmitter/tickgen/Acc_2" BEL
+        "display/uart_transmitter/tickgen/Acc_3" BEL
+        "display/uart_transmitter/tickgen/Acc_4" BEL
+        "display/uart_transmitter/tickgen/Acc_5" BEL
+        "display/uart_transmitter/tickgen/Acc_6" BEL
+        "display/uart_transmitter/tickgen/Acc_7" BEL
+        "display/uart_transmitter/tickgen/Acc_8" BEL
+        "display/uart_transmitter/tickgen/Acc_9" BEL
+        "display/uart_transmitter/tickgen/Acc_10" BEL
+        "display/uart_transmitter/tickgen/Acc_11" BEL
+        "display/uart_transmitter/tickgen/Acc_12" BEL
+        "display/uart_transmitter/tickgen/Acc_13" BEL
+        "display/uart_transmitter/tickgen/Acc_14" BEL
+        "display/uart_transmitter/tickgen/Acc_15" BEL
+        "display/uart_transmitter/tickgen/Acc_16" BEL
+        "display/uart_transmitter/TxD_shift_7" BEL
+        "display/uart_transmitter/TxD_shift_6" BEL
+        "display/uart_transmitter/TxD_shift_5" BEL
+        "display/uart_transmitter/TxD_shift_4" BEL
+        "display/uart_transmitter/TxD_shift_3" BEL
+        "display/uart_transmitter/TxD_shift_2" BEL
+        "display/uart_transmitter/TxD_shift_1" BEL
+        "display/uart_transmitter/TxD_shift_0" BEL
+        "display/text_gen_unit/cur_y_reg_4" BEL
+        "display/text_gen_unit/cur_y_reg_3" BEL
+        "display/text_gen_unit/cur_y_reg_2" BEL
+        "display/text_gen_unit/cur_y_reg_1" BEL
+        "display/text_gen_unit/cur_y_reg_0" BEL
+        "display/text_gen_unit/cur_x_reg_6" BEL
+        "display/text_gen_unit/cur_x_reg_5" BEL
+        "display/text_gen_unit/cur_x_reg_4" BEL
+        "display/text_gen_unit/cur_x_reg_3" BEL
+        "display/text_gen_unit/cur_x_reg_2" BEL
+        "display/text_gen_unit/cur_x_reg_1" BEL
+        "display/text_gen_unit/cur_x_reg_0" BEL
+        "display/text_gen_unit/font_unit/addr_reg_10" BEL
+        "display/text_gen_unit/font_unit/addr_reg_9" BEL
+        "display/text_gen_unit/font_unit/addr_reg_8" BEL
+        "display/text_gen_unit/font_unit/addr_reg_7" BEL
+        "display/text_gen_unit/font_unit/addr_reg_6" BEL
+        "display/text_gen_unit/font_unit/addr_reg_5" BEL
+        "display/text_gen_unit/font_unit/addr_reg_4" BEL
+        "display/text_gen_unit/font_unit/addr_reg_sliced_0" BEL
+        "display/text_gen_unit/font_unit/addr_reg_sliced_1" BEL
+        "display/text_gen_unit/font_unit/addr_reg_sliced_2" BEL
+        "display/text_gen_unit/font_unit/addr_reg_sliced_3" BEL
+        "deb_toggle_menu/q_reg_20" BEL "deb_toggle_menu/q_reg_19" BEL
+        "deb_toggle_menu/q_reg_18" BEL "deb_toggle_menu/q_reg_17" BEL
+        "deb_toggle_menu/q_reg_16" BEL "deb_toggle_menu/q_reg_15" BEL
+        "deb_toggle_menu/q_reg_14" BEL "deb_toggle_menu/q_reg_13" BEL
+        "deb_toggle_menu/q_reg_12" BEL "deb_toggle_menu/q_reg_11" BEL
+        "deb_toggle_menu/q_reg_10" BEL "deb_toggle_menu/q_reg_9" BEL
+        "deb_toggle_menu/q_reg_8" BEL "deb_toggle_menu/q_reg_7" BEL
+        "deb_toggle_menu/q_reg_6" BEL "deb_toggle_menu/q_reg_5" BEL
+        "deb_toggle_menu/q_reg_4" BEL "deb_toggle_menu/q_reg_3" BEL
+        "deb_toggle_menu/q_reg_2" BEL "deb_toggle_menu/q_reg_1" BEL
+        "deb_toggle_menu/q_reg_0" BEL "deb_toggle_menu/state_reg_1" BEL
+        "deb_toggle_menu/state_reg_0" BEL "nes/multi_mapper/map13/chr_bank_0"
+        BEL "nes/multi_mapper/map13/chr_bank_1" BEL
+        "nes/multi_mapper/mmc5/vscroll_7" BEL
+        "nes/multi_mapper/mmc5/vscroll_6" BEL
+        "nes/multi_mapper/mmc5/vscroll_5" BEL
+        "nes/multi_mapper/mmc5/vscroll_4" BEL
+        "nes/multi_mapper/mmc5/vscroll_3" BEL
+        "nes/multi_mapper/mmc5/vscroll_2" BEL
+        "nes/multi_mapper/mmc5/vscroll_1" BEL
+        "nes/multi_mapper/mmc5/vscroll_0" PIN
+        "nes/multi_mapper/mmc5/Mmult_multiply_result_pins<92>" BEL
+        "nes/multi_mapper/mmc5/last_in_split_area" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_b_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_a_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_9_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_8_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_6_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_5_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_7_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_3_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_2_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_4_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_0_0" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_9" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_8" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_7" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_6" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_5" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_4" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_3" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_2" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_1" BEL
+        "nes/multi_mapper/mmc5/chr_bank_1_0" BEL
+        "nes/multi_mapper/mmc5/prg_mode_1" BEL
+        "nes/multi_mapper/mmc5/prg_mode_0" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_6" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_5" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_4" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_3" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_2" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_1" BEL
+        "nes/multi_mapper/mmc5/prg_bank_3_0" BEL
+        "nes/multi_mapper/mmc5/cur_tile_5" BEL
+        "nes/multi_mapper/mmc5/cur_tile_4" BEL
+        "nes/multi_mapper/mmc5/cur_tile_3" BEL
+        "nes/multi_mapper/mmc5/cur_tile_2" BEL
+        "nes/multi_mapper/mmc5/cur_tile_1" BEL
+        "nes/multi_mapper/mmc5/cur_tile_0" BEL
+        "nes/multi_mapper/mmc5/last_scanline" BEL
+        "nes/multi_mapper/mmc5/irq_trig" BEL
+        "nes/multi_mapper/mmc5/vsplit_enable" BEL
+        "nes/multi_mapper/mmc5/vsplit_startstop_4" BEL
+        "nes/multi_mapper/mmc5/vsplit_startstop_3" BEL
+        "nes/multi_mapper/mmc5/vsplit_startstop_2" BEL
+        "nes/multi_mapper/mmc5/vsplit_startstop_1" BEL
+        "nes/multi_mapper/mmc5/vsplit_startstop_0" BEL
+        "nes/multi_mapper/mmc5/upper_chr_bank_bits_1" BEL
+        "nes/multi_mapper/mmc5/upper_chr_bank_bits_0" BEL
+        "nes/multi_mapper/mmc5/vsplit_side" BEL
+        "nes/multi_mapper/mmc5/prg_ram_bank_2" BEL
+        "nes/multi_mapper/mmc5/prg_ram_bank_1" BEL
+        "nes/multi_mapper/mmc5/prg_ram_bank_0" BEL
+        "nes/multi_mapper/mmc5/fill_attr_1" BEL
+        "nes/multi_mapper/mmc5/fill_attr_0" BEL
+        "nes/multi_mapper/mmc5/extended_ram_mode_1" BEL
+        "nes/multi_mapper/mmc5/extended_ram_mode_0" BEL
+        "nes/multi_mapper/mmc5/chr_mode_1" BEL
+        "nes/multi_mapper/mmc5/chr_mode_0" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_7" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_6" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_5" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_4" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_3" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_2" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_1" BEL
+        "nes/multi_mapper/mmc5/irq_scanline_0" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_7" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_6" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_5" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_4" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_3" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_2" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_1" BEL
+        "nes/multi_mapper/mmc5/vsplit_bank_0" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_7" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_6" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_5" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_4" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_3" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_2" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_1" BEL
+        "nes/multi_mapper/mmc5/prg_bank_2_0" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_7" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_6" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_5" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_4" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_3" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_2" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_1" BEL
+        "nes/multi_mapper/mmc5/prg_bank_1_0" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_7" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_6" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_5" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_4" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_3" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_2" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_1" BEL
+        "nes/multi_mapper/mmc5/vsplit_scroll_0" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_7" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_6" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_5" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_4" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_3" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_2" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_1" BEL
+        "nes/multi_mapper/mmc5/prg_bank_0_0" BEL
+        "nes/multi_mapper/mmc5/fill_tile_7" BEL
+        "nes/multi_mapper/mmc5/fill_tile_6" BEL
+        "nes/multi_mapper/mmc5/fill_tile_5" BEL
+        "nes/multi_mapper/mmc5/fill_tile_4" BEL
+        "nes/multi_mapper/mmc5/fill_tile_3" BEL
+        "nes/multi_mapper/mmc5/fill_tile_2" BEL
+        "nes/multi_mapper/mmc5/fill_tile_1" BEL
+        "nes/multi_mapper/mmc5/fill_tile_0" BEL
+        "nes/multi_mapper/mmc5/mirroring_7" BEL
+        "nes/multi_mapper/mmc5/mirroring_6" BEL
+        "nes/multi_mapper/mmc5/mirroring_5" BEL
+        "nes/multi_mapper/mmc5/mirroring_4" BEL
+        "nes/multi_mapper/mmc5/mirroring_3" BEL
+        "nes/multi_mapper/mmc5/mirroring_2" BEL
+        "nes/multi_mapper/mmc5/mirroring_1" BEL
+        "nes/multi_mapper/mmc5/mirroring_0" BEL
+        "nes/multi_mapper/mmc1/control_4" BEL
+        "nes/multi_mapper/mmc1/control_3" BEL
+        "nes/multi_mapper/mmc1/control_2" BEL
+        "nes/multi_mapper/mmc1/control_1" BEL
+        "nes/multi_mapper/mmc1/control_0" BEL
+        "nes/multi_mapper/mmc1/chr_bank_0_4" BEL
+        "nes/multi_mapper/mmc1/chr_bank_0_3" BEL
+        "nes/multi_mapper/mmc1/chr_bank_0_2" BEL
+        "nes/multi_mapper/mmc1/chr_bank_0_1" BEL
+        "nes/multi_mapper/mmc1/chr_bank_0_0" BEL
+        "nes/multi_mapper/mmc1/chr_bank_1_4" BEL
+        "nes/multi_mapper/mmc1/chr_bank_1_3" BEL
+        "nes/multi_mapper/mmc1/chr_bank_1_2" BEL
+        "nes/multi_mapper/mmc1/chr_bank_1_1" BEL
+        "nes/multi_mapper/mmc1/chr_bank_1_0" BEL
+        "nes/multi_mapper/mmc1/prg_bank_3" BEL
+        "nes/multi_mapper/mmc1/prg_bank_2" BEL
+        "nes/multi_mapper/mmc1/prg_bank_1" BEL
+        "nes/multi_mapper/mmc1/prg_bank_0" BEL "nes/multi_mapper/mmc1/shift_4"
+        BEL "nes/multi_mapper/mmc1/shift_3" BEL
+        "nes/multi_mapper/mmc1/shift_2" BEL "nes/multi_mapper/mmc1/shift_1"
+        BEL "nes/multi_mapper/mmc1/shift_0" BEL
+        "nes/multi_mapper/map28/mode_5" BEL "nes/multi_mapper/map28/mode_4"
+        BEL "nes/multi_mapper/map28/mode_3" BEL
+        "nes/multi_mapper/map28/mode_2" BEL "nes/multi_mapper/map28/mode_1"
+        BEL "nes/multi_mapper/map28/mode_0" BEL
+        "nes/multi_mapper/map28/selreg_1" BEL
+        "nes/multi_mapper/map28/selreg_0" BEL "nes/multi_mapper/map28/outer_3"
+        BEL "nes/multi_mapper/map28/outer_2" BEL
+        "nes/multi_mapper/map28/outer_1" BEL "nes/multi_mapper/map28/outer_0"
+        BEL "nes/multi_mapper/map28/inner_3" BEL
+        "nes/multi_mapper/map28/inner_2" BEL "nes/multi_mapper/map28/inner_1"
+        BEL "nes/multi_mapper/map28/inner_0" BEL
+        "nes/multi_mapper/map28/a53chr_1" BEL
+        "nes/multi_mapper/map28/a53chr_0" BEL
+        "nes/multi_mapper/mmc2/prg_bank_3" BEL
+        "nes/multi_mapper/mmc2/prg_bank_2" BEL
+        "nes/multi_mapper/mmc2/prg_bank_1" BEL
+        "nes/multi_mapper/mmc2/prg_bank_0" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0a_4" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0a_3" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0a_2" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0a_1" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0a_0" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0b_4" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0b_3" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0b_2" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0b_1" BEL
+        "nes/multi_mapper/mmc2/chr_bank_0b_0" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1a_4" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1a_3" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1a_2" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1a_1" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1a_0" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1b_4" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1b_3" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1b_2" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1b_1" BEL
+        "nes/multi_mapper/mmc2/chr_bank_1b_0" BEL
+        "nes/multi_mapper/mmc3/counter_7" BEL
+        "nes/multi_mapper/mmc3/counter_6" BEL
+        "nes/multi_mapper/mmc3/counter_5" BEL
+        "nes/multi_mapper/mmc3/counter_4" BEL
+        "nes/multi_mapper/mmc3/counter_3" BEL
+        "nes/multi_mapper/mmc3/counter_2" BEL
+        "nes/multi_mapper/mmc3/counter_1" BEL
+        "nes/multi_mapper/mmc3/counter_0" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_5" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_4" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_3" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_2" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_1" BEL
+        "nes/multi_mapper/mmc3/prg_bank_0_0" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_5" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_4" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_3" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_2" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_1" BEL
+        "nes/multi_mapper/mmc3/prg_bank_1_0" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_1_0" BEL
+        "nes/multi_mapper/mmc3/ram_enable" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_0_0" BEL
+        "nes/multi_mapper/mmc3/ram_protect" BEL
+        "nes/multi_mapper/mmc3/chr_a12_invert" BEL
+        "nes/multi_mapper/mmc3/prg_rom_bank_mode" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_7" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_2_0" BEL
+        "nes/multi_mapper/mmc3/bank_select_2" BEL
+        "nes/multi_mapper/mmc3/bank_select_1" BEL
+        "nes/multi_mapper/mmc3/bank_select_0" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_7" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_4_0" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_7" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_5_0" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_7" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_6" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_5" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_4" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_3" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_2" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_1" BEL
+        "nes/multi_mapper/mmc3/chr_bank_3_0" BEL
+        "nes/multi_mapper/mmc3/irq_latch_7" BEL
+        "nes/multi_mapper/mmc3/irq_latch_6" BEL
+        "nes/multi_mapper/mmc3/irq_latch_5" BEL
+        "nes/multi_mapper/mmc3/irq_latch_4" BEL
+        "nes/multi_mapper/mmc3/irq_latch_3" BEL
+        "nes/multi_mapper/mmc3/irq_latch_2" BEL
+        "nes/multi_mapper/mmc3/irq_latch_1" BEL
+        "nes/multi_mapper/mmc3/irq_latch_0" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_5" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_4" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_3" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_2" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_lowbit" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_mode_1" BEL
+        "nes/multi_mapper/map15/prg_rom_bank_mode_0" BEL
+        "nes/multi_mapper/map15/mirroring" BEL
+        "nes/multi_mapper/map34/chr_bank_1_3" BEL
+        "nes/multi_mapper/map34/chr_bank_1_2" BEL
+        "nes/multi_mapper/map34/chr_bank_1_1" BEL
+        "nes/multi_mapper/map34/chr_bank_1_0" BEL
+        "nes/multi_mapper/map34/prg_bank_1" BEL
+        "nes/multi_mapper/map34/prg_bank_0" BEL
+        "nes/multi_mapper/map34/chr_bank_0_3" BEL
+        "nes/multi_mapper/map34/chr_bank_0_2" BEL
+        "nes/multi_mapper/map34/chr_bank_0_1" BEL
+        "nes/multi_mapper/map34/chr_bank_0_0" BEL
+        "nes/multi_mapper/map41/prg_bank_2" BEL
+        "nes/multi_mapper/map41/prg_bank_1" BEL
+        "nes/multi_mapper/map41/prg_bank_0" BEL
+        "nes/multi_mapper/map41/mirroring" BEL
+        "nes/multi_mapper/map41/chr_inner_bank_1" BEL
+        "nes/multi_mapper/map41/chr_inner_bank_0" BEL
+        "nes/multi_mapper/map41/chr_outer_bank_1" BEL
+        "nes/multi_mapper/map41/chr_outer_bank_0" BEL
+        "nes/multi_mapper/map66/prg_bank_1" BEL
+        "nes/multi_mapper/map66/prg_bank_0" BEL
+        "nes/multi_mapper/map66/chr_bank_3" BEL
+        "nes/multi_mapper/map66/chr_bank_2" BEL
+        "nes/multi_mapper/map66/chr_bank_1" BEL
+        "nes/multi_mapper/map66/chr_bank_0" BEL
+        "nes/multi_mapper/map68/chr_bank_0_6" BEL
+        "nes/multi_mapper/map68/chr_bank_0_5" BEL
+        "nes/multi_mapper/map68/chr_bank_0_4" BEL
+        "nes/multi_mapper/map68/chr_bank_0_3" BEL
+        "nes/multi_mapper/map68/chr_bank_0_2" BEL
+        "nes/multi_mapper/map68/chr_bank_0_1" BEL
+        "nes/multi_mapper/map68/chr_bank_0_0" BEL
+        "nes/multi_mapper/map68/mirroring" BEL
+        "nes/multi_mapper/map68/use_chr_rom" BEL
+        "nes/multi_mapper/map68/prg_bank_2" BEL
+        "nes/multi_mapper/map68/prg_bank_1" BEL
+        "nes/multi_mapper/map68/prg_bank_0" BEL
+        "nes/multi_mapper/map68/nametable_1_6" BEL
+        "nes/multi_mapper/map68/nametable_1_5" BEL
+        "nes/multi_mapper/map68/nametable_1_4" BEL
+        "nes/multi_mapper/map68/nametable_1_3" BEL
+        "nes/multi_mapper/map68/nametable_1_2" BEL
+        "nes/multi_mapper/map68/nametable_1_1" BEL
+        "nes/multi_mapper/map68/nametable_1_0" BEL
+        "nes/multi_mapper/map68/nametable_0_6" BEL
+        "nes/multi_mapper/map68/nametable_0_5" BEL
+        "nes/multi_mapper/map68/nametable_0_4" BEL
+        "nes/multi_mapper/map68/nametable_0_3" BEL
+        "nes/multi_mapper/map68/nametable_0_2" BEL
+        "nes/multi_mapper/map68/nametable_0_1" BEL
+        "nes/multi_mapper/map68/nametable_0_0" BEL
+        "nes/multi_mapper/map68/chr_bank_2_6" BEL
+        "nes/multi_mapper/map68/chr_bank_2_5" BEL
+        "nes/multi_mapper/map68/chr_bank_2_4" BEL
+        "nes/multi_mapper/map68/chr_bank_2_3" BEL
+        "nes/multi_mapper/map68/chr_bank_2_2" BEL
+        "nes/multi_mapper/map68/chr_bank_2_1" BEL
+        "nes/multi_mapper/map68/chr_bank_2_0" BEL
+        "nes/multi_mapper/map68/chr_bank_1_6" BEL
+        "nes/multi_mapper/map68/chr_bank_1_5" BEL
+        "nes/multi_mapper/map68/chr_bank_1_4" BEL
+        "nes/multi_mapper/map68/chr_bank_1_3" BEL
+        "nes/multi_mapper/map68/chr_bank_1_2" BEL
+        "nes/multi_mapper/map68/chr_bank_1_1" BEL
+        "nes/multi_mapper/map68/chr_bank_1_0" BEL
+        "nes/multi_mapper/map68/chr_bank_3_6" BEL
+        "nes/multi_mapper/map68/chr_bank_3_5" BEL
+        "nes/multi_mapper/map68/chr_bank_3_4" BEL
+        "nes/multi_mapper/map68/chr_bank_3_3" BEL
+        "nes/multi_mapper/map68/chr_bank_3_2" BEL
+        "nes/multi_mapper/map68/chr_bank_3_1" BEL
+        "nes/multi_mapper/map68/chr_bank_3_0" BEL
+        "nes/multi_mapper/map69/irq_counter_15" BEL
+        "nes/multi_mapper/map69/irq_counter_14" BEL
+        "nes/multi_mapper/map69/irq_counter_13" BEL
+        "nes/multi_mapper/map69/irq_counter_12" BEL
+        "nes/multi_mapper/map69/irq_counter_11" BEL
+        "nes/multi_mapper/map69/irq_counter_10" BEL
+        "nes/multi_mapper/map69/irq_counter_9" BEL
+        "nes/multi_mapper/map69/irq_counter_8" BEL
+        "nes/multi_mapper/map69/irq_counter_7" BEL
+        "nes/multi_mapper/map69/irq_counter_6" BEL
+        "nes/multi_mapper/map69/irq_counter_5" BEL
+        "nes/multi_mapper/map69/irq_counter_4" BEL
+        "nes/multi_mapper/map69/irq_counter_3" BEL
+        "nes/multi_mapper/map69/irq_counter_2" BEL
+        "nes/multi_mapper/map69/irq_counter_1" BEL
+        "nes/multi_mapper/map69/irq_counter_0" BEL
+        "nes/multi_mapper/map69/chr_bank_7_63" BEL
+        "nes/multi_mapper/map69/chr_bank_7_62" BEL
+        "nes/multi_mapper/map69/chr_bank_7_61" BEL
+        "nes/multi_mapper/map69/chr_bank_7_60" BEL
+        "nes/multi_mapper/map69/chr_bank_7_59" BEL
+        "nes/multi_mapper/map69/chr_bank_7_58" BEL
+        "nes/multi_mapper/map69/chr_bank_7_57" BEL
+        "nes/multi_mapper/map69/chr_bank_7_56" BEL
+        "nes/multi_mapper/map69/chr_bank_7_55" BEL
+        "nes/multi_mapper/map69/chr_bank_7_54" BEL
+        "nes/multi_mapper/map69/chr_bank_7_53" BEL
+        "nes/multi_mapper/map69/chr_bank_7_52" BEL
+        "nes/multi_mapper/map69/chr_bank_7_51" BEL
+        "nes/multi_mapper/map69/chr_bank_7_50" BEL
+        "nes/multi_mapper/map69/chr_bank_7_49" BEL
+        "nes/multi_mapper/map69/chr_bank_7_48" BEL
+        "nes/multi_mapper/map69/chr_bank_7_47" BEL
+        "nes/multi_mapper/map69/chr_bank_7_46" BEL
+        "nes/multi_mapper/map69/chr_bank_7_45" BEL
+        "nes/multi_mapper/map69/chr_bank_7_44" BEL
+        "nes/multi_mapper/map69/chr_bank_7_43" BEL
+        "nes/multi_mapper/map69/chr_bank_7_42" BEL
+        "nes/multi_mapper/map69/chr_bank_7_41" BEL
+        "nes/multi_mapper/map69/chr_bank_7_40" BEL
+        "nes/multi_mapper/map69/chr_bank_7_39" BEL
+        "nes/multi_mapper/map69/chr_bank_7_38" BEL
+        "nes/multi_mapper/map69/chr_bank_7_37" BEL
+        "nes/multi_mapper/map69/chr_bank_7_36" BEL
+        "nes/multi_mapper/map69/chr_bank_7_35" BEL
+        "nes/multi_mapper/map69/chr_bank_7_34" BEL
+        "nes/multi_mapper/map69/chr_bank_7_33" BEL
+        "nes/multi_mapper/map69/chr_bank_7_32" BEL
+        "nes/multi_mapper/map69/chr_bank_7_31" BEL
+        "nes/multi_mapper/map69/chr_bank_7_30" BEL
+        "nes/multi_mapper/map69/chr_bank_7_29" BEL
+        "nes/multi_mapper/map69/chr_bank_7_28" BEL
+        "nes/multi_mapper/map69/chr_bank_7_27" BEL
+        "nes/multi_mapper/map69/chr_bank_7_26" BEL
+        "nes/multi_mapper/map69/chr_bank_7_25" BEL
+        "nes/multi_mapper/map69/chr_bank_7_24" BEL
+        "nes/multi_mapper/map69/chr_bank_7_23" BEL
+        "nes/multi_mapper/map69/chr_bank_7_22" BEL
+        "nes/multi_mapper/map69/chr_bank_7_21" BEL
+        "nes/multi_mapper/map69/chr_bank_7_20" BEL
+        "nes/multi_mapper/map69/chr_bank_7_19" BEL
+        "nes/multi_mapper/map69/chr_bank_7_18" BEL
+        "nes/multi_mapper/map69/chr_bank_7_17" BEL
+        "nes/multi_mapper/map69/chr_bank_7_16" BEL
+        "nes/multi_mapper/map69/chr_bank_7_15" BEL
+        "nes/multi_mapper/map69/chr_bank_7_14" BEL
+        "nes/multi_mapper/map69/chr_bank_7_13" BEL
+        "nes/multi_mapper/map69/chr_bank_7_12" BEL
+        "nes/multi_mapper/map69/chr_bank_7_11" BEL
+        "nes/multi_mapper/map69/chr_bank_7_10" BEL
+        "nes/multi_mapper/map69/chr_bank_7_9" BEL
+        "nes/multi_mapper/map69/chr_bank_7_8" BEL
+        "nes/multi_mapper/map69/chr_bank_7_7" BEL
+        "nes/multi_mapper/map69/chr_bank_7_6" BEL
+        "nes/multi_mapper/map69/chr_bank_7_5" BEL
+        "nes/multi_mapper/map69/chr_bank_7_4" BEL
+        "nes/multi_mapper/map69/chr_bank_7_3" BEL
+        "nes/multi_mapper/map69/chr_bank_7_2" BEL
+        "nes/multi_mapper/map69/chr_bank_7_1" BEL
+        "nes/multi_mapper/map69/chr_bank_7_0" BEL
+        "nes/multi_mapper/map69/prg_bank_3_19" BEL
+        "nes/multi_mapper/map69/prg_bank_3_18" BEL
+        "nes/multi_mapper/map69/prg_bank_3_17" BEL
+        "nes/multi_mapper/map69/prg_bank_3_16" BEL
+        "nes/multi_mapper/map69/prg_bank_3_15" BEL
+        "nes/multi_mapper/map69/prg_bank_3_14" BEL
+        "nes/multi_mapper/map69/prg_bank_3_13" BEL
+        "nes/multi_mapper/map69/prg_bank_3_12" BEL
+        "nes/multi_mapper/map69/prg_bank_3_11" BEL
+        "nes/multi_mapper/map69/prg_bank_3_10" BEL
+        "nes/multi_mapper/map69/prg_bank_3_9" BEL
+        "nes/multi_mapper/map69/prg_bank_3_8" BEL
+        "nes/multi_mapper/map69/prg_bank_3_7" BEL
+        "nes/multi_mapper/map69/prg_bank_3_6" BEL
+        "nes/multi_mapper/map69/prg_bank_3_5" BEL
+        "nes/multi_mapper/map69/prg_bank_3_4" BEL
+        "nes/multi_mapper/map69/prg_bank_3_3" BEL
+        "nes/multi_mapper/map69/prg_bank_3_2" BEL
+        "nes/multi_mapper/map69/prg_bank_3_1" BEL
+        "nes/multi_mapper/map69/prg_bank_3_0" BEL
+        "nes/multi_mapper/map69/ram_select" BEL
+        "nes/multi_mapper/map69/addr_3" BEL "nes/multi_mapper/map69/addr_2"
+        BEL "nes/multi_mapper/map69/addr_1" BEL
+        "nes/multi_mapper/map69/addr_0" BEL
+        "nes/multi_mapper/map69/ram_enable" BEL
+        "nes/multi_mapper/map69/irq_trigger" BEL
+        "nes/multi_mapper/map69/irq_countdown" BEL
+        "nes/multi_mapper/map69/mirroring_1" BEL
+        "nes/multi_mapper/map69/mirroring_0" BEL
+        "nes/multi_mapper/map71/prg_bank_3" BEL
+        "nes/multi_mapper/map71/prg_bank_2" BEL
+        "nes/multi_mapper/map71/prg_bank_1" BEL
+        "nes/multi_mapper/map71/prg_bank_0" BEL
+        "nes/multi_mapper/map79/mirroring" BEL
+        "nes/multi_mapper/map79/chr_bank_3" BEL
+        "nes/multi_mapper/map79/chr_bank_2" BEL
+        "nes/multi_mapper/map79/chr_bank_1" BEL
+        "nes/multi_mapper/map79/chr_bank_0" BEL
+        "nes/multi_mapper/map79/prg_bank_2" BEL
+        "nes/multi_mapper/map79/prg_bank_1" BEL
+        "nes/multi_mapper/map79/prg_bank_0" BEL
+        "nes/multi_mapper/map228/prg_bank_mode" BEL
+        "nes/multi_mapper/map228/chr_bank_5" BEL
+        "nes/multi_mapper/map228/chr_bank_4" BEL
+        "nes/multi_mapper/map228/prg_chip_1" BEL
+        "nes/multi_mapper/map228/prg_chip_0" BEL
+        "nes/multi_mapper/map228/prg_bank_4" BEL
+        "nes/multi_mapper/map228/prg_bank_3" BEL
+        "nes/multi_mapper/map228/prg_bank_2" BEL
+        "nes/multi_mapper/map228/prg_bank_1" BEL
+        "nes/multi_mapper/map228/prg_bank_0" BEL
+        "nes/multi_mapper/map228/mirroring" BEL
+        "nes/multi_mapper/map234/inner_chr_2" BEL
+        "nes/multi_mapper/map234/inner_chr_1" BEL
+        "nes/multi_mapper/map234/inner_chr_0" BEL
+        "nes/multi_mapper/map234/block_2" BEL
+        "nes/multi_mapper/map234/block_1" BEL
+        "nes/multi_mapper/map234/block_0" BEL "nes/multi_mapper/map234/mode"
+        BEL "nes/multi_mapper/map234/mirroring" BEL
+        "nes/multi_mapper/rambo1/a12_ctr_1" BEL
+        "nes/multi_mapper/rambo1/a12_ctr_0" BEL
+        "nes/multi_mapper/rambo1/counter_7" BEL
+        "nes/multi_mapper/rambo1/counter_6" BEL
+        "nes/multi_mapper/rambo1/counter_5" BEL
+        "nes/multi_mapper/rambo1/counter_4" BEL
+        "nes/multi_mapper/rambo1/counter_3" BEL
+        "nes/multi_mapper/rambo1/counter_2" BEL
+        "nes/multi_mapper/rambo1/counter_1" BEL
+        "nes/multi_mapper/rambo1/counter_0" BEL
+        "nes/multi_mapper/rambo1/cycle_counter_1" BEL
+        "nes/multi_mapper/rambo1/cycle_counter_0" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_5" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_4" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_3" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_2" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_1" BEL
+        "nes/multi_mapper/rambo1/prg_bank_0_0" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_5" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_4" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_3" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_2" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_1" BEL
+        "nes/multi_mapper/rambo1/prg_bank_1_0" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_5" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_4" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_3" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_2" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_1" BEL
+        "nes/multi_mapper/rambo1/prg_bank_2_0" BEL
+        "nes/multi_mapper/rambo1/chr_K" BEL
+        "nes/multi_mapper/rambo1/bank_select_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_9_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_2_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_8_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_4_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_5_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_3_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_1_0" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_7" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_6" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_5" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_4" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_3" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_2" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_1" BEL
+        "nes/multi_mapper/rambo1/chr_bank_0_0" BEL
+        "nes/multi_mapper/nesev/counter_29" BEL
+        "nes/multi_mapper/nesev/counter_28" BEL
+        "nes/multi_mapper/nesev/counter_27" BEL
+        "nes/multi_mapper/nesev/counter_26" BEL
+        "nes/multi_mapper/nesev/counter_25" BEL
+        "nes/multi_mapper/nesev/counter_24" BEL
+        "nes/multi_mapper/nesev/counter_23" BEL
+        "nes/multi_mapper/nesev/counter_22" BEL
+        "nes/multi_mapper/nesev/counter_21" BEL
+        "nes/multi_mapper/nesev/counter_20" BEL
+        "nes/multi_mapper/nesev/counter_19" BEL
+        "nes/multi_mapper/nesev/counter_18" BEL
+        "nes/multi_mapper/nesev/counter_17" BEL
+        "nes/multi_mapper/nesev/counter_16" BEL
+        "nes/multi_mapper/nesev/counter_15" BEL
+        "nes/multi_mapper/nesev/counter_14" BEL
+        "nes/multi_mapper/nesev/counter_13" BEL
+        "nes/multi_mapper/nesev/counter_12" BEL
+        "nes/multi_mapper/nesev/counter_11" BEL
+        "nes/multi_mapper/nesev/counter_10" BEL
+        "nes/multi_mapper/nesev/counter_9" BEL
+        "nes/multi_mapper/nesev/counter_8" BEL
+        "nes/multi_mapper/nesev/counter_7" BEL
+        "nes/multi_mapper/nesev/counter_6" BEL
+        "nes/multi_mapper/nesev/counter_5" BEL
+        "nes/multi_mapper/nesev/counter_4" BEL
+        "nes/multi_mapper/nesev/counter_3" BEL
+        "nes/multi_mapper/nesev/counter_2" BEL
+        "nes/multi_mapper/nesev/counter_1" BEL
+        "nes/multi_mapper/nesev/counter_0" BEL
+        "nes/multi_mapper/nesev/old_val" BEL "nes/apu/Tri/SeqPos_4" BEL
+        "nes/apu/Tri/SeqPos_3" BEL "nes/apu/Tri/SeqPos_2" BEL
+        "nes/apu/Tri/SeqPos_1" BEL "nes/apu/Tri/SeqPos_0" BEL
+        "nes/apu/Tri/TimerCtr_10" BEL "nes/apu/Tri/TimerCtr_9" BEL
+        "nes/apu/Tri/TimerCtr_8" BEL "nes/apu/Tri/TimerCtr_7" BEL
+        "nes/apu/Tri/TimerCtr_6" BEL "nes/apu/Tri/TimerCtr_5" BEL
+        "nes/apu/Tri/TimerCtr_4" BEL "nes/apu/Tri/TimerCtr_3" BEL
+        "nes/apu/Tri/TimerCtr_2" BEL "nes/apu/Tri/TimerCtr_1" BEL
+        "nes/apu/Tri/TimerCtr_0" BEL "nes/apu/Tri/LinCtr_6" BEL
+        "nes/apu/Tri/LinCtr_5" BEL "nes/apu/Tri/LinCtr_4" BEL
+        "nes/apu/Tri/LinCtr_3" BEL "nes/apu/Tri/LinCtr_2" BEL
+        "nes/apu/Tri/LinCtr_1" BEL "nes/apu/Tri/LinCtr_0" BEL
+        "nes/apu/Tri/LenCtr_7" BEL "nes/apu/Tri/LenCtr_6" BEL
+        "nes/apu/Tri/LenCtr_5" BEL "nes/apu/Tri/LenCtr_3" BEL
+        "nes/apu/Tri/LenCtr_2" BEL "nes/apu/Tri/LenCtr_4" BEL
+        "nes/apu/Tri/LenCtr_1" BEL "nes/apu/Tri/LenCtr_0" BEL
+        "nes/apu/Tri/Period_10" BEL "nes/apu/Tri/Period_9" BEL
+        "nes/apu/Tri/Period_8" BEL "nes/apu/Tri/Period_7" BEL
+        "nes/apu/Tri/Period_6" BEL "nes/apu/Tri/Period_5" BEL
+        "nes/apu/Tri/Period_4" BEL "nes/apu/Tri/Period_3" BEL
+        "nes/apu/Tri/Period_2" BEL "nes/apu/Tri/Period_1" BEL
+        "nes/apu/Tri/Period_0" BEL "nes/apu/Tri/LinCtrl" BEL
+        "nes/apu/Tri/LinCtrPeriod_6" BEL "nes/apu/Tri/LinCtrPeriod_5" BEL
+        "nes/apu/Tri/LinCtrPeriod_4" BEL "nes/apu/Tri/LinCtrPeriod_3" BEL
+        "nes/apu/Tri/LinCtrPeriod_2" BEL "nes/apu/Tri/LinCtrPeriod_1" BEL
+        "nes/apu/Tri/LinCtrPeriod_0" BEL "nes/apu/Noi/TimerCtr_11" BEL
+        "nes/apu/Noi/TimerCtr_10" BEL "nes/apu/Noi/TimerCtr_9" BEL
+        "nes/apu/Noi/TimerCtr_8" BEL "nes/apu/Noi/TimerCtr_7" BEL
+        "nes/apu/Noi/TimerCtr_6" BEL "nes/apu/Noi/TimerCtr_5" BEL
+        "nes/apu/Noi/TimerCtr_4" BEL "nes/apu/Noi/TimerCtr_3" BEL
+        "nes/apu/Noi/TimerCtr_2" BEL "nes/apu/Noi/TimerCtr_1" BEL
+        "nes/apu/Noi/LenCtr_7" BEL "nes/apu/Noi/LenCtr_6" BEL
+        "nes/apu/Noi/LenCtr_5" BEL "nes/apu/Noi/LenCtr_4" BEL
+        "nes/apu/Noi/LenCtr_3" BEL "nes/apu/Noi/LenCtr_2" BEL
+        "nes/apu/Noi/LenCtr_1" BEL "nes/apu/Noi/LenCtr_0" BEL
+        "nes/apu/Noi/EnvDivider_3" BEL "nes/apu/Noi/EnvDivider_2" BEL
+        "nes/apu/Noi/EnvDivider_1" BEL "nes/apu/Noi/EnvDivider_0" BEL
+        "nes/apu/Noi/Shift_14" BEL "nes/apu/Noi/Shift_0" BEL
+        "nes/apu/Noi/EnvLoop" BEL "nes/apu/Noi/Period_3" BEL
+        "nes/apu/Noi/Period_2" BEL "nes/apu/Noi/Period_1" BEL
+        "nes/apu/Noi/Period_0" BEL "nes/apu/Noi/ShortMode" BEL
+        "nes/apu/Noi/Volume_3" BEL "nes/apu/Noi/Volume_2" BEL
+        "nes/apu/Noi/Volume_1" BEL "nes/apu/Noi/Volume_0" BEL
+        "nes/apu/Noi/EnvDisable" BEL "nes/apu/Dmc/BitsUsed_2" BEL
+        "nes/apu/Dmc/BitsUsed_1" BEL "nes/apu/Dmc/BitsUsed_0" BEL
+        "nes/apu/Dmc/ActivationDelay_FSM_FFd2" BEL
+        "nes/apu/Dmc/ActivationDelay_FSM_FFd1" BEL "nes/apu/Dmc/Dac_6" BEL
+        "nes/apu/Dmc/Dac_5" BEL "nes/apu/Dmc/Dac_4" BEL "nes/apu/Dmc/Dac_3"
+        BEL "nes/apu/Dmc/Dac_2" BEL "nes/apu/Dmc/Dac_1" BEL
+        "nes/apu/Dmc/Dac_0" BEL "nes/apu/Dmc/Cycles_8" BEL
+        "nes/apu/Dmc/Cycles_7" BEL "nes/apu/Dmc/Cycles_6" BEL
+        "nes/apu/Dmc/Cycles_5" BEL "nes/apu/Dmc/Cycles_4" BEL
+        "nes/apu/Dmc/Cycles_3" BEL "nes/apu/Dmc/Cycles_2" BEL
+        "nes/apu/Dmc/Cycles_1" BEL "nes/apu/Dmc/Cycles_0" BEL
+        "nes/apu/Dmc/BytesLeft_11" BEL "nes/apu/Dmc/BytesLeft_10" BEL
+        "nes/apu/Dmc/BytesLeft_9" BEL "nes/apu/Dmc/BytesLeft_8" BEL
+        "nes/apu/Dmc/BytesLeft_7" BEL "nes/apu/Dmc/BytesLeft_6" BEL
+        "nes/apu/Dmc/BytesLeft_5" BEL "nes/apu/Dmc/BytesLeft_4" BEL
+        "nes/apu/Dmc/BytesLeft_3" BEL "nes/apu/Dmc/BytesLeft_2" BEL
+        "nes/apu/Dmc/BytesLeft_1" BEL "nes/apu/Dmc/BytesLeft_0" BEL
+        "nes/apu/Dmc/Address_14" BEL "nes/apu/Dmc/Address_13" BEL
+        "nes/apu/Dmc/Address_12" BEL "nes/apu/Dmc/Address_11" BEL
+        "nes/apu/Dmc/Address_10" BEL "nes/apu/Dmc/Address_9" BEL
+        "nes/apu/Dmc/Address_8" BEL "nes/apu/Dmc/Address_7" BEL
+        "nes/apu/Dmc/Address_6" BEL "nes/apu/Dmc/Address_5" BEL
+        "nes/apu/Dmc/Address_4" BEL "nes/apu/Dmc/Address_3" BEL
+        "nes/apu/Dmc/Address_2" BEL "nes/apu/Dmc/Address_1" BEL
+        "nes/apu/Dmc/Address_0" BEL "nes/apu/Dmc/ShiftReg_7" BEL
+        "nes/apu/Dmc/ShiftReg_6" BEL "nes/apu/Dmc/ShiftReg_5" BEL
+        "nes/apu/Dmc/ShiftReg_4" BEL "nes/apu/Dmc/ShiftReg_3" BEL
+        "nes/apu/Dmc/ShiftReg_2" BEL "nes/apu/Dmc/ShiftReg_1" BEL
+        "nes/apu/Dmc/ShiftReg_0" BEL "nes/apu/Dmc/IrqEnable" BEL
+        "nes/apu/Dmc/Loop" BEL "nes/apu/Dmc/Freq_3" BEL "nes/apu/Dmc/Freq_2"
+        BEL "nes/apu/Dmc/Freq_1" BEL "nes/apu/Dmc/Freq_0" BEL
+        "nes/apu/Dmc/SampleBuffer_7" BEL "nes/apu/Dmc/SampleBuffer_6" BEL
+        "nes/apu/Dmc/SampleBuffer_5" BEL "nes/apu/Dmc/SampleBuffer_4" BEL
+        "nes/apu/Dmc/SampleBuffer_3" BEL "nes/apu/Dmc/SampleBuffer_2" BEL
+        "nes/apu/Dmc/SampleBuffer_1" BEL "nes/apu/Dmc/SampleBuffer_0" BEL
+        "nes/apu/Dmc/SampleLen_7" BEL "nes/apu/Dmc/SampleLen_6" BEL
+        "nes/apu/Dmc/SampleLen_5" BEL "nes/apu/Dmc/SampleLen_4" BEL
+        "nes/apu/Dmc/SampleLen_3" BEL "nes/apu/Dmc/SampleLen_2" BEL
+        "nes/apu/Dmc/SampleLen_1" BEL "nes/apu/Dmc/SampleLen_0" BEL
+        "nes/apu/Dmc/SampleAddress_7" BEL "nes/apu/Dmc/SampleAddress_6" BEL
+        "nes/apu/Dmc/SampleAddress_5" BEL "nes/apu/Dmc/SampleAddress_4" BEL
+        "nes/apu/Dmc/SampleAddress_3" BEL "nes/apu/Dmc/SampleAddress_2" BEL
+        "nes/apu/Dmc/SampleAddress_1" BEL "nes/apu/Dmc/SampleAddress_0" BEL
+        "nes/cpu/SP_7" BEL "nes/cpu/SP_6" BEL "nes/cpu/SP_5" BEL
+        "nes/cpu/SP_4" BEL "nes/cpu/SP_3" BEL "nes/cpu/SP_2" BEL
+        "nes/cpu/SP_1" BEL "nes/cpu/SP_0" BEL "nes/cpu/JumpTaken" BEL
+        "nes/cpu/P_1" BEL "nes/cpu/P_7" BEL "nes/cpu/X_7" BEL "nes/cpu/X_6"
+        BEL "nes/cpu/X_5" BEL "nes/cpu/X_4" BEL "nes/cpu/X_3" BEL
+        "nes/cpu/X_2" BEL "nes/cpu/X_1" BEL "nes/cpu/X_0" BEL
+        "nes/cpu/IsNMIInterrupt" BEL "nes/cpu/A_7" BEL "nes/cpu/A_6" BEL
+        "nes/cpu/A_5" BEL "nes/cpu/A_4" BEL "nes/cpu/A_3" BEL "nes/cpu/A_2"
+        BEL "nes/cpu/A_1" BEL "nes/cpu/A_0" BEL "nes/cpu/T_7" BEL
+        "nes/cpu/T_6" BEL "nes/cpu/T_5" BEL "nes/cpu/T_4" BEL "nes/cpu/T_3"
+        BEL "nes/cpu/T_2" BEL "nes/cpu/T_1" BEL "nes/cpu/T_0" BEL
+        "nes/cpu/IR_7" BEL "nes/cpu/IR_6" BEL "nes/cpu/IR_5" BEL
+        "nes/cpu/IR_4" BEL "nes/cpu/IR_3" BEL "nes/cpu/IR_2" BEL
+        "nes/cpu/IR_1" BEL "nes/cpu/IR_0" BEL "nes/cpu/State_2" BEL
+        "nes/cpu/State_1" BEL "nes/cpu/State_0" BEL "nes/cpu/Y_7" BEL
+        "nes/cpu/Y_6" BEL "nes/cpu/Y_5" BEL "nes/cpu/Y_4" BEL "nes/cpu/Y_3"
+        BEL "nes/cpu/Y_2" BEL "nes/cpu/Y_1" BEL "nes/cpu/Y_0" BEL
+        "nes/cpu/addgen/SavedCarry" BEL "nes/cpu/addgen/AH_7" BEL
+        "nes/cpu/addgen/AH_6" BEL "nes/cpu/addgen/AH_5" BEL
+        "nes/cpu/addgen/AH_4" BEL "nes/cpu/addgen/AH_3" BEL
+        "nes/cpu/addgen/AH_2" BEL "nes/cpu/addgen/AH_1" BEL
+        "nes/cpu/addgen/AH_0" BEL "nes/cpu/addgen/AL_7" BEL
+        "nes/cpu/addgen/AL_6" BEL "nes/cpu/addgen/AL_5" BEL
+        "nes/cpu/addgen/AL_4" BEL "nes/cpu/addgen/AL_3" BEL
+        "nes/cpu/addgen/AL_2" BEL "nes/cpu/addgen/AL_1" BEL
+        "nes/cpu/addgen/AL_0" BEL "nes/cpu/pc/PC_15" BEL "nes/cpu/pc/PC_14"
+        BEL "nes/cpu/pc/PC_13" BEL "nes/cpu/pc/PC_12" BEL "nes/cpu/pc/PC_11"
+        BEL "nes/cpu/pc/PC_10" BEL "nes/cpu/pc/PC_9" BEL "nes/cpu/pc/PC_8" BEL
+        "nes/cpu/pc/PC_7" BEL "nes/cpu/pc/PC_6" BEL "nes/cpu/pc/PC_5" BEL
+        "nes/cpu/pc/PC_4" BEL "nes/cpu/pc/PC_3" BEL "nes/cpu/pc/PC_2" BEL
+        "nes/cpu/pc/PC_1" BEL "nes/cpu/pc/PC_0" BEL
+        "nes/dma/spr_state_FSM_FFd2" BEL "nes/dma/spr_state_FSM_FFd1" BEL
+        "nes/dma/sprite_dma_addr_15" BEL "nes/dma/sprite_dma_addr_14" BEL
+        "nes/dma/sprite_dma_addr_13" BEL "nes/dma/sprite_dma_addr_12" BEL
+        "nes/dma/sprite_dma_addr_11" BEL "nes/dma/sprite_dma_addr_10" BEL
+        "nes/dma/sprite_dma_addr_9" BEL "nes/dma/sprite_dma_addr_8" BEL
+        "nes/dma/sprite_dma_addr_7" BEL "nes/dma/sprite_dma_addr_6" BEL
+        "nes/dma/sprite_dma_addr_5" BEL "nes/dma/sprite_dma_addr_4" BEL
+        "nes/dma/sprite_dma_addr_3" BEL "nes/dma/sprite_dma_addr_2" BEL
+        "nes/dma/sprite_dma_addr_1" BEL "nes/dma/sprite_dma_addr_0" BEL
+        "nes/dma/sprite_dma_lastval_7" BEL "nes/dma/sprite_dma_lastval_6" BEL
+        "nes/dma/sprite_dma_lastval_5" BEL "nes/dma/sprite_dma_lastval_4" BEL
+        "nes/dma/sprite_dma_lastval_3" BEL "nes/dma/sprite_dma_lastval_2" BEL
+        "nes/dma/sprite_dma_lastval_1" BEL "nes/dma/sprite_dma_lastval_0" BEL
+        "nes/ppu/palette_ram/Mram_palette5" BEL
+        "nes/ppu/palette_ram/Mram_palette4" BEL
+        "nes/ppu/palette_ram/Mram_palette6" BEL
+        "nes/ppu/palette_ram/Mram_palette2" BEL
+        "nes/ppu/palette_ram/Mram_palette1" BEL
+        "nes/ppu/palette_ram/Mram_palette3" BEL "nes/ppu/vram_read_delayed"
+        BEL "nes/ppu/enable_objects" BEL "nes/ppu/enable_playfield" BEL
+        "nes/ppu/object_clip" BEL "nes/ppu/playfield_clip" BEL
+        "nes/ppu/grayscale" BEL "nes/ppu/vbl_enable" BEL "nes/ppu/obj_size"
+        BEL "nes/ppu/bg_patt" BEL "nes/ppu/obj_patt" BEL
+        "nes/ppu/vram_latch_7" BEL "nes/ppu/vram_latch_6" BEL
+        "nes/ppu/vram_latch_5" BEL "nes/ppu/vram_latch_4" BEL
+        "nes/ppu/vram_latch_3" BEL "nes/ppu/vram_latch_2" BEL
+        "nes/ppu/vram_latch_1" BEL "nes/ppu/vram_latch_0" BEL
+        "nes/ppu/loopy0/loopy_v_14" BEL "nes/ppu/loopy0/loopy_v_13" BEL
+        "nes/ppu/loopy0/loopy_v_12" BEL "nes/ppu/loopy0/loopy_v_11" BEL
+        "nes/ppu/loopy0/loopy_v_10" BEL "nes/ppu/loopy0/loopy_v_9" BEL
+        "nes/ppu/loopy0/loopy_v_8" BEL "nes/ppu/loopy0/loopy_v_7" BEL
+        "nes/ppu/loopy0/loopy_v_6" BEL "nes/ppu/loopy0/loopy_v_5" BEL
+        "nes/ppu/loopy0/loopy_v_4" BEL "nes/ppu/loopy0/loopy_v_3" BEL
+        "nes/ppu/loopy0/loopy_v_2" BEL "nes/ppu/loopy0/loopy_v_1" BEL
+        "nes/ppu/loopy0/loopy_v_0" BEL "nes/ppu/loopy0/loopy_t_14" BEL
+        "nes/ppu/loopy0/loopy_t_13" BEL "nes/ppu/loopy0/loopy_t_12" BEL
+        "nes/ppu/loopy0/loopy_t_11" BEL "nes/ppu/loopy0/loopy_t_10" BEL
+        "nes/ppu/loopy0/loopy_t_9" BEL "nes/ppu/loopy0/loopy_t_8" BEL
+        "nes/ppu/loopy0/loopy_t_7" BEL "nes/ppu/loopy0/loopy_t_6" BEL
+        "nes/ppu/loopy0/loopy_t_5" BEL "nes/ppu/loopy0/loopy_t_4" BEL
+        "nes/ppu/loopy0/loopy_t_3" BEL "nes/ppu/loopy0/loopy_t_2" BEL
+        "nes/ppu/loopy0/loopy_t_1" BEL "nes/ppu/loopy0/loopy_t_0" BEL
+        "nes/ppu/loopy0/loopy_x_2" BEL "nes/ppu/loopy0/loopy_x_1" BEL
+        "nes/ppu/loopy0/loopy_x_0" BEL "nes/ppu/sprite_ram/p_2" BEL
+        "nes/ppu/sprite_ram/p_1" BEL "nes/ppu/sprite_ram/p_0" BEL
+        "nes/ppu/sprite_ram/state_FSM_FFd1" BEL
+        "nes/ppu/sprite_ram/state_FSM_FFd2" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp8" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp7" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp6" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp5" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp4" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp3" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp2" BEL
+        "nes/ppu/sprite_ram/Mram_sprtemp1" BEL "nes/ppu/sprite_ram/oam_ptr_7"
+        BEL "nes/ppu/sprite_ram/oam_ptr_6" BEL "nes/ppu/sprite_ram/oam_ptr_5"
+        BEL "nes/ppu/sprite_ram/oam_ptr_4" BEL "nes/ppu/sprite_ram/oam_ptr_3"
+        BEL "nes/ppu/sprite_ram/oam_ptr_2" BEL "nes/ppu/sprite_ram/oam_ptr_1"
+        BEL "nes/ppu/sprite_ram/oam_ptr_0" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_8" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_7" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_6" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_5" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_4" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_3" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_2" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_1" BEL
+        "nes/ppu/bg_painter/playfield_pipe_4_0" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_8" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_7" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_6" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_5" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_4" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_3" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_2" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_1" BEL
+        "nes/ppu/bg_painter/playfield_pipe_3_0" BEL
+        "nes/ppu/bg_painter/current_attribute_table_1" BEL
+        "nes/ppu/bg_painter/current_attribute_table_0" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_15" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_14" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_13" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_12" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_11" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_10" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_9" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_8" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_7" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_6" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_5" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_4" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_3" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_2" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_1" BEL
+        "nes/ppu/bg_painter/playfield_pipe_1_0" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_15" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_14" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_13" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_12" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_11" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_10" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_9" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_8" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_7" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_6" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_5" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_4" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_3" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_2" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_1" BEL
+        "nes/ppu/bg_painter/playfield_pipe_2_0" BEL
+        "nes/ppu/bg_painter/current_name_table_7" BEL
+        "nes/ppu/bg_painter/current_name_table_6" BEL
+        "nes/ppu/bg_painter/current_name_table_5" BEL
+        "nes/ppu/bg_painter/current_name_table_4" BEL
+        "nes/ppu/bg_painter/current_name_table_3" BEL
+        "nes/ppu/bg_painter/current_name_table_2" BEL
+        "nes/ppu/bg_painter/current_name_table_1" BEL
+        "nes/ppu/bg_painter/current_name_table_0" BEL
+        "nes/ppu/bg_painter/bg0_7" BEL "nes/ppu/bg_painter/bg0_6" BEL
+        "nes/ppu/bg_painter/bg0_5" BEL "nes/ppu/bg_painter/bg0_4" BEL
+        "nes/ppu/bg_painter/bg0_3" BEL "nes/ppu/bg_painter/bg0_2" BEL
+        "nes/ppu/bg_painter/bg0_1" BEL "nes/ppu/bg_painter/bg0_0" BEL
+        "nes/ppu/address_gen/temp_y_3" BEL "nes/ppu/address_gen/temp_y_2" BEL
+        "nes/ppu/address_gen/temp_y_1" BEL "nes/ppu/address_gen/temp_y_0" BEL
+        "nes/ppu/address_gen/flip_y" BEL "nes/ppu/address_gen/dummy_sprite"
+        BEL "nes/ppu/address_gen/temp_tile_7" BEL
+        "nes/ppu/address_gen/temp_tile_6" BEL
+        "nes/ppu/address_gen/temp_tile_5" BEL
+        "nes/ppu/address_gen/temp_tile_4" BEL
+        "nes/ppu/address_gen/temp_tile_3" BEL
+        "nes/ppu/address_gen/temp_tile_2" BEL
+        "nes/ppu/address_gen/temp_tile_1" BEL
+        "nes/ppu/address_gen/temp_tile_0" BEL "nes/ppu/address_gen/flip_x" BEL
+        "nes/ppu/clock/cycle_8" BEL "nes/ppu/clock/cycle_7" BEL
+        "nes/ppu/clock/cycle_6" BEL "nes/ppu/clock/cycle_5" BEL
+        "nes/ppu/clock/cycle_4" BEL "nes/ppu/clock/cycle_3" BEL
+        "nes/ppu/clock/cycle_2" BEL "nes/ppu/clock/cycle_1" BEL
+        "nes/ppu/clock/cycle_0" BEL "nes/ppu/clock/scanline_8" BEL
+        "nes/ppu/clock/scanline_7" BEL "nes/ppu/clock/scanline_6" BEL
+        "nes/ppu/clock/scanline_5" BEL "nes/ppu/clock/scanline_4" BEL
+        "nes/ppu/clock/scanline_3" BEL "nes/ppu/clock/scanline_2" BEL
+        "nes/ppu/clock/scanline_1" BEL "nes/ppu/clock/scanline_0" BEL
+        "nes/ppu/clock/is_pre_render" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite0/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite0/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite0/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite0/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite0/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite0/aprio" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite1/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite1/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite1/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite1/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite1/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite1/aprio" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite2/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite2/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite2/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite2/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite2/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite2/aprio" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite3/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite3/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite3/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite3/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite3/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite3/aprio" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite4/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite4/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite4/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite4/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite4/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite4/aprio" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite5/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite5/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite5/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite5/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite5/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite5/aprio" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite6/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite6/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite6/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite6/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite6/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite6/aprio" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_7" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_6" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_5" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_4" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_3" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_2" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_1" BEL
+        "nes/ppu/sprite_gen/sprite7/x_coord_0" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_7" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_6" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_5" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_4" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_3" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_2" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_1" BEL
+        "nes/ppu/sprite_gen/sprite7/pix2_0" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_7" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_6" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_5" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_4" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_3" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_2" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_1" BEL
+        "nes/ppu/sprite_gen/sprite7/pix1_0" BEL
+        "nes/ppu/sprite_gen/sprite7/upper_color_1" BEL
+        "nes/ppu/sprite_gen/sprite7/upper_color_0" BEL
+        "nes/ppu/sprite_gen/sprite7/aprio" BEL "nes/mem/saved_prg_write" BEL
+        "loader/ctr_3" BEL "loader/ctr_2" BEL "loader/ctr_1" BEL
+        "loader/ctr_0" BEL "loader/bytes_left_21" BEL "loader/bytes_left_20"
+        BEL "loader/bytes_left_19" BEL "loader/bytes_left_18" BEL
+        "loader/bytes_left_17" BEL "loader/bytes_left_16" BEL
+        "loader/bytes_left_15" BEL "loader/bytes_left_14" BEL
+        "loader/bytes_left_13" BEL "loader/bytes_left_12" BEL
+        "loader/bytes_left_11" BEL "loader/bytes_left_10" BEL
+        "loader/bytes_left_9" BEL "loader/bytes_left_8" BEL
+        "loader/bytes_left_7" BEL "loader/bytes_left_6" BEL
+        "loader/bytes_left_5" BEL "loader/bytes_left_4" BEL
+        "loader/bytes_left_3" BEL "loader/bytes_left_2" BEL
+        "loader/bytes_left_1" BEL "loader/bytes_left_0" BEL
+        "loader/mem_addr_19" BEL "loader/mem_addr_18" BEL "loader/mem_addr_17"
+        BEL "loader/mem_addr_16" BEL "loader/mem_addr_15" BEL
+        "loader/mem_addr_14" BEL "loader/mem_addr_13" BEL "loader/mem_addr_12"
+        BEL "loader/mem_addr_11" BEL "loader/mem_addr_10" BEL
+        "loader/mem_addr_9" BEL "loader/mem_addr_8" BEL "loader/mem_addr_7"
+        BEL "loader/mem_addr_6" BEL "loader/mem_addr_5" BEL
+        "loader/mem_addr_4" BEL "loader/mem_addr_3" BEL "loader/mem_addr_2"
+        BEL "loader/mem_addr_1" BEL "loader/mem_addr_0" BEL "loader/state_1"
+        BEL "loader/state_0" BEL "loader/ines_15_127" BEL "loader/ines_15_126"
+        BEL "loader/ines_15_125" BEL "loader/ines_15_124" BEL
+        "loader/ines_15_123" BEL "loader/ines_15_122" BEL "loader/ines_15_121"
+        BEL "loader/ines_15_120" BEL "loader/ines_15_119" BEL
+        "loader/ines_15_118" BEL "loader/ines_15_117" BEL "loader/ines_15_116"
+        BEL "loader/ines_15_115" BEL "loader/ines_15_114" BEL
+        "loader/ines_15_113" BEL "loader/ines_15_112" BEL "loader/ines_15_111"
+        BEL "loader/ines_15_110" BEL "loader/ines_15_109" BEL
+        "loader/ines_15_108" BEL "loader/ines_15_107" BEL "loader/ines_15_106"
+        BEL "loader/ines_15_105" BEL "loader/ines_15_104" BEL
+        "loader/ines_15_103" BEL "loader/ines_15_102" BEL "loader/ines_15_101"
+        BEL "loader/ines_15_100" BEL "loader/ines_15_99" BEL
+        "loader/ines_15_98" BEL "loader/ines_15_97" BEL "loader/ines_15_96"
+        BEL "loader/ines_15_95" BEL "loader/ines_15_94" BEL
+        "loader/ines_15_93" BEL "loader/ines_15_92" BEL "loader/ines_15_91"
+        BEL "loader/ines_15_90" BEL "loader/ines_15_89" BEL
+        "loader/ines_15_88" BEL "loader/ines_15_87" BEL "loader/ines_15_86"
+        BEL "loader/ines_15_85" BEL "loader/ines_15_84" BEL
+        "loader/ines_15_83" BEL "loader/ines_15_82" BEL "loader/ines_15_81"
+        BEL "loader/ines_15_80" BEL "loader/ines_15_79" BEL
+        "loader/ines_15_78" BEL "loader/ines_15_77" BEL "loader/ines_15_76"
+        BEL "loader/ines_15_75" BEL "loader/ines_15_74" BEL
+        "loader/ines_15_72" BEL "loader/ines_15_71" BEL "loader/ines_15_70"
+        BEL "loader/ines_15_69" BEL "loader/ines_15_68" BEL "nes/apu/ClkE" BEL
+        "nes/apu/ClkL" BEL "nes/apu/FrameInterrupt" BEL
+        "nes/apu/Sq2/SweepReset" BEL "nes/apu/Sq1/SweepReset" BEL
+        "nes/apu/Sq2/Envelope_0" BEL "nes/apu/Sq2/Envelope_1" BEL
+        "nes/apu/Sq2/Envelope_2" BEL "nes/apu/Sq2/Envelope_3" BEL
+        "nes/apu/Sq1/Envelope_0" BEL "nes/apu/Sq1/Envelope_1" BEL
+        "nes/apu/Sq1/Envelope_2" BEL "nes/apu/Sq1/Envelope_3" BEL
+        "display/hq2x/first_pixel" BEL "nes/multi_mapper/mmc3/a12_ctr_3" BEL
+        "nes/multi_mapper/mmc3/a12_ctr_2" BEL
+        "nes/multi_mapper/mmc3/a12_ctr_1" BEL
+        "nes/multi_mapper/mmc3/a12_ctr_0" BEL
+        "nes/multi_mapper/mmc3/irq_reload" BEL "nes/multi_mapper/mmc3/irq" BEL
+        "nes/multi_mapper/map69/irq" BEL "nes/multi_mapper/rambo1/want_irq"
+        BEL "nes/multi_mapper/rambo1/irq_reload" BEL
+        "nes/multi_mapper/rambo1/irq" BEL "nes/multi_mapper/nesev/unlocked"
+        BEL "nes/apu/Noi/Envelope_3" BEL "nes/apu/Noi/Envelope_2" BEL
+        "nes/apu/Noi/Envelope_1" BEL "nes/apu/Noi/Envelope_0" BEL
+        "nes/apu/Dmc/HasSampleBuffer" BEL "nes/apu/Dmc/IrqActive" BEL
+        "nes/cpu/IsResetInterrupt" BEL "nes/dma/dmc_state" BEL
+        "nes/ppu/nmi_occured" BEL "nes/ppu/sprite0_hit_bg" BEL
+        "nes/ppu/sprite_ram/spr_overflow" BEL "nes/ppu/clock/is_in_vblank" BEL
+        "toggle_menu" BEL "nes/multi_mapper/mmc3/irq_enable" BEL
+        "nes/multi_mapper/mmc3/mirroring" BEL
+        "nes/multi_mapper/map71/ciram_select" BEL
+        "nes/multi_mapper/map234/inner_prg" BEL
+        "nes/multi_mapper/rambo1/irq_cycle_mode" BEL "nes/apu/Dmc/DmcEnabled"
+        BEL "nes/apu/Dmc/HasShiftReg" BEL "nes/cpu/P_2" BEL "nes/cpu/P_0" BEL
+        "nes/cpu/P_6" BEL "nes/cpu/P_3" BEL "nes/cpu/GotInterrupt" BEL
+        "nes/cpu/LastNMI" BEL "nes/ppu/loopy0/ppu_address_latch" BEL
+        "nes/ppu/sprite_ram/sprite0_curr" BEL "nes/ppu/clock/second_frame" BEL
+        "loader/done" BEL "uart_demux/uart_receiverfx/RxD_bit" BEL
+        "display/hq2x/writestep" BEL "display/uart_receiver/RxD_bit" BEL
+        "nes/multi_mapper/mmc5/irq_enable" BEL
+        "nes/multi_mapper/mmc5/chr_last" BEL
+        "nes/multi_mapper/mmc5/prg_protect_2" BEL
+        "nes/multi_mapper/mmc5/prg_protect_1" BEL
+        "nes/multi_mapper/mmc2/mirroring" BEL
+        "nes/multi_mapper/mmc3/mapper47_multicart" BEL
+        "nes/multi_mapper/rambo1/old_a12_edge" BEL "nes/ppu/loopy0/ppu_incr"
+        BEL "nes/ppu/sprite_ram/sprite0" BEL "display/h_reg" BEL
+        "display/v_reg" BEL "nes/multi_mapper/mmc5/irq_pending" BEL
+        "nes/multi_mapper/mmc2/latch_1" BEL "nes/multi_mapper/mmc2/latch_0"
+        BEL "nes/apu/Wrote4017" BEL "nes/apu/Cycles_2" BEL
+        "nes/apu/Sq2/EnvDoReset" BEL "nes/apu/Sq1/EnvDoReset" BEL
+        "nes/apu/Sq2/TimerCtr_0" BEL "nes/apu/Sq1/TimerCtr_0" BEL
+        "memory/RamCS" BEL "nes/apu/Tri/LinHalt" BEL "nes/apu/Noi/TimerCtr_0"
+        BEL "nes/apu/Noi/EnvDoReset" BEL "nes/mem/saved_prg_read" BEL
+        "buttons/deb_unit8/state_reg_FSM_FFd1" BEL
+        "buttons/deb_unit8/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit8/q_reg_20" BEL "buttons/deb_unit8/q_reg_19" BEL
+        "buttons/deb_unit8/q_reg_18" BEL "buttons/deb_unit8/q_reg_17" BEL
+        "buttons/deb_unit8/q_reg_16" BEL "buttons/deb_unit8/q_reg_15" BEL
+        "buttons/deb_unit8/q_reg_14" BEL "buttons/deb_unit8/q_reg_13" BEL
+        "buttons/deb_unit8/q_reg_12" BEL "buttons/deb_unit8/q_reg_11" BEL
+        "buttons/deb_unit8/q_reg_10" BEL "buttons/deb_unit8/q_reg_9" BEL
+        "buttons/deb_unit8/q_reg_8" BEL "buttons/deb_unit8/q_reg_7" BEL
+        "buttons/deb_unit8/q_reg_6" BEL "buttons/deb_unit8/q_reg_5" BEL
+        "buttons/deb_unit8/q_reg_4" BEL "buttons/deb_unit8/q_reg_3" BEL
+        "buttons/deb_unit8/q_reg_2" BEL "buttons/deb_unit8/q_reg_1" BEL
+        "buttons/deb_unit8/q_reg_0" BEL "buttons/deb_unit7/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit7/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit7/q_reg_20" BEL "buttons/deb_unit7/q_reg_19" BEL
+        "buttons/deb_unit7/q_reg_18" BEL "buttons/deb_unit7/q_reg_17" BEL
+        "buttons/deb_unit7/q_reg_16" BEL "buttons/deb_unit7/q_reg_15" BEL
+        "buttons/deb_unit7/q_reg_14" BEL "buttons/deb_unit7/q_reg_13" BEL
+        "buttons/deb_unit7/q_reg_12" BEL "buttons/deb_unit7/q_reg_11" BEL
+        "buttons/deb_unit7/q_reg_10" BEL "buttons/deb_unit7/q_reg_9" BEL
+        "buttons/deb_unit7/q_reg_8" BEL "buttons/deb_unit7/q_reg_7" BEL
+        "buttons/deb_unit7/q_reg_6" BEL "buttons/deb_unit7/q_reg_5" BEL
+        "buttons/deb_unit7/q_reg_4" BEL "buttons/deb_unit7/q_reg_3" BEL
+        "buttons/deb_unit7/q_reg_2" BEL "buttons/deb_unit7/q_reg_1" BEL
+        "buttons/deb_unit7/q_reg_0" BEL "buttons/deb_unit6/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit6/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit6/q_reg_20" BEL "buttons/deb_unit6/q_reg_19" BEL
+        "buttons/deb_unit6/q_reg_18" BEL "buttons/deb_unit6/q_reg_17" BEL
+        "buttons/deb_unit6/q_reg_16" BEL "buttons/deb_unit6/q_reg_15" BEL
+        "buttons/deb_unit6/q_reg_14" BEL "buttons/deb_unit6/q_reg_13" BEL
+        "buttons/deb_unit6/q_reg_12" BEL "buttons/deb_unit6/q_reg_11" BEL
+        "buttons/deb_unit6/q_reg_10" BEL "buttons/deb_unit6/q_reg_9" BEL
+        "buttons/deb_unit6/q_reg_8" BEL "buttons/deb_unit6/q_reg_7" BEL
+        "buttons/deb_unit6/q_reg_6" BEL "buttons/deb_unit6/q_reg_5" BEL
+        "buttons/deb_unit6/q_reg_4" BEL "buttons/deb_unit6/q_reg_3" BEL
+        "buttons/deb_unit6/q_reg_2" BEL "buttons/deb_unit6/q_reg_1" BEL
+        "buttons/deb_unit6/q_reg_0" BEL "buttons/deb_unit5/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit5/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit5/q_reg_20" BEL "buttons/deb_unit5/q_reg_19" BEL
+        "buttons/deb_unit5/q_reg_18" BEL "buttons/deb_unit5/q_reg_17" BEL
+        "buttons/deb_unit5/q_reg_16" BEL "buttons/deb_unit5/q_reg_15" BEL
+        "buttons/deb_unit5/q_reg_14" BEL "buttons/deb_unit5/q_reg_13" BEL
+        "buttons/deb_unit5/q_reg_12" BEL "buttons/deb_unit5/q_reg_11" BEL
+        "buttons/deb_unit5/q_reg_10" BEL "buttons/deb_unit5/q_reg_9" BEL
+        "buttons/deb_unit5/q_reg_8" BEL "buttons/deb_unit5/q_reg_7" BEL
+        "buttons/deb_unit5/q_reg_6" BEL "buttons/deb_unit5/q_reg_5" BEL
+        "buttons/deb_unit5/q_reg_4" BEL "buttons/deb_unit5/q_reg_3" BEL
+        "buttons/deb_unit5/q_reg_2" BEL "buttons/deb_unit5/q_reg_1" BEL
+        "buttons/deb_unit5/q_reg_0" BEL "buttons/deb_unit4/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit4/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit4/q_reg_20" BEL "buttons/deb_unit4/q_reg_19" BEL
+        "buttons/deb_unit4/q_reg_18" BEL "buttons/deb_unit4/q_reg_17" BEL
+        "buttons/deb_unit4/q_reg_16" BEL "buttons/deb_unit4/q_reg_15" BEL
+        "buttons/deb_unit4/q_reg_14" BEL "buttons/deb_unit4/q_reg_13" BEL
+        "buttons/deb_unit4/q_reg_12" BEL "buttons/deb_unit4/q_reg_11" BEL
+        "buttons/deb_unit4/q_reg_10" BEL "buttons/deb_unit4/q_reg_9" BEL
+        "buttons/deb_unit4/q_reg_8" BEL "buttons/deb_unit4/q_reg_7" BEL
+        "buttons/deb_unit4/q_reg_6" BEL "buttons/deb_unit4/q_reg_5" BEL
+        "buttons/deb_unit4/q_reg_4" BEL "buttons/deb_unit4/q_reg_3" BEL
+        "buttons/deb_unit4/q_reg_2" BEL "buttons/deb_unit4/q_reg_1" BEL
+        "buttons/deb_unit4/q_reg_0" BEL "buttons/deb_unit3/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit3/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit3/q_reg_20" BEL "buttons/deb_unit3/q_reg_19" BEL
+        "buttons/deb_unit3/q_reg_18" BEL "buttons/deb_unit3/q_reg_17" BEL
+        "buttons/deb_unit3/q_reg_16" BEL "buttons/deb_unit3/q_reg_15" BEL
+        "buttons/deb_unit3/q_reg_14" BEL "buttons/deb_unit3/q_reg_13" BEL
+        "buttons/deb_unit3/q_reg_12" BEL "buttons/deb_unit3/q_reg_11" BEL
+        "buttons/deb_unit3/q_reg_10" BEL "buttons/deb_unit3/q_reg_9" BEL
+        "buttons/deb_unit3/q_reg_8" BEL "buttons/deb_unit3/q_reg_7" BEL
+        "buttons/deb_unit3/q_reg_6" BEL "buttons/deb_unit3/q_reg_5" BEL
+        "buttons/deb_unit3/q_reg_4" BEL "buttons/deb_unit3/q_reg_3" BEL
+        "buttons/deb_unit3/q_reg_2" BEL "buttons/deb_unit3/q_reg_1" BEL
+        "buttons/deb_unit3/q_reg_0" BEL "buttons/deb_unit2/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit2/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit2/q_reg_20" BEL "buttons/deb_unit2/q_reg_19" BEL
+        "buttons/deb_unit2/q_reg_18" BEL "buttons/deb_unit2/q_reg_17" BEL
+        "buttons/deb_unit2/q_reg_16" BEL "buttons/deb_unit2/q_reg_15" BEL
+        "buttons/deb_unit2/q_reg_14" BEL "buttons/deb_unit2/q_reg_13" BEL
+        "buttons/deb_unit2/q_reg_12" BEL "buttons/deb_unit2/q_reg_11" BEL
+        "buttons/deb_unit2/q_reg_10" BEL "buttons/deb_unit2/q_reg_9" BEL
+        "buttons/deb_unit2/q_reg_8" BEL "buttons/deb_unit2/q_reg_7" BEL
+        "buttons/deb_unit2/q_reg_6" BEL "buttons/deb_unit2/q_reg_5" BEL
+        "buttons/deb_unit2/q_reg_4" BEL "buttons/deb_unit2/q_reg_3" BEL
+        "buttons/deb_unit2/q_reg_2" BEL "buttons/deb_unit2/q_reg_1" BEL
+        "buttons/deb_unit2/q_reg_0" BEL "buttons/deb_unit1/state_reg_FSM_FFd1"
+        BEL "buttons/deb_unit1/state_reg_FSM_FFd2" BEL
+        "buttons/deb_unit1/q_reg_20" BEL "buttons/deb_unit1/q_reg_19" BEL
+        "buttons/deb_unit1/q_reg_18" BEL "buttons/deb_unit1/q_reg_17" BEL
+        "buttons/deb_unit1/q_reg_16" BEL "buttons/deb_unit1/q_reg_15" BEL
+        "buttons/deb_unit1/q_reg_14" BEL "buttons/deb_unit1/q_reg_13" BEL
+        "buttons/deb_unit1/q_reg_12" BEL "buttons/deb_unit1/q_reg_11" BEL
+        "buttons/deb_unit1/q_reg_10" BEL "buttons/deb_unit1/q_reg_9" BEL
+        "buttons/deb_unit1/q_reg_8" BEL "buttons/deb_unit1/q_reg_7" BEL
+        "buttons/deb_unit1/q_reg_6" BEL "buttons/deb_unit1/q_reg_5" BEL
+        "buttons/deb_unit1/q_reg_4" BEL "buttons/deb_unit1/q_reg_3" BEL
+        "buttons/deb_unit1/q_reg_2" BEL "buttons/deb_unit1/q_reg_1" BEL
+        "buttons/deb_unit1/q_reg_0" BEL "nes/apu/InternalClock_1" BEL
+        "nes/dma/dmc_state_1" BEL "nes/dma/spr_state_FSM_FFd1_1" BEL
+        "nes/ppu/clock/cycle_6_1" BEL "nes/dma/spr_state_FSM_FFd1_2" BEL
+        "nes/ppu/clock/scanline_8_1" BEL "nes/apu/InternalClock_2" BEL
+        "nes/apu/InternalClock_3" BEL "nes/dma/dmc_state_2" BEL
+        "nes/dma/dmc_state_3" BEL "nes/ppu/clock/cycle_4_1" BEL
+        "nes/ppu/clock/cycle_5_1" BEL "nes/apu/InternalClock_4" BEL
+        "nes/dma/dmc_state_4" BEL "nes/dma/spr_state_FSM_FFd1_3" PIN
+        "display/hq2x/Mram_outbuf1_pins<22>" PIN
+        "display/hq2x/Mram_outbuf1_pins<23>" PIN
+        "display/hq2x/Mram_outbuf2_pins<22>" PIN
+        "display/hq2x/Mram_outbuf2_pins<23>" PIN
+        "display/hq2x/Mram_inbuf_pins<18>" PIN
+        "display/hq2x/Mram_inbuf_pins<19>" PIN
+        "display/text_gen_unit/video_ram/Mram_ram2_pins<24>" PIN
+        "display/text_gen_unit/video_ram/Mram_ram2_pins<25>" PIN
+        "display/text_gen_unit/video_ram/Mram_ram1_pins<24>" PIN
+        "display/text_gen_unit/video_ram/Mram_ram1_pins<25>" PIN
+        "nes/multi_mapper/mmc5/Mram_expansion_ram_pins<20>" PIN
+        "nes/multi_mapper/mmc5/Mram_expansion_ram_pins<21>" PIN
+        "nes/apu/lookup/Mram_lookup_pins<18>" PIN
+        "nes/apu/lookup/Mram_lookup_pins<19>" PIN
+        "display/hq2x_Mram_hqTable_pins<10>" PIN
+        "nes/cpu_micro2/inner/Mram_L_pins<11>" PIN
+        "nes/cpu_micro2/Mram_B_pins<9>" BEL
+        "display/text_gen_unit/Mshreg_pix_y2_reg_8" BEL
+        "display/text_gen_unit/pix_y2_reg_8" BEL
+        "uart_demux/uart_receiverfx/Mshreg_RxD_sync_1" BEL
+        "uart_demux/uart_receiverfx/RxD_sync_1" BEL
+        "display/uart_receiver/Mshreg_RxD_sync_1" BEL
+        "display/uart_receiver/RxD_sync_1" BEL
+        "display/text_gen_unit/Mshreg_pix_y2_reg_5" BEL
+        "display/text_gen_unit/pix_y2_reg_5" BEL
+        "display/text_gen_unit/Mshreg_pix_y2_reg_7" BEL
+        "display/text_gen_unit/pix_y2_reg_7" BEL
+        "display/text_gen_unit/Mshreg_pix_y2_reg_6" BEL
+        "display/text_gen_unit/pix_y2_reg_6" BEL
+        "display/text_gen_unit/Mshreg_pix_x2_reg_1" BEL
+        "display/text_gen_unit/pix_x2_reg_1" BEL
+        "display/text_gen_unit/Mshreg_pix_y2_reg_4" BEL
+        "display/text_gen_unit/pix_y2_reg_4" BEL
+        "display/text_gen_unit/Mshreg_pix_x2_reg_2" BEL
+        "display/text_gen_unit/pix_x2_reg_2" BEL
+        "display/text_gen_unit/Mshreg_pix_x2_reg_0" BEL
+        "display/text_gen_unit/pix_x2_reg_0" BEL "nes/apu/Noi/Mshreg_Shift_6"
+        BEL "nes/apu/Noi/Shift_61" BEL "nes/apu/Noi/Mshreg_Shift_1" BEL
+        "nes/apu/Noi/Shift_11" BEL "reset_nes_shift1" BEL "reset_nes_shift2"
+        BEL "reset_nes_shift3" BEL "reset_nes_shift4" BEL "reset_nes_shift5"
+        BEL "reset_nes_shift6" BEL "reset_nes_shift7" BEL
+        "nes/apu/Noi/Shift_1" BEL "nes/apu/Noi/Shift_6" BEL
+        "nes/ppu/sprite_ram/Mram_oam8/D" BEL "nes/ppu/sprite_ram/Mram_oam8/C"
+        BEL "nes/ppu/sprite_ram/Mram_oam8/B" BEL
+        "nes/ppu/sprite_ram/Mram_oam8/A" BEL "nes/ppu/sprite_ram/Mram_oam7/D"
+        BEL "nes/ppu/sprite_ram/Mram_oam7/C" BEL
+        "nes/ppu/sprite_ram/Mram_oam7/B" BEL "nes/ppu/sprite_ram/Mram_oam7/A"
+        BEL "nes/ppu/sprite_ram/Mram_oam6/D" BEL
+        "nes/ppu/sprite_ram/Mram_oam6/C" BEL "nes/ppu/sprite_ram/Mram_oam6/B"
+        BEL "nes/ppu/sprite_ram/Mram_oam6/A" BEL
+        "nes/ppu/sprite_ram/Mram_oam5/D" BEL "nes/ppu/sprite_ram/Mram_oam5/C"
+        BEL "nes/ppu/sprite_ram/Mram_oam5/B" BEL
+        "nes/ppu/sprite_ram/Mram_oam5/A" BEL "nes/ppu/sprite_ram/Mram_oam3/D"
+        BEL "nes/ppu/sprite_ram/Mram_oam3/C" BEL
+        "nes/ppu/sprite_ram/Mram_oam3/B" BEL "nes/ppu/sprite_ram/Mram_oam3/A"
+        BEL "nes/ppu/sprite_ram/Mram_oam2/D" BEL
+        "nes/ppu/sprite_ram/Mram_oam2/C" BEL "nes/ppu/sprite_ram/Mram_oam2/B"
+        BEL "nes/ppu/sprite_ram/Mram_oam2/A" BEL
+        "nes/ppu/sprite_ram/Mram_oam4/D" BEL "nes/ppu/sprite_ram/Mram_oam4/C"
+        BEL "nes/ppu/sprite_ram/Mram_oam4/B" BEL
+        "nes/ppu/sprite_ram/Mram_oam4/A" BEL "nes/ppu/sprite_ram/Mram_oam1/D"
+        BEL "nes/ppu/sprite_ram/Mram_oam1/C" BEL
+        "nes/ppu/sprite_ram/Mram_oam1/B" BEL "nes/ppu/sprite_ram/Mram_oam1/A";
+TIMEGRP sys_clocks_clkout1 = BEL "sys_clocks/clkout2_buf" BEL
+        "display/vsync_unit/h_count_reg_9" BEL
+        "display/vsync_unit/h_count_reg_8" BEL
+        "display/vsync_unit/h_count_reg_7" BEL
+        "display/vsync_unit/h_count_reg_6" BEL
+        "display/vsync_unit/h_count_reg_5" BEL
+        "display/vsync_unit/h_count_reg_4" BEL
+        "display/vsync_unit/h_count_reg_3" BEL
+        "display/vsync_unit/h_count_reg_2" BEL
+        "display/vsync_unit/h_count_reg_1" BEL
+        "display/vsync_unit/h_count_reg_0" BEL
+        "display/vsync_unit/v_count_reg_9" BEL
+        "display/vsync_unit/v_count_reg_8" BEL
+        "display/vsync_unit/v_count_reg_7" BEL
+        "display/vsync_unit/v_count_reg_6" BEL
+        "display/vsync_unit/v_count_reg_5" BEL
+        "display/vsync_unit/v_count_reg_4" BEL
+        "display/vsync_unit/v_count_reg_3" BEL
+        "display/vsync_unit/v_count_reg_2" BEL
+        "display/vsync_unit/v_count_reg_1" BEL
+        "display/vsync_unit/v_count_reg_0" BEL "display/rgb_reg_1" BEL
+        "display/vsync_unit/h_sync_reg" BEL "display/vsync_unit/v_sync_reg"
+        BEL "display/vsync_unit/mod2_reg";
+PIN SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0> = BEL
+        "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0" PINNAME DIVCLK;
+PIN sys_clocks/pll_base_inst/PLL_ADV_pins<2> = BEL
+        "sys_clocks/pll_base_inst/PLL_ADV" PINNAME CLKIN1;
+TIMEGRP sys_clk_pin = PIN "SP6_BUFIO2_INSERT_PLL1_ML_BUFIO2_0_pins<0>" PIN
+        "sys_clocks/pll_base_inst/PLL_ADV_pins<2>";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+TS_sys_clocks_clkout1 = PERIOD TIMEGRP "sys_clocks_clkout1" TS_sys_clk_pin *
+        0.5 HIGH 50%;
+TS_sys_clocks_clkout2 = PERIOD TIMEGRP "sys_clocks_clkout2" TS_sys_clk_pin *
+        0.25 HIGH 50%;
+SCHEMATIC END;
+

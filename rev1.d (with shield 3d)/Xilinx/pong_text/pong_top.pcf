@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Oct 13 16:14:47 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P55" LEVEL 1;
+COMP "hsync" LOCATE = SITE "P114" LEVEL 1;
+COMP "reset" LOCATE = SITE "P66" LEVEL 1;
+COMP "vsync" LOCATE = SITE "P116" LEVEL 1;
+COMP "btn<0>" LOCATE = SITE "P92" LEVEL 1;
+COMP "btn<1>" LOCATE = SITE "P88" LEVEL 1;
+COMP "rgb<0>" LOCATE = SITE "P111" LEVEL 1;
+COMP "rgb<1>" LOCATE = SITE "P115" LEVEL 1;
+COMP "rgb<2>" LOCATE = SITE "P105" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "ball_reg_0" BEL "ball_reg_1" BEL "rgb_reg_0" BEL
+        "rgb_reg_1" BEL "rgb_reg_2" BEL "state_reg_FSM_FFd2" BEL
+        "state_reg_FSM_FFd1" BEL "master_clk" BEL "clk_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

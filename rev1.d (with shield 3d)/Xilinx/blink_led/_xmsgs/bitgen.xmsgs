@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Bitstream" num="191" delta="old" >The address value 0x<arg fmt="%08X" index="1">00000000</arg> chosen for the &quot;-g golden_config_addr&quot; setting is within the address range required for the Multiboot header inserted into the bitstream. The value will be reset to 0x<arg fmt="%08X" index="2">00000044</arg> to account for the Multiboot header.
+</msg>
+
+</messages>
+

@@ -1,0 +1,91 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -7 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/pa.fromHdl.tcl}
+# create_project -name NES_Nexys4 -dir "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/xilinx/planAhead_run_1" -part xc7a100tcsg324-1
+create_project: Time (s): elapsed = 00:00:29 . Memory (MB): peak = 400.477 ; gain = 75.313
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../src/compat.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/vga.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/nes.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/hw_uart.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/hw_sound.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/hw_led.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/hq2x.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/clk_wiz_v3_6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../src/NES_Nexys4.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top NES_Nexys4 $srcset
+# add_files [list {C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc7a100tcsg324-1
+Using Verific elaboration
+Parsing VHDL file "C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/compat.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/vga.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/nes.v" into library work
+Parsing verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/cpu.v" included at line 4. [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/nes.v:4]
+Parsing verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/MicroCode.v" included at line 4. [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/cpu.v:4]
+Parsing verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/apu.v" included at line 5. [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/nes.v:5]
+Parsing verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/ppu.v" included at line 6. [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/nes.v:6]
+Parsing verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/mmu.v" included at line 7. [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/nes.v:7]
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/hw_uart.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/hw_sound.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/hw_led.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/hq2x.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/clk_wiz_v3_6.v" into library work
+Analyzing Verilog file "C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/NES_Nexys4.v" into library work
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Users/Stache/Documents/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/Stache/Documents/Xilinx Projects/fpganes3/src/Nexys4_Master.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  IBUFG => IBUF: 1 instances
+  MUXCY_D => MUXCY: 1 instances
+  MUXCY_L => MUXCY: 6 instances
+  XOR2 => LUT2: 1 instances
+
+Phase 0 | Netlist Checksum: 14057ceb
+open_rtl_design: Time (s): elapsed = 00:04:16 . Memory (MB): peak = 786.793 ; gain = 386.316
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jul 07 17:43:52 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

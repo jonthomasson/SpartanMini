@@ -1,0 +1,3 @@
+verilog work "packet_demux.v"
+verilog work "../src/async.v"
+verilog work "../src/hw_uart.v"

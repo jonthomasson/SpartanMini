@@ -1,0 +1,10 @@
+Storage Target: SPI Flash Single FPGA
+Auto Select Storage Device
+FF
+SPI_prom
+C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\blink_led/
+
+MCS
+/
+
+MCS

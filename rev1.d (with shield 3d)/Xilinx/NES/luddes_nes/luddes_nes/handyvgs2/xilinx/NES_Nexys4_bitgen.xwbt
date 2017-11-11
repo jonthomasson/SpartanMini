@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\NES_Nexys4.ncd
+OUTFILE=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx\NES_Nexys4.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\Stache\Documents\Xilinx_Projects\spartan_mini\nes\nexys3_ver4b\handyvgs2\xilinx
+LICENSE=WebPack
+USER_INFO=211027110_0_0_178

@@ -26,8 +26,8 @@ NET "clk"    LOC = P55;
 ##========================================================
 ## Usb-RS232 interface
 ##========================================================
-#NET "Rx"  LOC = P74	| IOSTANDARD = "LVCMOS33"; 	
-#NET "Tx"  LOC = P75	| IOSTANDARD = "LVCMOS33"; 	
+#NET "Tx"  LOC = P74	| IOSTANDARD = "LVCMOS33"; 	
+#NET "Rx"  LOC = P75	| IOSTANDARD = "LVCMOS33"; 	
 
 ##========================================================
 ## programmable leds

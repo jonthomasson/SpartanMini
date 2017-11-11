@@ -1,0 +1,9 @@
+﻿Build started 11/6/2016 3:40:16 PM.
+     1>Project "C:\Users\Stache\Documents\Xilinx Projects\NES\nexys3_ ver2\fpganes3\loader\nes_loader.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         nes_loader.vcxproj -> C:\Users\Stache\Documents\Xilinx Projects\NES\nexys3_ ver2\fpganes3\loader\Debug\nes_loader.exe
+     1>Done Building Project "C:\Users\Stache\Documents\Xilinx Projects\NES\nexys3_ ver2\fpganes3\loader\nes_loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.51

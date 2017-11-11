@@ -1,0 +1,60 @@
+Autosize
+
+s
+Compressed
+
+s
+Direction
+UP
+s
+File Format
+mcs
+s
+Fill Value
+FF
+s
+Flash Data Width
+8
+s
+Flash Topology
+
+s
+Multiboot
+
+s
+Multiboot Bpi Chain
+
+s
+Multiboot Bpi Device
+
+s
+Multiboot Bpi Type
+
+s
+Number of Designs
+0
+i32
+Number of Prom Devices
+0
+i32
+PFFName
+
+s
+PFFPath
+C:\Users\Stache\Documents\Xilinx Projects\fpganes3\xilinx/
+s
+PFFSize
+0
+s
+RSPin Msb
+
+s
+SPI Selected
+
+s
+Submode
+LEGACY
+s
+Swap Bit
+TRUE
+s

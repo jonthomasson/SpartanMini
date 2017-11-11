@@ -1,0 +1,244 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+STACHE-PC::  Sat Oct 21 20:39:33 2017
+
+par -w -intstyle ise -ol high -mt off NES_Nexys4_map.ncd NES_Nexys4.ncd
+NES_Nexys4.pcf 
+
+
+Constraints file: NES_Nexys4.pcf.
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+C:\Users\Stache\Documents\Xilinx\14.7\ISE_DS\ISE\.
+   "NES_Nexys4" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,542 out of  11,440   22%
+    Number used as Flip Flops:               2,502
+    Number used as Latches:                     25
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:               15
+  Number of Slice LUTs:                      4,812 out of   5,720   84%
+    Number used as logic:                    4,757 out of   5,720   83%
+      Number using O6 output only:           3,798
+      Number using O5 output only:             143
+      Number using O5 and O6:                  816
+      Number used as ROM:                        0
+    Number used as Memory:                      47 out of   1,440    3%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:           39
+        Number using O6 output only:            32
+        Number using O5 output only:             0
+        Number using O5 and O6:                  7
+      Number used as Shift Register:             8
+        Number using O6 output only:             4
+        Number using O5 output only:             0
+        Number using O5 and O6:                  4
+    Number used exclusively as route-thrus:      8
+      Number with same-slice register load:      1
+      Number with same-slice carry load:         7
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,427 out of   1,430   99%
+  Number of MUXCYs used:                       900 out of   2,860   31%
+  Number of LUT Flip Flop pairs used:        5,005
+    Number with an unused Flip Flop:         2,576 out of   5,005   51%
+    Number with an unused LUT:                 193 out of   5,005    3%
+    Number of fully used LUT-FF pairs:       2,236 out of   5,005   44%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  11,440    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        88 out of     102   86%
+    Number of LOCed IOBs:                       88 out of      88  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         6 out of      32   18%
+  Number of RAMB8BWERs:                          4 out of      64    6%
+  Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
+    Number used as BUFIO2s:                      1
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
+    Number used as BUFIO2FBs:                    1
+    Number used as BUFIO2FB_2CLKs:               0
+  Number of BUFG/BUFGMUXs:                       3 out of      16   18%
+    Number used as BUFGs:                        3
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     200    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            1 out of      16    6%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            1 out of       2   50%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 10 secs 
+Finished initial Timing Analysis.  REAL time: 10 secs 
+
+WARNING:Par:288 - The signal UART_RXD_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal MemWait_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal SW<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal SW<7>_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 28661 unrouted;      REAL time: 11 secs 
+
+Phase  2  : 26479 unrouted;      REAL time: 12 secs 
+
+Phase  3  : 13413 unrouted;      REAL time: 27 secs 
+
+Phase  4  : 13413 unrouted; (Setup:0, Hold:836, Component Switching Limit:0)     REAL time: 28 secs 
+
+Updating file: NES_Nexys4.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Setup:0, Hold:758, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  6  : 0 unrouted; (Setup:0, Hold:758, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  7  : 0 unrouted; (Setup:0, Hold:758, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  8  : 0 unrouted; (Setup:0, Hold:758, Component Switching Limit:0)     REAL time: 1 mins 
+
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 1 secs 
+
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 5 secs 
+Total REAL time to Router completion: 1 mins 5 secs 
+Total CPU time to Router completion: 1 mins 5 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|                 clk | BUFGMUX_X3Y13| No   |  856 |  0.121     |  1.189      |
++---------------------+--------------+------+------+------------+-------------+
+|              clk_50 |  BUFGMUX_X2Y2| No   |   10 |  0.014     |  1.144      |
++---------------------+--------------+------+------+------------+-------------+
+|          uart_write |         Local|      |    3 |  0.504     |  1.184      |
++---------------------+--------------+------+------+------------+-------------+
+|         joypad_tick |         Local|      |    2 |  0.199     |  1.089      |
++---------------------+--------------+------+------+------------+-------------+
+|uart_demux/packet_de |              |      |      |            |             |
+|mux/state_reg[3]_GND |              |      |      |            |             |
+|      _20_o_Mux_60_o |         Local|      |    2 |  0.000     |  0.977      |
++---------------------+--------------+------+------+------------+-------------+
+|display/text_gen_uni |              |      |      |            |             |
+|     t/show_cursor_G |         Local|      |    1 |  0.000     |  1.080      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
+  pin" 100 MHz HIGH 50%                     |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clocks_clkout1 = PERIOD TIMEGRP "s | SETUP       |    10.365ns|     9.635ns|       0|           0
+  ys_clocks_clkout1" TS_sys_clk_pin *       | HOLD        |     0.438ns|            |       0|           0
+     0.5 HIGH 50%                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_sys_clocks_clkout2 = PERIOD TIMEGRP "s | SETUP       |    15.042ns|    24.958ns|       0|           0
+  ys_clocks_clkout2" TS_sys_clk_pin *       | HOLD        |     0.002ns|            |       0|           0
+     0.25 HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      3.334ns|      6.240ns|            0|            0|            0|   1641413159|
+| TS_sys_clocks_clkout1         |     20.000ns|      9.635ns|          N/A|            0|            0|         2239|            0|
+| TS_sys_clocks_clkout2         |     40.000ns|     24.958ns|          N/A|            0|            0|   1641410920|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 4 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 1 mins 13 secs 
+Total CPU time to PAR completion: 1 mins 13 secs 
+
+Peak Memory Usage:  455 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 6
+Number of info messages: 0
+
+Writing design to file NES_Nexys4.ncd
+
+
+
+PAR done!
