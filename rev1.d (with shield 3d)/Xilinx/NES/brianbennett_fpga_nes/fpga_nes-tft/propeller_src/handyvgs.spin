@@ -7,15 +7,16 @@ CON _clkmode = xtal1 + pll16x
     SD_PINS  = 0
     RX_PIN   = 14'31
     TX_PIN   = 13'30
-    RX_PIN_FILE = 16 'dedicated serial rx for file transfer
-    TX_PIN_FILE = 15 'dedicated serial tx for file transfer
+    RX_PIN_FILE = 31'16 'dedicated serial rx for file transfer
+    TX_PIN_FILE = 30'15 'dedicated serial tx for file transfer
     BAUD     = 115_200
+    BAUD_FILE_TX     = 38_400
     NUM_COLUMNS = 80 'number of columns in tile map
     NUM_ROWS = 30 'number of rows in tile map
     RESULTS_PER_PAGE = 29
     ROWS_PER_FILE = 4 'number of longs it takes to store 1 file name
     MAX_FILES = 300 'limiting to 300 games for now due to memory limits
-    FILE_BUF_SIZE = 256 'size of file buffer. can optimize this later on.
+    FILE_BUF_SIZE = $400 'size of file buffer (1KB)
     'commands sent from fpga to prop...
     CMD_PREV_PAGE = $80
     CMD_NEXT_PAGE = $81
@@ -29,11 +30,18 @@ CON _clkmode = xtal1 + pll16x
     CMD_SHOW_CURSOR = $82
     CMD_HIDE_CURSOR = $83
     CMD_LOAD_GAME = $84 'prepare for bitstream
+    'commands used by file transfer and nes
+    CMD_DEBUG_BREAK = $03
+    CMD_PPU_DISABLE = $0B
+    CMD_PPU_RUN = $04
+    CMD_CONFIG_INES = $0C
+    CMD_WRITE_CPU = $02
     
                        
 VAR
   byte tbuf[14]   
   byte file_buffer[FILE_BUF_SIZE]
+  byte iNes_buffer[16]
   long file_count
   long current_page
   long last_page
@@ -48,7 +56,7 @@ OBJ
 PUB main 
 
   serial.Start(RX_PIN, TX_PIN, %0000, BAUD) 'start the FullDuplexSerial object
-  serial_filetx.Start(RX_PIN_FILE, TX_PIN_FILE, %0000, BAUD) 'start serial connection for file transfers
+  serial_filetx.Start(RX_PIN_FILE, TX_PIN_FILE, %0000, BAUD_FILE_TX) 'start serial connection for file transfers
   
   ' set initial values
   file_count := 0
@@ -62,11 +70,11 @@ PUB main
   send_page(current_page) 'display first page
   
   
-  'send_file_byname(string("1942.nes"))
+  send_file_byname2(string("colors.nes"))
   
   ' start inifinite loop
-  repeat
-    get_command 
+  'repeat
+  '  get_command 
                      
   
              '
@@ -122,9 +130,11 @@ PRI get_command | char_in
                 'serial.Dec (char_in)
                 'send_newline
                 'if char_in <= NUM_ROWS 
-                if char_in >= 0 and char_in <= RESULTS_PER_PAGE
-                    send_file_byindex(char_in)
-                    send_page(current_page)
+                send_file_byindex(char_in)
+                send_page(current_page)
+                'if char_in >= 0 and char_in <= RESULTS_PER_PAGE
+                '    send_file_byindex(char_in)
+                '    send_page(current_page)
                 
             
 PRI send_page(page_number) | count, page_count, count2
@@ -197,8 +207,106 @@ PRI send_splash_screen
 PRI send_file_byindex(index) | open_error, file_name
     file_name := @files[ROWS_PER_FILE * ((current_page * RESULTS_PER_PAGE) + (index - 1))]
     
-    send_file_byname(file_name)
+    send_file_byname2(file_name)
+
+PRI send_file_byname2(file_name) | open_error, bytes_read, count, ack, num_packets, prgRomBanks, prgRomDataSize, chrRomBanks, chrRomDataSize, totalBytes, transferBlockSize, transferredBytes, pctDone, romOffset
+    sd.mount(SD_PINS)
+    send_command(CMD_HIDE_CURSOR)
+    send_clear_screen
+    send_command(CMD_CURSOR_1)
+    serial.Str (string("loading game "))
     
+    serial.Str (file_name)
+    
+    open_error := sd.popen(file_name, "r") ' Open file
+    
+    if open_error == -1 'error opening file
+        serial.Str (string("error opening file "))
+        sd.unmount
+        return 'exit sub
+    
+    sendfx_command(CMD_DEBUG_BREAK) 
+    sendfx_command(CMD_PPU_DISABLE) 
+    
+    'send bytes 4-8 of iNES header
+    sendfx_command(CMD_CONFIG_INES) 
+    bytes_read := 0 
+    bytes_read := sd.pread(@iNes_buffer,16) 'read in first 16 bits which corresponds to iNES header
+    if bytes_read <> -1
+        'serial_filetx.Hex (byte[@iNes_buffer][4], 2) 'print for debug
+        'serial_filetx.Hex (byte[@iNes_buffer][5], 2)'print for debug
+        'serial_filetx.Hex (byte[@iNes_buffer][6], 2)'print for debug
+        'serial_filetx.Hex (byte[@iNes_buffer][7], 2)'print for debug
+        'serial_filetx.Hex (byte[@iNes_buffer][8], 2)'print for debug
+        serial_filetx.Tx (byte[@iNes_buffer][4])
+        serial_filetx.Tx (byte[@iNes_buffer][5])
+        serial_filetx.Tx (byte[@iNes_buffer][6])
+        serial_filetx.Tx (byte[@iNes_buffer][7])
+        serial_filetx.Tx (byte[@iNes_buffer][8])
+        
+    'transferBlockSize := $400 'transfer only 1KB at a time
+    
+    prgRomBanks := byte[@iNes_buffer][4]
+    prgRomDataSize := prgRomBanks * $4000 'multiply number of rom banks times bytes per bank(16KB) to get total size
+    chrRomBanks := byte[@iNes_buffer][5]
+    chrRomDataSize := prgRomBanks * $2000 'multiply number of rom banks times bytes per bank(8KB) to get total size
+    totalBytes := prgRomDataSize + chrRomDataSize
+    
+    serial_filetx.Str (string("total size="))
+    serial_filetx.Hex (totalBytes, 4)
+    
+    'copy PRG ROM data
+    num_packets := prgRomDataSize / FILE_BUF_SIZE
+    bytes_read := 0
+    transferredBytes := 0
+    romOffset := 0
+    count := 0
+   
+    
+    repeat while count < num_packets
+        romOffset := FILE_BUF_SIZE * count
+        bytes_read := sd.pread(@file_buffer,FILE_BUF_SIZE) 
+        
+        if bytes_read <> -1 'not at end of file
+            
+            send_packet2(CMD_WRITE_CPU, romOffset, FILE_BUF_SIZE, @file_buffer)
+            
+            transferredBytes += FILE_BUF_SIZE;
+            pctDone := transferredBytes / totalBytes;
+    
+    'copy CHR ROM data
+   
+    
+    'get reset vector
+    
+    
+    
+    'update program counter to point to reset vector
+    
+    
+    
+    'issue debug run command
+   
+               
+    
+    
+    serial.Str (string("done sending file "))
+    sd.unmount
+
+PRI send_packet2(cmd, address, count, data) | checksum, i
+    'Packet Format: 1 byte command | 1 byte address | 1 byte size | data bytes
+    
+    'send packet    
+    serial_filetx.Tx (cmd) 'send command                
+    serial_filetx.Tx (address)  'send address
+    serial_filetx.Tx (count)    'send count
+    
+    'send data   
+    i := 0    
+    repeat while i < count
+      serial_filetx.Tx (byte[data][i])
+      
+      i++
 
 PRI send_file_byname(file_name) | open_error, bytes_read, count, ack, num_packets
     sd.mount(SD_PINS)
