@@ -189,8 +189,8 @@ PRI send_command(command)
     serial.Tx (command)
     
 PRI sendfx_command(command)
-    'serial_filetx.Tx (command)
-    serial_filetx.Hex (command, 2)
+    serial_filetx.Tx (command)
+    'serial_filetx.Hex (command, 2)
     
 PRI send_clear_screen
     send_command(CMD_CURSOR_1) 'set cursor to position 1

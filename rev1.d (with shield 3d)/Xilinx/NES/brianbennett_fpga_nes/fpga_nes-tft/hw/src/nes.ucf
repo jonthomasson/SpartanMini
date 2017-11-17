@@ -26,8 +26,8 @@ NET "BTN_EAST"   LOC = P88;
 ##========================================================
 ## Usb-RS232 interface
 ##========================================================
-NET "TXD"  LOC = P74	| IOSTANDARD = "LVCMOS33"; 	
-NET "RXD"  LOC = P75	| IOSTANDARD = "LVCMOS33"; 	
+#NET "TXD"  LOC = P74	| IOSTANDARD = "LVCMOS33"; 	
+#NET "RXD"  LOC = P75	| IOSTANDARD = "LVCMOS33"; 	
 
 ##========================================================
 ## programmable leds
@@ -148,9 +148,9 @@ NET "TFT_DE"  LOC = P43	| IOSTANDARD = "LVCMOS33";
 ##========================================================
 #NET "PROP_File_Rx"  LOC = P40	| IOSTANDARD = "LVCMOS33"; 
 #NET "PROP_File_Tx"  LOC = P34	| IOSTANDARD = "LVCMOS33"; 
-NET "PROP_Tx"  LOC = P32	| IOSTANDARD = "LVCMOS33"; 
-NET "PROP_Rx"  LOC = P30	| IOSTANDARD = "LVCMOS33"; 
+NET "RXD"  LOC = P32	| IOSTANDARD = "LVCMOS33"; 
+NET "PROP_Tx"  LOC = P30	| IOSTANDARD = "LVCMOS33"; 
 #NET "JE<4>"  LOC = P41	| IOSTANDARD = "LVCMOS33"; 
 #NET "JE<5>"  LOC = P35	| IOSTANDARD = "LVCMOS33"; 
-#NET "JE<6>"  LOC = P33	| IOSTANDARD = "LVCMOS33"; 
-#NET "JE<7>"  LOC = P29	| IOSTANDARD = "LVCMOS33"; 
+NET "TXD"  LOC = P33	| IOSTANDARD = "LVCMOS33"; 
+NET "PROP_Rx"  LOC = P29	| IOSTANDARD = "LVCMOS33"; 
