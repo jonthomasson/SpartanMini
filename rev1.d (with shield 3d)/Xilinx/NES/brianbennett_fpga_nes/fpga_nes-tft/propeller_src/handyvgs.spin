@@ -7,10 +7,10 @@ CON _clkmode = xtal1 + pll16x
     SD_PINS  = 0
     RX_PIN   = 14'31
     TX_PIN   = 13'30
-    RX_PIN_FILE = 31'16 'dedicated serial rx for file transfer
-    TX_PIN_FILE = 30'15 'dedicated serial tx for file transfer
+    RX_PIN_FILE = 16 'dedicated serial rx for file transfer
+    TX_PIN_FILE = 15 'dedicated serial tx for file transfer
     BAUD     = 115_200
-    BAUD_FILE_TX     = 38_400
+    BAUD_FILE_TX     = 38_400'115_200
     NUM_COLUMNS = 80 'number of columns in tile map
     NUM_ROWS = 30 'number of rows in tile map
     RESULTS_PER_PAGE = 29
@@ -33,10 +33,13 @@ CON _clkmode = xtal1 + pll16x
     'commands used by file transfer and nes
     CMD_DEBUG_BREAK = $03
     CMD_PPU_DISABLE = $0B
-    CMD_PPU_RUN = $04
+    CMD_DEBUG_RUN = $04
     CMD_CONFIG_INES = $0C
     CMD_WRITE_CPU = $02
-    
+    CMD_WRITE_PPU = $0A
+    CMD_CPU_PC = $06
+    CMD_PC_L = $00
+    CMD_PC_H = $01
                        
 VAR
   byte tbuf[14]   
@@ -70,11 +73,11 @@ PUB main
   send_page(current_page) 'display first page
   
   
-  send_file_byname2(string("colors.nes"))
+  'send_file_byname2(string("colors.nes"))
   
   ' start inifinite loop
-  'repeat
-  '  get_command 
+  repeat
+    get_command 
                      
   
              '
@@ -186,7 +189,8 @@ PRI send_command(command)
     serial.Tx (command)
     
 PRI sendfx_command(command)
-    serial_filetx.Tx (command)
+    'serial_filetx.Tx (command)
+    serial_filetx.Hex (command, 2)
     
 PRI send_clear_screen
     send_command(CMD_CURSOR_1) 'set cursor to position 1
@@ -252,8 +256,8 @@ PRI send_file_byname2(file_name) | open_error, bytes_read, count, ack, num_packe
     chrRomDataSize := prgRomBanks * $2000 'multiply number of rom banks times bytes per bank(8KB) to get total size
     totalBytes := prgRomDataSize + chrRomDataSize
     
-    serial_filetx.Str (string("total size="))
-    serial_filetx.Hex (totalBytes, 4)
+    'serial_filetx.Str (string("total size="))
+    'serial_filetx.Hex (totalBytes, 4)
     
     'copy PRG ROM data
     num_packets := prgRomDataSize / FILE_BUF_SIZE
@@ -261,32 +265,51 @@ PRI send_file_byname2(file_name) | open_error, bytes_read, count, ack, num_packe
     transferredBytes := 0
     romOffset := 0
     count := 0
-   
     
     repeat while count < num_packets
+        'serial_filetx.Str (string("num_packets="))
+        'serial_filetx.Dec (num_packets)
+        bytes_read := sd.pread(@file_buffer,FILE_BUF_SIZE)
         romOffset := FILE_BUF_SIZE * count
-        bytes_read := sd.pread(@file_buffer,FILE_BUF_SIZE) 
+        romOffset += $8000 'start of PRG rom at 0x8000
+        send_packet2(CMD_WRITE_CPU, romOffset, FILE_BUF_SIZE, @file_buffer)
+        count++
+  
+    num_packets := chrRomDataSize / FILE_BUF_SIZE
+    bytes_read := 0
+    transferredBytes := 0
+    romOffset := 0
+    count := 0
+          
+    repeat while count < num_packets
+        'serial_filetx.Str (string("num_packets="))
+        'serial_filetx.Dec (num_packets)
+        bytes_read := sd.pread(@file_buffer,FILE_BUF_SIZE)
+        romOffset := FILE_BUF_SIZE * count
+        send_packet2(CMD_WRITE_PPU, romOffset, FILE_BUF_SIZE, @file_buffer)
+        count++
         
-        if bytes_read <> -1 'not at end of file
-            
-            send_packet2(CMD_WRITE_CPU, romOffset, FILE_BUF_SIZE, @file_buffer)
-            
-            transferredBytes += FILE_BUF_SIZE;
-            pctDone := transferredBytes / totalBytes;
-    
-    'copy CHR ROM data
    
     
     'get reset vector
-    
-    
+    bytes_read := sd.seek(16 + prgRomDataSize - 4)
+    bytes_read := sd.pread(@file_buffer, $02)
+
     
     'update program counter to point to reset vector
+    'serial_filetx.Hex (byte[@file_buffer][0], 2)
+    'serial_filetx.Hex (byte[@file_buffer][1], 2)
+    sendfx_command(CMD_CPU_PC)
+    sendfx_command(CMD_PC_L)
+    serial_filetx.Tx (byte[@file_buffer][0])
     
+    sendfx_command(CMD_CPU_PC)
+    sendfx_command(CMD_PC_H)
+    serial_filetx.Tx (byte[@file_buffer][1])   
     
     
     'issue debug run command
-   
+    sendfx_command(CMD_DEBUG_RUN)
                
     
     
@@ -297,15 +320,20 @@ PRI send_packet2(cmd, address, count, data) | checksum, i
     'Packet Format: 1 byte command | 1 byte address | 1 byte size | data bytes
     
     'send packet    
-    serial_filetx.Tx (cmd) 'send command                
-    serial_filetx.Tx (address)  'send address
-    serial_filetx.Tx (count)    'send count
-    
+    'serial_filetx.Tx (cmd) 'send command  
+    serial_filetx.Tx (cmd)              
+    'serial_filetx.Tx (address)  'send address
+    serial_filetx.Tx (address.Byte[0]) 
+    serial_filetx.Tx (address.Byte[1])                               
+    'serial_filetx.Tx (count)    'send count
+    serial_filetx.Tx (count.Byte[0])    
+    serial_filetx.Tx (count.Byte[1])                        
+    'serial_filetx.Hex (count, 4)
     'send data   
     i := 0    
     repeat while i < count
+      'serial_filetx.Tx (byte[data][i])
       serial_filetx.Tx (byte[data][i])
-      
       i++
 
 PRI send_file_byname(file_name) | open_error, bytes_read, count, ack, num_packets
