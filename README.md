@@ -1,3 +1,4 @@
+
 # SpartanMini
 A flexible, simple, yet powerful FPGA development board.
 
@@ -28,3 +29,8 @@ Many FPGA boards today seem like they waste a lot of IO on providing connectors 
 6. Access to onboard SRAM or PSRAM
 
 This requirement is simply for the ease of use of SRAM over DRAM. The downside to SRAM is of course the price, which is why I settled on PSRAM instead. Essentially PSRAM provides an interface to the outside world that looks like SRAM, while internally it is made up of DRAM. As such, it is much cheaper than SRAM, but way less work to interface with than DRAM. This particular board provides 8Mb of PSRAM, which is adequate for my needs.
+
+![enter image description here](https://lh3.googleusercontent.com/Ym8JBT1FlSJsortWRAH4dx5KHW2HkV1B4FOYHD6TUoF2Va7fMqjjbZRKk-YTAfOauaZ6iTyjpKmPpW8K9U_Lzy1sPvceVg2OTIK4zidJ0OYhVarUZ6AJo-_n0Bh1tX8kFqed3uyobCEtJzAthKT_NUfyR5vuuTG_k4TjL7J-cD8Y5W50PloVUXzOydISsuWan971t84IHQZvExRTL13VKr9Dzf7VFZQ4-1O7Eb2D59EVHCMWfp65vcO2BCi3f3q-bV_YtxEnLM_6e8DsP4a7GdczFiddMFkXQBkkdZaEMM2iFYc0Uvn_fpE_hW8l_2niM3Bjweu2Sg1JI46zMwf1BJlQvk6hKFwMn6nt-VLBW11oDaMBjqX9CXKMFm71dwxRTxzdKROl2nzPsxBll-ldlJ9pS-G4F2r8SEyl_1cLp4FI9L6Toqehjpdptvo6k-bQtzZX9d7uxOGFWja2dMNWYFRKiI2IBQzqyreGzzcMScAPFWFUQucwtIUtVOjU9eformU7DzSAqNybfNj_1Cf66kgaPlsM0UQ6a2LvAtUDOFYDCX_l58AIW41YAItvtlo8zSZ7KETyjbF2bbkrhY29mfstlfJ0lxFEip1irmiC=w1223-h688-no)
+
+Here's a pic of the finished proto shield:
+![enter image description here](https://lh3.googleusercontent.com/f9FaJq29ECEgaDPecJml5SKfVCc_7S3IVqZr0o6ec1YVCTRsc2OFJzyEswi_R8-aAgwqroxBXKtraHvqMPmY1geZjXxoQDiYGEtGb_RUlDSAVEsYpwZoTlxoZbM4P51sa-Vt0sLbR29HpZH1UwesNfGrU7usGoXFqWtqtPaZx9uNLdQ7OPx1LTOAEGCk1o-f30Efr-fSdV8IfqIKhRsLhNhf6uGuLrS2hRmcyPFA_5y_-zjL_bJP7FvzlHb9sfzDU2PzlZmgAsdUwXlsvXlLYDd9tAOhSbC9wxT-BG11320wBvbMLIENo6-fzY_uV0JjvE68gmNhEyKU-YtDyUu7bxQ82W3JjkRR4ERqWI5C3_PrNy0nRFSQO9gJaBm3a6roYfvGQnLvn1p-27fj_GhFGnUl9fpW3BOU36zx7_TFSxKjMyVTZvI7KFQ2qAHxUzBE4F75TqMSAB2Uwob8aPeds_ZgvLs6rGfP-yiNK4lMU7VbVyttNNkfqtt-WoIJwRs4Y94mybClMm4MMNdmQJFhci-No1nWAWSo5YfYCD34pjMW53zYsory0uwWILWmIv4T7k6NKAtzpBW4ahZvnReH060fJmjYZo16mgA0TTUV=w1223-h688-no)
